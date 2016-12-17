@@ -1,0 +1,432 @@
+﻿Log file open, 12/18/16 08:02:22
+LogInit:Display: Running engine for game: ProjectEclypse
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1767536908) SRandInit(1767536908).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.061260
+LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.1(build = 315393) feature version = 0. Client runs version (prod = 1).1.10.1(build = 315393) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 65.3mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.17-21.02.23:142][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.17-21.02.23:142][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.17-21.02.23:152][  0]LogInit: Computer: DESKTOP-M92PTO3
+[2016.12.17-21.02.23:152][  0]LogInit: User: StefanoAdmin
+[2016.12.17-21.02.23:152][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.17-21.02.23:152][  0]LogInit: High frequency timer resolution =3.328120 MHz
+[2016.12.17-21.02.23:152][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.17-21.02.23:152][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.17-21.02.23:152][  0]LogMemory: Process Physical Memory: 266.52 MB used, 266.52 MB peak
+[2016.12.17-21.02.23:152][  0]LogMemory: Process Virtual Memory: 267.27 MB used, 267.27 MB peak
+[2016.12.17-21.02.23:152][  0]LogMemory: Physical Memory: 8065.32 MB used, 16313.61 MB total
+[2016.12.17-21.02.23:152][  0]LogMemory: Virtual Memory: 672.29 MB used, 134217728.00 MB total
+[2016.12.17-21.02.23:350][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.12.17-21.02.23:779][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.17-21.02.24:210][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.12.17-21.02.24:210][  0]LogD3D11RHI:       4060/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.17-21.02.24:211][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.17-21.02.24:211][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.17-21.02.24:211][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.17-21.02.24:215][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.17-21.02.24:215][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.17-21.02.24:215][  0]LogWindows: EnumDisplayDevices:
+[2016.12.17-21.02.24:215][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.12.17-21.02.24:215][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.17-21.02.24:215][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.17-21.02.24:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.17-21.02.24:216][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.17-21.02.24:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.12.17-21.02.24:216][  0]LogD3D11RHI:   Driver Version: 376.09 (internal:21.21.13.7609, unified:376.09)
+[2016.12.17-21.02.24:216][  0]LogD3D11RHI:      Driver Date: 11-24-2016
+[2016.12.17-21.02.24:216][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.17-21.02.24:614][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.17-21.02.24:650][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.17-21.02.24:650][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Intermediate/Shaders/WorkingDirectory/10472/).
+[2016.12.17-21.02.24:650][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/DA19DE3641036973036C559F3F072A46/'.
+[2016.12.17-21.02.24:651][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.17-21.02.25:396][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.17-21.02.25:401][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.17-21.02.25:406][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.17-21.02.25:412][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.17-21.02.25:417][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.17-21.02.25:421][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.17-21.02.25:426][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.17-21.02.25:431][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.17-21.02.25:436][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.17-21.02.25:441][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.17-21.02.25:445][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.17-21.02.25:455][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.17-21.02.25:455][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.17-21.02.25:455][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.17-21.02.25:472][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.17-21.02.25:477][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.17-21.02.25:482][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.17-21.02.25:487][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.17-21.02.25:491][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.17-21.02.25:496][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.17-21.02.25:496][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.17-21.02.25:533][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.17-21.02.25:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.17-21.02.25:594][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.17-21.02.25:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.17-21.02.25:746][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.17-21.02.25:748][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.17-21.02.25:814][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.17-21.02.25:814][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.17-21.02.25:814][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.17-21.02.25:864][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.17-21.02.26:074][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projecteclypse, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2418632494
+[2016.12.17-21.02.26:105][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.12.17-21.02.26:128][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021451 seconds
+[2016.12.17-21.02.26:134][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.17-21.02.26:134][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.12.17-21.02.26:134][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.17-21.02.26:138][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.17-21.02.26:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.17-21.02.26:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.17-21.02.26:719][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.12.17-21.02.26:723][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.17-21.02.26:738][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.17-21.02.26:896][  0]SourceControl: Info Source control is disabled
+[2016.12.17-21.02.26:925][  0]SourceControl: Info Source control is disabled
+[2016.12.17-21.02.26:929][  0]SourceControl: Info Source control is disabled
+[2016.12.17-21.02.26:933][  0]SourceControl: Info Source control is disabled
+[2016.12.17-21.02.27:090][  0]LogEngine: Initializing Engine...
+[2016.12.17-21.02.27:090][  0]LogHMD: Oculus plugin initialized. Version: 4.13.1-3142249+++UE4+Release-4.13, LibOVR: 1.10.1, SDK: 1.6.0, built Sep 28 2016, 02:14:12
+[2016.12.17-21.02.27:185][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.17-21.02.27:185][  0]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.17-21.02.27:189][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.17-21.02.27:201][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-21.02.27:231][  0]LogInit: FAudioDevice initialized.
+[2016.12.17-21.02.27:254][  0]LogDerivedDataCache: Saved boot cache 0.02s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.17-21.02.27:260][  0]LogInit: Texture streaming: Enabled
+[2016.12.17-21.02.27:273][  0]LogInit: Transaction tracking system initialized
+[2016.12.17-21.02.27:282][  0]BlueprintLog: New page: Editor Load
+[2016.12.17-21.02.27:315][  0]LocalizationService: Info Localization service is disabled
+[2016.12.17-21.02.27:358][  0]LogConsoleResponse:Display: 
+[2016.12.17-21.02.27:435][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.17-21.02.27:435][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.17-21.02.27:507][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/' took 0.02s
+[2016.12.17-21.02.27:507][  0]SourceControl: Info Source control is disabled
+[2016.12.17-21.02.27:507][  0]Cmd: MAP LOAD FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.17-21.02.27:510][  0]LightingResults: New page: Lighting Build
+[2016.12.17-21.02.27:511][  0]MapCheck: New page: Map Check
+[2016.12.17-21.02.27:511][  0]LightingResults: New page: Lighting Build
+[2016.12.17-21.02.30:848][  0]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.17-21.02.30:858][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m2_1338.Static Mesh
+Current: 10.585678,-97.837097,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: 10.585678,-97.837097,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:859][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m3.Static Mesh
+Current: 125.301575,-261.667084,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: 125.301575,-261.667084,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:860][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m4.Static Mesh
+Current: 64.715912,-523.829956,20.000000|0.000000,35.000347,0.000000|0.222222,0.222222,0.222222 Cached: 64.715912,-523.829956,20.000000|0.000000,35.000336,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:860][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m5.Static Mesh
+Current: 22.057274,-114.220078,20.000000|0.000000,-144.999451,0.000000|0.222222,0.222222,0.222222 Cached: 22.057274,-114.220078,20.000000|0.000000,-144.999451,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:861][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_001_430.Static Mesh
+Current: 248.208984,-419.761292,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: 248.208984,-419.761292,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:861][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_2.Static Mesh
+Current: 38.440269,-102.748505,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: 38.440269,-102.748505,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:862][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m6.Static Mesh
+Current: -140.834229,-228.278854,20.000000|0.000000,-144.999451,0.000000|0.222222,0.222222,0.222222 Cached: -140.834229,-228.278854,20.000000|0.000000,-144.999451,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:862][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m7.Static Mesh
+Current: -99.114075,-638.545898,20.000000|0.000000,35.000347,0.000000|0.222222,0.222222,0.222222 Cached: -99.114075,-638.545898,20.000000|0.000000,35.000336,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:863][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_3.Static Mesh
+Current: -87.642494,-654.928894,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: -87.642494,-654.928894,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:863][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_4.Static Mesh
+Current: -305.602692,-343.651917,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: -305.602692,-343.651917,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:863][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m8_3780.Static Mesh
+Current: -317.074280,-327.268921,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: -317.074280,-327.268921,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:864][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m9_3797.Static Mesh
+Current: -202.358398,-491.098907,20.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: -202.358398,-491.098907,20.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:864][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m10.Static Mesh
+Current: 10.585678,-97.837097,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: 10.585678,-97.837097,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:865][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m11.Static Mesh
+Current: 125.301575,-261.667084,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: 125.301575,-261.667084,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:865][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m12.Static Mesh
+Current: 64.715912,-523.829956,120.000000|0.000000,35.000347,0.000000|0.222222,0.222222,0.222222 Cached: 64.715912,-523.829956,120.000000|0.000000,35.000336,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:866][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m13.Static Mesh
+Current: 22.057274,-114.220078,120.000000|0.000000,-144.999451,0.000000|0.222222,0.222222,0.222222 Cached: 22.057274,-114.220078,120.000000|0.000000,-144.999451,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:866][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_5.Static Mesh
+Current: 248.208984,-419.761292,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: 248.208984,-419.761292,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:866][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_6.Static Mesh
+Current: 38.440269,-102.748505,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: 38.440269,-102.748505,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:867][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m14.Static Mesh
+Current: -140.834229,-228.278854,120.000000|0.000000,-144.999451,0.000000|0.222222,0.222222,0.222222 Cached: -140.834229,-228.278854,120.000000|0.000000,-144.999451,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:867][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m15.Static Mesh
+Current: -99.114075,-638.545898,120.000000|0.000000,35.000347,0.000000|0.222222,0.222222,0.222222 Cached: -99.114075,-638.545898,120.000000|0.000000,35.000336,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:868][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_7.Static Mesh
+Current: -87.642494,-654.928894,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: -87.642494,-654.928894,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:868][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Pole_8.Static Mesh
+Current: -305.602692,-343.651917,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.243447 Cached: -305.602692,-343.651917,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.095512
+[2016.12.17-21.02.30:869][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m16.Static Mesh
+Current: -317.074280,-327.268921,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: -317.074280,-327.268921,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:869][  0]LogStaticMesh:Warning: Cached component instance data transform did not match!  Discarding cached lighting data which will cause lighting to be unbuilt.
+/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.BP_Wall_2mx1m17.Static Mesh
+Current: -202.358398,-491.098907,120.000000|0.000000,-54.999779,0.000000|0.222222,0.222222,0.222222 Cached: -202.358398,-491.098907,120.000000|0.000000,-54.999779,0.000000|1.000000,1.000000,1.000000
+[2016.12.17-21.02.30:870][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.17-21.02.30:870][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.17-21.02.30:907][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.168ms to complete.
+[2016.12.17-21.02.30:907][  0]LogFileHelpers: Loading map 'EclypseVillage' took 3.400
+[2016.12.17-21.02.31:002][  0]LogCollectionManager: Loaded 0 collections in 0.000645 seconds
+[2016.12.17-21.02.31:039][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/Collections/' took 0.01s
+[2016.12.17-21.02.31:039][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Developers/StefanoAdmin/Collections/' took 0.01s
+[2016.12.17-21.02.31:039][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Collections/' took 0.01s
+[2016.12.17-21.02.31:039][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.17-21.02.31:046][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2156 classes and 421 folders.
+[2016.12.17-21.02.31:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.17-21.02.31:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.17-21.02.31:048][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.12.17-21.02.31:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.17-21.02.31:228][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.17-21.02.31:231][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.12.17-21.02.31:281][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.17-21.02.31:285][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.17-21.02.31:309][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.12.17-21.02.31:309][  0]LogLoad: (Engine Initialization) Total time: 8.93 seconds
+[2016.12.17-21.02.31:309][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2016.12.17-21.02.31:310][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.17-21.02.31:310][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.17-21.02.31:318][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.17-21.02.31:318][  0]LogOcInput: OculusInput pre-init called
+[2016.12.17-21.02.31:328][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.1
+[2016.12.17-21.02.31:345][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.17-21.02.31:487][  0]LogRenderer: Reallocating scene render targets to support 1124x620 (Frame:2).
+[2016.12.17-21.02.31:814][  2]LogAssetRegistry: Asset discovery search completed in 5.7297 seconds
+[2016.12.17-21.02.31:814][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.17-21.02.31:814][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.12.17-21.03.42:034][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.03.42:034][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.17-21.03.42:034][371]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.17-21.03.42:034][371]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.17-21.03.42:034][371]LogHMD: New ovr session is created
+[2016.12.17-21.03.42:047][371]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.17-21.03.42:052][371]PIE: New page: PIE session: EclypseVillage (18 Dec 2016 6:03:42 pm)
+[2016.12.17-21.03.42:052][371]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.17-21.03.42:060][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007937s)
+[2016.12.17-21.03.42:060][371]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.17-21.03.42:061][371]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2016.12.17-21.03.42:061][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.008776s)
+[2016.12.17-21.03.42:096][371]OCULUS: Error: Prediction interval too high: 214422.534810 s, clamping at 0.100000 s
+[2016.12.17-21.03.42:096][371]OCULUS: Error: Prediction interval too high: 211254.430258 s, clamping at 0.100000 s
+[2016.12.17-21.03.42:096][371]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-21.03.42:126][371]LogInit: FAudioDevice initialized.
+[2016.12.17-21.03.42:208][371]LogWorld: Game class is 'GameManager_C'
+[2016.12.17-21.03.42:213][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.18-08.03.42
+[2016.12.17-21.03.42:213][371]LogWorld: Bringing up level for play took: 0.004855
+[2016.12.17-21.03.42:215][371]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.12.17-21.03.42:215][371]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-21.03.42:215][371]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-21.03.42:215][371]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-21.03.42:220][371]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-21.03.42:220][371]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.103
+[2016.12.17-21.03.42:220][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.03.46:828][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.03.46:851][750]LogHMD: Destroying ovr session
+[2016.12.17-21.03.46:908][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.03.52:196][366]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m14)
+[2016.12.17-21.03.52:904][447]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m6)
+[2016.12.17-21.03.55:171][697]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.12.17-21.03.56:444][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.12.17-21.04.03:549][665]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m16)
+[2016.12.17-21.04.33:799][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.12.17-21.04.34:707][630]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m8)
+[2016.12.17-21.04.35:542][727]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m9)
+[2016.12.17-21.04.38:746][109]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_2mx1m2_C (BP_Wall_2mx1m8)
+[2016.12.17-21.04.47:992][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Exterior_002)
+[2016.12.17-21.04.49:354][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Interior_Frame_001)
+[2016.12.17-21.04.53:486][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door_Exterior_002)
+[2016.12.17-21.04.56:384][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.04.56:384][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.17-21.04.56:384][ 81]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.17-21.04.56:384][ 81]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.17-21.04.56:385][ 81]LogHMD: New ovr session is created
+[2016.12.17-21.04.56:396][ 81]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.17-21.04.56:397][ 81]PIE: New page: PIE session: EclypseVillage (18 Dec 2016 6:04:56 pm)
+[2016.12.17-21.04.56:397][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.17-21.04.56:405][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008521s)
+[2016.12.17-21.04.56:406][ 81]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.17-21.04.56:406][ 81]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2016.12.17-21.04.56:406][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.009238s)
+[2016.12.17-21.04.56:424][ 81]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.17-21.04.56:453][ 81]LogInit: FAudioDevice initialized.
+[2016.12.17-21.04.56:481][ 81]LogWorld: Game class is 'GameManager_C'
+[2016.12.17-21.04.56:486][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.18-08.04.56
+[2016.12.17-21.04.56:486][ 81]LogWorld: Bringing up level for play took: 0.004495
+[2016.12.17-21.04.56:487][ 81]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-21.04.56:487][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-21.04.56:487][ 81]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-21.04.56:490][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-21.04.56:490][ 81]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.374
+[2016.12.17-21.04.56:491][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.04.59:337][342]LogSavePackage: Save=197.81ms
+[2016.12.17-21.04.59:337][342]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/EclypseVillage6F405E1640ACEA9737791DB7B40E6129.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap'
+[2016.12.17-21.04.59:341][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap
+[2016.12.17-21.05.00:222][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.17-21.05.00:245][379]LogHMD: Destroying ovr session
+[2016.12.17-21.05.00:249][379]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.000 s
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: === Handled ensure: ===
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: 
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 703]
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: Type mismatch: Expected EclypseVillage_C, Found LevelScriptBlueprint
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: Stack: 
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: 
+[2016.12.17-21.05.00:249][379]LogOutputDevice:Error: 
+[2016.12.17-21.05.00:249][379]LogStats:                SubmitErrorReport -  0.000 s
