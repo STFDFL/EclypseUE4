@@ -1,9 +1,9 @@
-﻿Log file open, 12/19/16 17:44:13
+﻿Log file open, 12/20/16 10:20:25
 LogInit:Display: Running engine for game: ProjectEclypse
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1776135998) SRandInit(1776135999).
+LogInit:Display: RandInit(-1158813258) SRandInit(-1158813258).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.062629
+LogStats: Stats thread started at 0.062252
 LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -134,343 +134,1791 @@ LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.12.19-06.44.13:252][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.19-06.44.13:252][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.12.19-06.44.13:254][  0]LogInit: Computer: DESKTOP-M92PTO3
-[2016.12.19-06.44.13:254][  0]LogInit: User: StefanoAdmin
-[2016.12.19-06.44.13:254][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.12.19-06.44.13:254][  0]LogInit: High frequency timer resolution =3.328120 MHz
-[2016.12.19-06.44.13:255][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.12.19-06.44.13:255][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.19-06.44.13:255][  0]LogMemory: Process Physical Memory: 255.98 MB used, 255.98 MB peak
-[2016.12.19-06.44.13:255][  0]LogMemory: Process Virtual Memory: 260.25 MB used, 260.25 MB peak
-[2016.12.19-06.44.13:255][  0]LogMemory: Physical Memory: 7827.95 MB used, 16313.61 MB total
-[2016.12.19-06.44.13:255][  0]LogMemory: Virtual Memory: 623.23 MB used, 134217728.00 MB total
-[2016.12.19-06.44.13:474][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
-[2016.12.19-06.44.13:761][  0]LogD3D11RHI: D3D11 adapters:
-[2016.12.19-06.44.14:211][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2016.12.19-06.44.14:211][  0]LogD3D11RHI:       4060/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.12.19-06.44.14:212][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.12.19-06.44.14:212][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.12.19-06.44.14:212][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.12.19-06.44.14:216][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.12.19-06.44.14:216][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2016.12.19-06.44.14:216][  0]LogWindows: EnumDisplayDevices:
-[2016.12.19-06.44.14:216][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2016.12.19-06.44.14:216][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.12.19-06.44.14:216][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.12.19-06.44.14:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2016.12.19-06.44.14:216][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.12.19-06.44.14:216][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2016.12.19-06.44.14:216][  0]LogD3D11RHI:   Driver Version: 376.09 (internal:21.21.13.7609, unified:376.09)
-[2016.12.19-06.44.14:216][  0]LogD3D11RHI:      Driver Date: 11-24-2016
-[2016.12.19-06.44.14:216][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.12.19-06.44.14:632][  0]LogD3D11RHI: Async texture creation enabled
-[2016.12.19-06.44.14:670][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.12.19-06.44.14:670][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Intermediate/Shaders/WorkingDirectory/14384/).
-[2016.12.19-06.44.14:670][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/7F2FDB6949C6AF90A49284888D8C7D4C/'.
-[2016.12.19-06.44.14:670][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.12.19-06.44.15:427][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.12.19-06.44.15:433][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.12.19-06.44.15:439][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.12.19-06.44.15:448][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.12.19-06.44.15:448][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.12.19-06.44.15:485][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.12.19-06.44.15:531][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.12.19-06.44.15:532][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.12.19-06.44.15:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.12.19-06.44.15:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.12.19-06.44.15:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.12.19-06.44.15:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.12.19-06.44.15:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.12.19-06.44.15:556][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.12.19-06.44.15:693][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2016.12.19-06.44.15:697][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003946 seconds
-[2016.12.19-06.44.15:709][  0]LogInit: Selected Device Profile: [Windows]
-[2016.12.19-06.44.15:710][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2016.12.19-06.44.15:775][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.12.19-06.44.15:775][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.12.19-06.44.15:775][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.12.19-06.44.15:814][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.12.19-06.44.15:999][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projecteclypse, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2418632494
-[2016.12.19-06.44.16:010][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.12.19-06.44.16:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.19-06.44.16:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.12.19-06.44.16:291][  0]LogMoviePlayer: Initializing movie player
-[2016.12.19-06.44.16:425][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Movies/Default_Startup.mp4
-[2016.12.19-06.44.16:481][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.12.19-06.44.16:485][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.12.19-06.44.16:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.12.19-06.44.16:565][  0]SourceControl: Info Source control is disabled
-[2016.12.19-06.44.16:565][  0]SourceControl: Info Source control is disabled
-[2016.12.19-06.44.16:569][  0]SourceControl: Info Source control is disabled
-[2016.12.19-06.44.16:625][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
-[2016.12.19-06.44.16:625][  0]LogUObjectAllocator: 7270496 out of 0 bytes used by permanent object pool.
-[2016.12.19-06.44.16:625][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.12.19-06.44.16:666][  0]LogEngine: Initializing Engine...
-[2016.12.19-06.44.16:772][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
-[2016.12.19-06.44.16:803][  0]LogInit: FAudioDevice initialized.
-[2016.12.19-06.44.16:809][  0]LogInit: Texture streaming: Enabled
-[2016.12.19-06.44.16:933][  0]LogInit:Display: Game Engine Initialized.
-[2016.12.19-06.44.16:978][  0]LogInit:Display: Starting Game.
-[2016.12.19-06.44.16:978][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage?Name=Player
-[2016.12.19-06.44.16:994][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage?Name=Player
-[2016.12.19-06.44.17:018][  0]LogMemory: Platform Memory Stats for Windows
-[2016.12.19-06.44.17:018][  0]LogMemory: Process Physical Memory: 675.77 MB used, 709.06 MB peak
-[2016.12.19-06.44.17:018][  0]LogMemory: Process Virtual Memory: 735.76 MB used, 749.53 MB peak
-[2016.12.19-06.44.17:018][  0]LogMemory: Physical Memory: 8179.12 MB used, 16313.61 MB total
-[2016.12.19-06.44.17:018][  0]LogMemory: Virtual Memory: 1368.62 MB used, 134217728.00 MB total
-[2016.12.19-06.44.17:018][  0]LogMemory: 
-[2016.12.19-06.44.17:018][  0]Allocator Stats for TBB: (not implemented)
-[2016.12.19-06.44.18:036][  0]LogAIModule: Creating AISystem for world EclypseVillage
-[2016.12.19-06.44.18:037][  0]LogWorld: Game class is 'GameManager_C'
-[2016.12.19-06.44.18:083][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.19-17.44.18
-[2016.12.19-06.44.18:083][  0]LogWorld: Bringing up level for play took: 0.046384
-[2016.12.19-06.44.18:084][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.19-06.44.18:084][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2016.12.19-06.44.18:084][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
-[2016.12.19-06.44.18:089][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2016.12.19-06.44.18:089][  0]LogLoad: Took 1.095024 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCEclypseVillage)
-[2016.12.19-06.44.18:298][  0]LogLoad: (Engine Initialization) Total time: 5.54 seconds
-[2016.12.19-06.44.18:298][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.36 seconds
-[2016.12.19-06.44.18:298][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.12.19-06.44.18:298][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.12.19-06.44.18:315][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.12.19-06.44.18:315][  0]LogOcInput: OculusInput pre-init called
-[2016.12.19-06.44.18:444][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
-[2016.12.19-06.44.18:542][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
-[2016.12.19-06.44.18:598][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
-[2016.12.19-06.44.41:241][394]LogRenderer: Reallocating scene render targets to support 1920x1020 (Frame:1397).
-[2016.12.19-06.46.49:063][318]LogBlueprintUserMessages: [Expedition_12] EXPEDITION BEGINS!
-[2016.12.19-06.46.49:063][318]LogBlueprintUserMessages: [Expedition_12] villagers alive =  7
+[2016.12.19-23.20.25:312][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.19-23.20.25:312][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.19-23.20.25:315][  0]LogInit: Computer: DESKTOP-M92PTO3
+[2016.12.19-23.20.25:315][  0]LogInit: User: StefanoAdmin
+[2016.12.19-23.20.25:315][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.19-23.20.25:315][  0]LogInit: High frequency timer resolution =3.328120 MHz
+[2016.12.19-23.20.25:315][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.19-23.20.25:315][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.19-23.20.25:315][  0]LogMemory: Process Physical Memory: 256.20 MB used, 256.20 MB peak
+[2016.12.19-23.20.25:315][  0]LogMemory: Process Virtual Memory: 260.21 MB used, 260.21 MB peak
+[2016.12.19-23.20.25:315][  0]LogMemory: Physical Memory: 7773.82 MB used, 16313.61 MB total
+[2016.12.19-23.20.25:315][  0]LogMemory: Virtual Memory: 623.23 MB used, 134217728.00 MB total
+[2016.12.19-23.20.25:532][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.12.19-23.20.25:812][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.19-23.20.26:233][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.12.19-23.20.26:233][  0]LogD3D11RHI:       4060/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.19-23.20.26:234][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.19-23.20.26:234][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.19-23.20.26:234][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.19-23.20.26:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.19-23.20.26:238][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.19-23.20.26:238][  0]LogWindows: EnumDisplayDevices:
+[2016.12.19-23.20.26:239][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.12.19-23.20.26:239][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.19-23.20.26:239][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.19-23.20.26:239][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.19-23.20.26:239][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.19-23.20.26:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.12.19-23.20.26:239][  0]LogD3D11RHI:   Driver Version: 376.09 (internal:21.21.13.7609, unified:376.09)
+[2016.12.19-23.20.26:239][  0]LogD3D11RHI:      Driver Date: 11-24-2016
+[2016.12.19-23.20.26:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.19-23.20.26:661][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.19-23.20.26:696][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.19-23.20.26:696][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Intermediate/Shaders/WorkingDirectory/14348/).
+[2016.12.19-23.20.26:696][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/E54A3B3F437863E1E90521AF8F7CEE62/'.
+[2016.12.19-23.20.26:696][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.19-23.20.27:481][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.19-23.20.27:486][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.19-23.20.27:491][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.19-23.20.27:496][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.19-23.20.27:496][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.19-23.20.27:533][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.19-23.20.27:580][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.19-23.20.27:580][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.19-23.20.27:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.19-23.20.27:581][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.19-23.20.27:581][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.19-23.20.27:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.19-23.20.27:594][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.19-23.20.27:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.19-23.20.27:857][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2016.12.19-23.20.27:860][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003509 seconds
+[2016.12.19-23.20.27:872][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.19-23.20.27:873][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.12.19-23.20.27:942][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.19-23.20.27:942][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.19-23.20.27:942][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.19-23.20.27:978][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.19-23.20.28:163][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projecteclypse, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2418632494
+[2016.12.19-23.20.28:173][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.19-23.20.28:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.19-23.20.28:288][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.19-23.20.28:343][  0]LogMoviePlayer: Initializing movie player
+[2016.12.19-23.20.28:585][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Movies/Default_Startup.mp4
+[2016.12.19-23.20.28:639][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.12.19-23.20.28:643][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.19-23.20.28:657][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.19-23.20.28:725][  0]SourceControl: Info Source control is disabled
+[2016.12.19-23.20.28:725][  0]SourceControl: Info Source control is disabled
+[2016.12.19-23.20.28:728][  0]SourceControl: Info Source control is disabled
+[2016.12.19-23.20.28:785][  0]LogUObjectArray: 32799 objects as part of root set at end of initial load.
+[2016.12.19-23.20.28:785][  0]LogUObjectAllocator: 7270496 out of 0 bytes used by permanent object pool.
+[2016.12.19-23.20.28:785][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.19-23.20.28:828][  0]LogEngine: Initializing Engine...
+[2016.12.19-23.20.28:940][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.19-23.20.28:971][  0]LogInit: FAudioDevice initialized.
+[2016.12.19-23.20.28:975][  0]LogInit: Texture streaming: Enabled
+[2016.12.19-23.20.29:171][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.19-23.20.29:213][  0]LogInit:Display: Starting Game.
+[2016.12.19-23.20.29:213][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage?Name=Player
+[2016.12.19-23.20.29:230][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage?Name=Player
+[2016.12.19-23.20.29:254][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.19-23.20.29:254][  0]LogMemory: Process Physical Memory: 685.07 MB used, 710.62 MB peak
+[2016.12.19-23.20.29:254][  0]LogMemory: Process Virtual Memory: 742.52 MB used, 759.11 MB peak
+[2016.12.19-23.20.29:254][  0]LogMemory: Physical Memory: 8117.41 MB used, 16313.61 MB total
+[2016.12.19-23.20.29:254][  0]LogMemory: Virtual Memory: 1371.73 MB used, 134217728.00 MB total
+[2016.12.19-23.20.29:254][  0]LogMemory: 
+[2016.12.19-23.20.29:254][  0]Allocator Stats for TBB: (not implemented)
+[2016.12.19-23.20.30:350][  0]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.19-23.20.30:350][  0]LogWorld: Game class is 'GameManager_C'
+[2016.12.19-23.20.30:395][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCEclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.20-10.20.30
+[2016.12.19-23.20.30:396][  0]LogWorld: Bringing up level for play took: 0.045899
+[2016.12.19-23.20.30:397][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.19-23.20.30:397][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.19-23.20.30:397][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.19-23.20.30:402][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.19-23.20.30:403][  0]LogLoad: Took 1.173066 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCEclypseVillage)
+[2016.12.19-23.20.30:611][  0]LogLoad: (Engine Initialization) Total time: 5.81 seconds
+[2016.12.19-23.20.30:611][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.41 seconds
+[2016.12.19-23.20.30:611][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.19-23.20.30:611][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.19-23.20.30:629][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.19-23.20.30:629][  0]LogOcInput: OculusInput pre-init called
+[2016.12.19-23.20.30:759][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2016.12.19-23.20.30:815][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.12.19-23.20.30:872][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.12.19-23.20.32:160][ 68]LogRenderer: Reallocating scene render targets to support 1920x1020 (Frame:71).
+[2016.12.19-23.20.39:046][488]LogBlueprintUserMessages: [CameraActor_BP_302] -1451.279541
+[2016.12.19-23.20.39:047][489]LogBlueprintUserMessages: [CameraActor_BP_302] -1427.326416
+[2016.12.19-23.20.39:063][490]LogBlueprintUserMessages: [CameraActor_BP_302] -1404.214355
+[2016.12.19-23.20.39:079][491]LogBlueprintUserMessages: [CameraActor_BP_302] -1381.514404
+[2016.12.19-23.20.39:108][492]LogBlueprintUserMessages: [CameraActor_BP_302] -1359.495361
+[2016.12.19-23.20.39:112][493]LogBlueprintUserMessages: [CameraActor_BP_302] -1337.817871
+[2016.12.19-23.20.39:128][494]LogBlueprintUserMessages: [CameraActor_BP_302] -1316.476807
+[2016.12.19-23.20.39:144][495]LogBlueprintUserMessages: [CameraActor_BP_302] -1295.468262
+[2016.12.19-23.20.39:160][496]LogBlueprintUserMessages: [CameraActor_BP_302] -1274.787109
+[2016.12.19-23.20.39:176][497]LogBlueprintUserMessages: [CameraActor_BP_302] -1254.428711
+[2016.12.19-23.20.39:192][498]LogBlueprintUserMessages: [CameraActor_BP_302] -1234.388916
+[2016.12.19-23.20.39:209][499]LogBlueprintUserMessages: [CameraActor_BP_302] -1214.662842
+[2016.12.19-23.20.39:225][500]LogBlueprintUserMessages: [CameraActor_BP_302] -1195.24585
+[2016.12.19-23.20.39:241][501]LogBlueprintUserMessages: [CameraActor_BP_302] -1176.133789
+[2016.12.19-23.20.39:257][502]LogBlueprintUserMessages: [CameraActor_BP_302] -1157.322021
+[2016.12.19-23.20.39:273][503]LogBlueprintUserMessages: [CameraActor_BP_302] -1138.805908
+[2016.12.19-23.20.39:289][504]LogBlueprintUserMessages: [CameraActor_BP_302] -1120.581543
+[2016.12.19-23.20.39:306][505]LogBlueprintUserMessages: [CameraActor_BP_302] -1102.644287
+[2016.12.19-23.20.39:322][506]LogBlueprintUserMessages: [CameraActor_BP_302] -1084.990234
+[2016.12.19-23.20.39:338][507]LogBlueprintUserMessages: [CameraActor_BP_302] -1067.614502
+[2016.12.19-23.20.39:354][508]LogBlueprintUserMessages: [CameraActor_BP_302] -1050.513672
+[2016.12.19-23.20.39:370][509]LogBlueprintUserMessages: [CameraActor_BP_302] -1033.683105
+[2016.12.19-23.20.39:386][510]LogBlueprintUserMessages: [CameraActor_BP_302] -1017.119141
+[2016.12.19-23.20.39:402][511]LogBlueprintUserMessages: [CameraActor_BP_302] -1000.816895
+[2016.12.19-23.20.39:418][512]LogBlueprintUserMessages: [CameraActor_BP_302] -984.773193
+[2016.12.19-23.20.39:434][513]LogBlueprintUserMessages: [CameraActor_BP_302] -968.984131
+[2016.12.19-23.20.39:450][514]LogBlueprintUserMessages: [CameraActor_BP_302] -953.445557
+[2016.12.19-23.20.39:466][515]LogBlueprintUserMessages: [CameraActor_BP_302] -938.153564
+[2016.12.19-23.20.39:482][516]LogBlueprintUserMessages: [CameraActor_BP_302] -923.104736
+[2016.12.19-23.20.39:499][517]LogBlueprintUserMessages: [CameraActor_BP_302] -908.294434
+[2016.12.19-23.20.39:515][518]LogBlueprintUserMessages: [CameraActor_BP_302] -893.719971
+[2016.12.19-23.20.39:531][519]LogBlueprintUserMessages: [CameraActor_BP_302] -879.377197
+[2016.12.19-23.20.39:547][520]LogBlueprintUserMessages: [CameraActor_BP_302] -865.262939
+[2016.12.19-23.20.39:563][521]LogBlueprintUserMessages: [CameraActor_BP_302] -851.373291
+[2016.12.19-23.20.39:580][522]LogBlueprintUserMessages: [CameraActor_BP_302] -837.704834
+[2016.12.19-23.20.39:596][523]LogBlueprintUserMessages: [CameraActor_BP_302] -824.253906
+[2016.12.19-23.20.39:612][524]LogBlueprintUserMessages: [CameraActor_BP_302] -811.017578
+[2016.12.19-23.20.39:628][525]LogBlueprintUserMessages: [CameraActor_BP_302] -797.992432
+[2016.12.19-23.20.39:644][526]LogBlueprintUserMessages: [CameraActor_BP_302] -785.175049
+[2016.12.19-23.20.39:660][527]LogBlueprintUserMessages: [CameraActor_BP_302] -772.562256
+[2016.12.19-23.20.39:677][528]LogBlueprintUserMessages: [CameraActor_BP_302] -760.150879
+[2016.12.19-23.20.39:693][529]LogBlueprintUserMessages: [CameraActor_BP_302] -747.9375
+[2016.12.19-23.20.39:709][530]LogBlueprintUserMessages: [CameraActor_BP_302] -735.919189
+[2016.12.19-23.20.39:725][531]LogBlueprintUserMessages: [CameraActor_BP_302] -724.092773
+[2016.12.19-23.20.39:741][532]LogBlueprintUserMessages: [CameraActor_BP_302] -712.455566
+[2016.12.19-23.20.39:757][533]LogBlueprintUserMessages: [CameraActor_BP_302] -701.004395
+[2016.12.19-23.20.39:773][534]LogBlueprintUserMessages: [CameraActor_BP_302] -689.736572
+[2016.12.19-23.20.39:789][535]LogBlueprintUserMessages: [CameraActor_BP_302] -678.648682
+[2016.12.19-23.20.39:805][536]LogBlueprintUserMessages: [CameraActor_BP_302] -667.738037
+[2016.12.19-23.20.39:821][537]LogBlueprintUserMessages: [CameraActor_BP_302] -657.002197
+[2016.12.19-23.20.39:837][538]LogBlueprintUserMessages: [CameraActor_BP_302] -646.437988
+[2016.12.19-23.20.39:854][539]LogBlueprintUserMessages: [CameraActor_BP_302] -636.042969
+[2016.12.19-23.20.39:870][540]LogBlueprintUserMessages: [CameraActor_BP_302] -625.814209
+[2016.12.19-23.20.39:886][541]LogBlueprintUserMessages: [CameraActor_BP_302] -615.749512
+[2016.12.19-23.20.39:902][542]LogBlueprintUserMessages: [CameraActor_BP_302] -605.845703
+[2016.12.19-23.20.39:918][543]LogBlueprintUserMessages: [CameraActor_BP_302] -596.10083
+[2016.12.19-23.20.39:934][544]LogBlueprintUserMessages: [CameraActor_BP_302] -586.511963
+[2016.12.19-23.20.39:951][545]LogBlueprintUserMessages: [CameraActor_BP_302] -577.076904
+[2016.12.19-23.20.39:967][546]LogBlueprintUserMessages: [CameraActor_BP_302] -567.793213
+[2016.12.19-23.20.39:983][547]LogBlueprintUserMessages: [CameraActor_BP_302] -558.657959
+[2016.12.19-23.20.39:999][548]LogBlueprintUserMessages: [CameraActor_BP_302] -549.669678
+[2016.12.19-23.20.40:015][549]LogBlueprintUserMessages: [CameraActor_BP_302] -540.825195
+[2016.12.19-23.20.40:031][550]LogBlueprintUserMessages: [CameraActor_BP_302] -532.122559
+[2016.12.19-23.20.40:047][551]LogBlueprintUserMessages: [CameraActor_BP_302] -523.55957
+[2016.12.19-23.20.40:064][552]LogBlueprintUserMessages: [CameraActor_BP_302] -515.134033
+[2016.12.19-23.20.40:080][553]LogBlueprintUserMessages: [CameraActor_BP_302] -506.843262
+[2016.12.19-23.20.40:096][554]LogBlueprintUserMessages: [CameraActor_BP_302] -498.686035
+[2016.12.19-23.20.40:112][555]LogBlueprintUserMessages: [CameraActor_BP_302] -490.659424
+[2016.12.19-23.20.40:128][556]LogBlueprintUserMessages: [CameraActor_BP_302] -482.761963
+[2016.12.19-23.20.40:144][557]LogBlueprintUserMessages: [CameraActor_BP_302] -474.991211
+[2016.12.19-23.20.40:160][558]LogBlueprintUserMessages: [CameraActor_BP_302] -467.345215
+[2016.12.19-23.20.40:176][559]LogBlueprintUserMessages: [CameraActor_BP_302] -459.821777
+[2016.12.19-23.20.40:192][560]LogBlueprintUserMessages: [CameraActor_BP_302] -452.418945
+[2016.12.19-23.20.40:208][561]LogBlueprintUserMessages: [CameraActor_BP_302] -445.135254
+[2016.12.19-23.20.40:224][562]LogBlueprintUserMessages: [CameraActor_BP_302] -437.968506
+[2016.12.19-23.20.40:241][563]LogBlueprintUserMessages: [CameraActor_BP_302] -430.916992
+[2016.12.19-23.20.40:257][564]LogBlueprintUserMessages: [CameraActor_BP_302] -423.97876
+[2016.12.19-23.20.40:273][565]LogBlueprintUserMessages: [CameraActor_BP_302] -417.152344
+[2016.12.19-23.20.40:289][566]LogBlueprintUserMessages: [CameraActor_BP_302] -410.435059
+[2016.12.19-23.20.40:305][567]LogBlueprintUserMessages: [CameraActor_BP_302] -403.825684
+[2016.12.19-23.20.40:322][568]LogBlueprintUserMessages: [CameraActor_BP_302] -397.322754
+[2016.12.19-23.20.40:338][569]LogBlueprintUserMessages: [CameraActor_BP_302] -390.924316
+[2016.12.19-23.20.40:354][570]LogBlueprintUserMessages: [CameraActor_BP_302] -384.62915
+[2016.12.19-23.20.40:370][571]LogBlueprintUserMessages: [CameraActor_BP_302] -378.43457
+[2016.12.19-23.20.40:386][572]LogBlueprintUserMessages: [CameraActor_BP_302] -372.340088
+[2016.12.19-23.20.40:402][573]LogBlueprintUserMessages: [CameraActor_BP_302] -366.343262
+[2016.12.19-23.20.40:418][574]LogBlueprintUserMessages: [CameraActor_BP_302] -360.442871
+[2016.12.19-23.20.40:435][575]LogBlueprintUserMessages: [CameraActor_BP_302] -354.637451
+[2016.12.19-23.20.56:596][577]LogBlueprintUserMessages: [CameraActor_BP_302] -2831.217773
+[2016.12.19-23.20.56:612][578]LogBlueprintUserMessages: [CameraActor_BP_302] -2793.09375
+[2016.12.19-23.20.56:628][579]LogBlueprintUserMessages: [CameraActor_BP_302] -2754.646973
+[2016.12.19-23.20.56:644][580]LogBlueprintUserMessages: [CameraActor_BP_302] -2716.0271
+[2016.12.19-23.20.56:660][581]LogBlueprintUserMessages: [CameraActor_BP_302] -2677.355713
+[2016.12.19-23.20.56:677][582]LogBlueprintUserMessages: [CameraActor_BP_302] -2638.731934
+[2016.12.19-23.20.56:693][583]LogBlueprintUserMessages: [CameraActor_BP_302] -2600.236328
+[2016.12.19-23.20.56:709][584]LogBlueprintUserMessages: [CameraActor_BP_302] -2561.934326
+[2016.12.19-23.20.56:725][585]LogBlueprintUserMessages: [CameraActor_BP_302] -2523.879395
+[2016.12.19-23.20.56:741][586]LogBlueprintUserMessages: [CameraActor_BP_302] -2486.115723
+[2016.12.19-23.20.56:757][587]LogBlueprintUserMessages: [CameraActor_BP_302] -2448.678711
+[2016.12.19-23.20.56:773][588]LogBlueprintUserMessages: [CameraActor_BP_302] -2411.597168
+[2016.12.19-23.20.56:790][589]LogBlueprintUserMessages: [CameraActor_BP_302] -2374.894531
+[2016.12.19-23.20.56:806][590]LogBlueprintUserMessages: [CameraActor_BP_302] -2338.590332
+[2016.12.19-23.20.56:822][591]LogBlueprintUserMessages: [CameraActor_BP_302] -2302.699463
+[2016.12.19-23.20.56:838][592]LogBlueprintUserMessages: [CameraActor_BP_302] -2267.233887
+[2016.12.19-23.21.06:790][209]LogBlueprintUserMessages: [CameraActor_BP_302] -2558.164795
+[2016.12.19-23.21.06:806][210]LogBlueprintUserMessages: [CameraActor_BP_302] -2519.07373
+[2016.12.19-23.21.06:822][211]LogBlueprintUserMessages: [CameraActor_BP_302] -2480.412109
+[2016.12.19-23.21.06:838][212]LogBlueprintUserMessages: [CameraActor_BP_302] -2442.196289
+[2016.12.19-23.21.06:854][213]LogBlueprintUserMessages: [CameraActor_BP_302] -2404.439453
+[2016.12.19-23.21.06:870][214]LogBlueprintUserMessages: [CameraActor_BP_302] -2367.1521
+[2016.12.19-23.21.06:886][215]LogBlueprintUserMessages: [CameraActor_BP_302] -2330.341309
+[2016.12.19-23.21.06:902][216]LogBlueprintUserMessages: [CameraActor_BP_302] -2294.012695
+[2016.12.19-23.21.06:918][217]LogBlueprintUserMessages: [CameraActor_BP_302] -2258.169922
+[2016.12.19-23.21.06:935][218]LogBlueprintUserMessages: [CameraActor_BP_302] -2222.815186
+[2016.12.19-23.21.06:951][219]LogBlueprintUserMessages: [CameraActor_BP_302] -2187.949463
+[2016.12.19-23.21.06:967][220]LogBlueprintUserMessages: [CameraActor_BP_302] -2153.572754
+[2016.12.19-23.21.06:983][221]LogBlueprintUserMessages: [CameraActor_BP_302] -2119.683594
+[2016.12.19-23.21.06:999][222]LogBlueprintUserMessages: [CameraActor_BP_302] -2086.280273
+[2016.12.19-23.21.07:015][223]LogBlueprintUserMessages: [CameraActor_BP_302] -2053.360596
+[2016.12.19-23.21.07:031][224]LogBlueprintUserMessages: [CameraActor_BP_302] -2020.921631
+[2016.12.19-23.21.07:048][225]LogBlueprintUserMessages: [CameraActor_BP_302] -1988.959717
+[2016.12.19-23.21.07:064][226]LogBlueprintUserMessages: [CameraActor_BP_302] -1957.471313
+[2016.12.19-23.21.07:080][227]LogBlueprintUserMessages: [CameraActor_BP_302] -1926.451904
+[2016.12.19-23.21.12:451][560]LogBlueprintUserMessages: [CameraActor_BP_302] -2905.239746
+[2016.12.19-23.21.12:467][561]LogBlueprintUserMessages: [CameraActor_BP_302] -2864.200684
+[2016.12.19-23.21.12:483][562]LogBlueprintUserMessages: [CameraActor_BP_302] -2823.106689
+[2016.12.19-23.21.12:499][563]LogBlueprintUserMessages: [CameraActor_BP_302] -2782.069824
+[2016.12.19-23.21.12:515][564]LogBlueprintUserMessages: [CameraActor_BP_302] -2741.180176
+[2016.12.19-23.21.12:531][565]LogBlueprintUserMessages: [CameraActor_BP_302] -2700.509766
+[2016.12.19-23.21.12:548][566]LogBlueprintUserMessages: [CameraActor_BP_302] -2660.116699
+[2016.12.19-23.21.12:564][567]LogBlueprintUserMessages: [CameraActor_BP_302] -2620.04834
+[2016.12.19-23.21.12:580][568]LogBlueprintUserMessages: [CameraActor_BP_302] -2580.342285
+[2016.12.19-23.21.12:596][569]LogBlueprintUserMessages: [CameraActor_BP_302] -2541.02832
+[2016.12.19-23.21.12:612][570]LogBlueprintUserMessages: [CameraActor_BP_302] -2502.131348
+[2016.12.19-23.21.12:629][571]LogBlueprintUserMessages: [CameraActor_BP_302] -2463.67041
+[2016.12.19-23.21.12:645][572]LogBlueprintUserMessages: [CameraActor_BP_302] -2425.660645
+[2016.12.19-23.21.12:661][573]LogBlueprintUserMessages: [CameraActor_BP_302] -2388.114258
+[2016.12.19-23.21.12:677][574]LogBlueprintUserMessages: [CameraActor_BP_302] -2351.040039
+[2016.12.19-23.21.12:693][575]LogBlueprintUserMessages: [CameraActor_BP_302] -2314.444092
+[2016.12.19-23.21.12:709][576]LogBlueprintUserMessages: [CameraActor_BP_302] -2278.331543
+[2016.12.19-23.21.12:725][577]LogBlueprintUserMessages: [CameraActor_BP_302] -2242.706055
+[2016.12.19-23.21.12:741][578]LogBlueprintUserMessages: [CameraActor_BP_302] -2207.568359
+[2016.12.19-23.21.12:758][579]LogBlueprintUserMessages: [CameraActor_BP_302] -2172.919678
+[2016.12.19-23.21.12:774][580]LogBlueprintUserMessages: [CameraActor_BP_302] -2138.758789
+[2016.12.19-23.21.12:790][581]LogBlueprintUserMessages: [CameraActor_BP_302] -2105.084961
+[2016.12.19-23.21.12:806][582]LogBlueprintUserMessages: [CameraActor_BP_302] -2071.895996
+[2016.12.19-23.21.12:822][583]LogBlueprintUserMessages: [CameraActor_BP_302] -2039.188721
+[2016.12.19-23.21.12:838][584]LogBlueprintUserMessages: [CameraActor_BP_302] -2006.960327
+[2016.12.19-23.21.12:854][585]LogBlueprintUserMessages: [CameraActor_BP_302] -1975.207275
+[2016.12.19-23.21.12:870][586]LogBlueprintUserMessages: [CameraActor_BP_302] -1943.924561
+[2016.12.19-23.21.12:886][587]LogBlueprintUserMessages: [CameraActor_BP_302] -1913.109863
+[2016.12.19-23.21.12:902][588]LogBlueprintUserMessages: [CameraActor_BP_302] -1882.757813
+[2016.12.19-23.21.12:919][589]LogBlueprintUserMessages: [CameraActor_BP_302] -1852.863525
+[2016.12.19-23.21.12:935][590]LogBlueprintUserMessages: [CameraActor_BP_302] -1823.422119
+[2016.12.19-23.21.12:951][591]LogBlueprintUserMessages: [CameraActor_BP_302] -1794.428223
+[2016.12.19-23.21.12:967][592]LogBlueprintUserMessages: [CameraActor_BP_302] -1765.876953
+[2016.12.19-23.21.12:983][593]LogBlueprintUserMessages: [CameraActor_BP_302] -1737.762817
+[2016.12.19-23.21.12:999][594]LogBlueprintUserMessages: [CameraActor_BP_302] -1710.080811
+[2016.12.19-23.21.13:016][595]LogBlueprintUserMessages: [CameraActor_BP_302] -1682.825195
+[2016.12.19-23.21.13:032][596]LogBlueprintUserMessages: [CameraActor_BP_302] -1655.990479
+[2016.12.19-23.21.13:048][597]LogBlueprintUserMessages: [CameraActor_BP_302] -1629.571289
+[2016.12.19-23.21.13:064][598]LogBlueprintUserMessages: [CameraActor_BP_302] -1603.561768
+[2016.12.19-23.21.13:080][599]LogBlueprintUserMessages: [CameraActor_BP_302] -1577.956543
+[2016.12.19-23.21.13:096][600]LogBlueprintUserMessages: [CameraActor_BP_302] -1552.750488
+[2016.12.19-23.21.13:112][601]LogBlueprintUserMessages: [CameraActor_BP_302] -1527.9375
+[2016.12.19-23.21.13:129][602]LogBlueprintUserMessages: [CameraActor_BP_302] -1503.512695
+[2016.12.19-23.21.13:145][603]LogBlueprintUserMessages: [CameraActor_BP_302] -1479.470459
+[2016.12.19-23.21.13:161][604]LogBlueprintUserMessages: [CameraActor_BP_302] -1455.804688
+[2016.12.19-23.21.13:177][605]LogBlueprintUserMessages: [CameraActor_BP_302] -1432.510742
+[2016.12.19-23.21.13:193][606]LogBlueprintUserMessages: [CameraActor_BP_302] -1409.582764
+[2016.12.19-23.21.13:209][607]LogBlueprintUserMessages: [CameraActor_BP_302] -1387.015625
+[2016.12.19-23.21.13:225][608]LogBlueprintUserMessages: [CameraActor_BP_302] -1364.804199
+[2016.12.19-23.21.13:241][609]LogBlueprintUserMessages: [CameraActor_BP_302] -1342.942627
+[2016.12.19-23.21.26:758][447]LogBlueprintUserMessages: [CameraActor_BP_302] -3146.2146
+[2016.12.19-23.21.26:774][448]LogBlueprintUserMessages: [CameraActor_BP_302] -3102.375977
+[2016.12.19-23.21.26:790][449]LogBlueprintUserMessages: [CameraActor_BP_302] -3058.239258
+[2016.12.19-23.21.26:806][450]LogBlueprintUserMessages: [CameraActor_BP_302] -3013.993164
+[2016.12.19-23.21.26:822][451]LogBlueprintUserMessages: [CameraActor_BP_302] -2969.78418
+[2016.12.19-23.21.26:839][452]LogBlueprintUserMessages: [CameraActor_BP_302] -2925.726807
+[2016.12.19-23.21.26:855][453]LogBlueprintUserMessages: [CameraActor_BP_302] -2881.909668
+[2016.12.19-23.21.26:871][454]LogBlueprintUserMessages: [CameraActor_BP_302] -2838.402344
+[2016.12.19-23.21.26:887][455]LogBlueprintUserMessages: [CameraActor_BP_302] -2795.26001
+[2016.12.19-23.21.26:903][456]LogBlueprintUserMessages: [CameraActor_BP_302] -2752.525391
+[2016.12.19-23.21.26:919][457]LogBlueprintUserMessages: [CameraActor_BP_302] -2710.231934
+[2016.12.19-23.21.26:935][458]LogBlueprintUserMessages: [CameraActor_BP_302] -2668.406738
+[2016.12.19-23.21.26:951][459]LogBlueprintUserMessages: [CameraActor_BP_302] -2627.069824
+[2016.12.19-23.21.26:967][460]LogBlueprintUserMessages: [CameraActor_BP_302] -2586.236816
+[2016.12.19-23.21.26:983][461]LogBlueprintUserMessages: [CameraActor_BP_302] -2545.919434
+[2016.12.19-23.21.26:999][462]LogBlueprintUserMessages: [CameraActor_BP_302] -2506.126465
+[2016.12.19-23.21.27:016][463]LogBlueprintUserMessages: [CameraActor_BP_302] -2466.86377
+[2016.12.19-23.21.27:032][464]LogBlueprintUserMessages: [CameraActor_BP_302] -2428.135254
+[2016.12.19-23.21.27:048][465]LogBlueprintUserMessages: [CameraActor_BP_302] -2389.943115
+[2016.12.19-23.21.27:064][466]LogBlueprintUserMessages: [CameraActor_BP_302] -2352.288086
+[2016.12.19-23.21.27:080][467]LogBlueprintUserMessages: [CameraActor_BP_302] -2315.169434
+[2016.12.19-23.21.27:096][468]LogBlueprintUserMessages: [CameraActor_BP_302] -2278.585693
+[2016.12.19-23.21.27:113][469]LogBlueprintUserMessages: [CameraActor_BP_302] -2242.534668
+[2016.12.19-23.21.27:129][470]LogBlueprintUserMessages: [CameraActor_BP_302] -2207.012695
+[2016.12.19-23.21.27:145][471]LogBlueprintUserMessages: [CameraActor_BP_302] -2172.016602
+[2016.12.19-23.21.27:161][472]LogBlueprintUserMessages: [CameraActor_BP_302] -2137.542236
+[2016.12.19-23.21.27:177][473]LogBlueprintUserMessages: [CameraActor_BP_302] -2103.584717
+[2016.12.19-23.21.27:193][474]LogBlueprintUserMessages: [CameraActor_BP_302] -2070.13916
+[2016.12.19-23.21.27:209][475]LogBlueprintUserMessages: [CameraActor_BP_302] -2037.200317
+[2016.12.19-23.21.27:226][476]LogBlueprintUserMessages: [CameraActor_BP_302] -2004.762939
+[2016.12.19-23.21.27:242][477]LogBlueprintUserMessages: [CameraActor_BP_302] -1972.821411
+[2016.12.19-23.21.27:258][478]LogBlueprintUserMessages: [CameraActor_BP_302] -1941.369507
+[2016.12.19-23.21.27:274][479]LogBlueprintUserMessages: [CameraActor_BP_302] -1910.401855
+[2016.12.19-23.21.27:290][480]LogBlueprintUserMessages: [CameraActor_BP_302] -1879.912109
+[2016.12.19-23.21.27:306][481]LogBlueprintUserMessages: [CameraActor_BP_302] -1849.894409
+[2016.12.19-23.21.27:322][482]LogBlueprintUserMessages: [CameraActor_BP_302] -1820.342407
+[2016.12.19-23.21.27:338][483]LogBlueprintUserMessages: [CameraActor_BP_302] -1791.250244
+[2016.12.19-23.21.27:354][484]LogBlueprintUserMessages: [CameraActor_BP_302] -1762.611816
+[2016.12.19-23.21.27:371][485]LogBlueprintUserMessages: [CameraActor_BP_302] -1734.420166
+[2016.12.19-23.21.27:387][486]LogBlueprintUserMessages: [CameraActor_BP_302] -1706.669678
+[2016.12.19-23.21.27:403][487]LogBlueprintUserMessages: [CameraActor_BP_302] -1679.354248
+[2016.12.19-23.21.27:419][488]LogBlueprintUserMessages: [CameraActor_BP_302] -1652.467285
+[2016.12.19-23.21.27:435][489]LogBlueprintUserMessages: [CameraActor_BP_302] -1626.003174
+[2016.12.19-23.21.27:451][490]LogBlueprintUserMessages: [CameraActor_BP_302] -1599.955322
+[2016.12.19-23.21.27:468][491]LogBlueprintUserMessages: [CameraActor_BP_302] -1574.318359
+[2016.12.19-23.21.27:484][492]LogBlueprintUserMessages: [CameraActor_BP_302] -1549.085938
+[2016.12.19-23.21.27:500][493]LogBlueprintUserMessages: [CameraActor_BP_302] -1524.251953
+[2016.12.19-23.21.27:516][494]LogBlueprintUserMessages: [CameraActor_BP_302] -1499.810303
+[2016.12.19-23.21.27:532][495]LogBlueprintUserMessages: [CameraActor_BP_302] -1475.755615
+[2016.12.19-23.21.27:548][496]LogBlueprintUserMessages: [CameraActor_BP_302] -1452.081787
+[2016.12.19-23.21.27:564][497]LogBlueprintUserMessages: [CameraActor_BP_302] -1428.783447
+[2016.12.19-23.21.27:580][498]LogBlueprintUserMessages: [CameraActor_BP_302] -1405.854492
+[2016.12.19-23.21.27:597][499]LogBlueprintUserMessages: [CameraActor_BP_302] -1383.289795
+[2016.12.19-23.21.27:613][500]LogBlueprintUserMessages: [CameraActor_BP_302] -1361.083496
+[2016.12.19-23.21.27:629][501]LogBlueprintUserMessages: [CameraActor_BP_302] -1339.230713
+[2016.12.19-23.21.27:645][502]LogBlueprintUserMessages: [CameraActor_BP_302] -1317.725098
+[2016.12.19-23.21.27:661][503]LogBlueprintUserMessages: [CameraActor_BP_302] -1296.561768
+[2016.12.19-23.21.27:677][504]LogBlueprintUserMessages: [CameraActor_BP_302] -1275.735596
+[2016.12.19-23.21.27:693][505]LogBlueprintUserMessages: [CameraActor_BP_302] -1255.240967
+[2016.12.19-23.21.27:709][506]LogBlueprintUserMessages: [CameraActor_BP_302] -1235.073242
+[2016.12.19-23.21.27:725][507]LogBlueprintUserMessages: [CameraActor_BP_302] -1215.227295
+[2016.12.19-23.21.27:741][508]LogBlueprintUserMessages: [CameraActor_BP_302] -1195.697754
+[2016.12.19-23.21.27:758][509]LogBlueprintUserMessages: [CameraActor_BP_302] -1176.479736
+[2016.12.19-23.21.27:774][510]LogBlueprintUserMessages: [CameraActor_BP_302] -1157.568848
+[2016.12.19-23.21.27:790][511]LogBlueprintUserMessages: [CameraActor_BP_302] -1138.959717
+[2016.12.19-23.21.27:806][512]LogBlueprintUserMessages: [CameraActor_BP_302] -1120.648438
+[2016.12.19-23.21.27:822][513]LogBlueprintUserMessages: [CameraActor_BP_302] -1102.629639
+[2016.12.19-23.21.27:838][514]LogBlueprintUserMessages: [CameraActor_BP_302] -1084.898926
+[2016.12.19-23.21.27:855][515]LogBlueprintUserMessages: [CameraActor_BP_302] -1067.451904
+[2016.12.19-23.21.27:871][516]LogBlueprintUserMessages: [CameraActor_BP_302] -1050.283936
+[2016.12.19-23.21.27:887][517]LogBlueprintUserMessages: [CameraActor_BP_302] -1033.390625
+[2016.12.19-23.21.27:903][518]LogBlueprintUserMessages: [CameraActor_BP_302] -1016.768066
+[2016.12.19-23.21.27:919][519]LogBlueprintUserMessages: [CameraActor_BP_302] -1000.411377
+[2016.12.19-23.21.27:935][520]LogBlueprintUserMessages: [CameraActor_BP_302] -984.31665
+[2016.12.19-23.21.27:951][521]LogBlueprintUserMessages: [CameraActor_BP_302] -968.47998
+[2016.12.19-23.21.27:968][522]LogBlueprintUserMessages: [CameraActor_BP_302] -952.896729
+[2016.12.19-23.21.27:984][523]LogBlueprintUserMessages: [CameraActor_BP_302] -937.563477
+[2016.12.19-23.21.28:000][524]LogBlueprintUserMessages: [CameraActor_BP_302] -922.476074
+[2016.12.19-23.21.28:016][525]LogBlueprintUserMessages: [CameraActor_BP_302] -907.630371
+[2016.12.19-23.21.28:032][526]LogBlueprintUserMessages: [CameraActor_BP_302] -893.022949
+[2016.12.19-23.21.28:048][527]LogBlueprintUserMessages: [CameraActor_BP_302] -878.649658
+[2016.12.19-23.21.28:064][528]LogBlueprintUserMessages: [CameraActor_BP_302] -864.50708
+[2016.12.19-23.21.28:080][529]LogBlueprintUserMessages: [CameraActor_BP_302] -850.591309
+[2016.12.19-23.21.28:096][530]LogBlueprintUserMessages: [CameraActor_BP_302] -836.898926
+[2016.12.19-23.21.28:112][531]LogBlueprintUserMessages: [CameraActor_BP_302] -823.42627
+[2016.12.19-23.21.28:128][532]LogBlueprintUserMessages: [CameraActor_BP_302] -810.169922
+[2016.12.19-23.21.28:145][533]LogBlueprintUserMessages: [CameraActor_BP_302] -797.126465
+[2016.12.19-23.21.28:161][534]LogBlueprintUserMessages: [CameraActor_BP_302] -784.291992
+[2016.12.19-23.21.28:177][535]LogBlueprintUserMessages: [CameraActor_BP_302] -771.663818
+[2016.12.19-23.21.28:193][536]LogBlueprintUserMessages: [CameraActor_BP_302] -759.238525
+[2016.12.19-23.21.28:209][537]LogBlueprintUserMessages: [CameraActor_BP_302] -747.012939
+[2016.12.19-23.21.28:226][538]LogBlueprintUserMessages: [CameraActor_BP_302] -734.983398
+[2016.12.19-23.21.28:242][539]LogBlueprintUserMessages: [CameraActor_BP_302] -723.147461
+[2016.12.19-23.21.28:258][540]LogBlueprintUserMessages: [CameraActor_BP_302] -711.501465
+[2016.12.19-23.21.28:274][541]LogBlueprintUserMessages: [CameraActor_BP_302] -700.042969
+[2016.12.19-23.21.28:290][542]LogBlueprintUserMessages: [CameraActor_BP_302] -688.768555
+[2016.12.19-23.21.28:306][543]LogBlueprintUserMessages: [CameraActor_BP_302] -677.675049
+[2016.12.19-23.21.28:322][544]LogBlueprintUserMessages: [CameraActor_BP_302] -666.76001
+[2016.12.19-23.21.28:338][545]LogBlueprintUserMessages: [CameraActor_BP_302] -656.020752
+[2016.12.19-23.21.28:355][546]LogBlueprintUserMessages: [CameraActor_BP_302] -645.453857
+[2016.12.19-23.21.28:371][547]LogBlueprintUserMessages: [CameraActor_BP_302] -635.056396
+[2016.12.19-23.21.28:387][548]LogBlueprintUserMessages: [CameraActor_BP_302] -624.82666
+[2016.12.19-23.21.28:403][549]LogBlueprintUserMessages: [CameraActor_BP_302] -614.760986
+[2016.12.19-23.21.28:419][550]LogBlueprintUserMessages: [CameraActor_BP_302] -604.857422
+[2016.12.19-23.21.28:435][551]LogBlueprintUserMessages: [CameraActor_BP_302] -595.113525
+[2016.12.19-23.21.28:451][552]LogBlueprintUserMessages: [CameraActor_BP_302] -585.526123
+[2016.12.19-23.21.28:467][553]LogBlueprintUserMessages: [CameraActor_BP_302] -576.092773
+[2016.12.19-23.21.28:483][554]LogBlueprintUserMessages: [CameraActor_BP_302] -566.811035
+[2016.12.19-23.21.28:499][555]LogBlueprintUserMessages: [CameraActor_BP_302] -557.678955
+[2016.12.19-23.21.28:516][556]LogBlueprintUserMessages: [CameraActor_BP_302] -548.693604
+[2016.12.19-23.21.28:532][557]LogBlueprintUserMessages: [CameraActor_BP_302] -539.852783
+[2016.12.19-23.21.28:548][558]LogBlueprintUserMessages: [CameraActor_BP_302] -531.154297
+[2016.12.19-23.21.28:564][559]LogBlueprintUserMessages: [CameraActor_BP_302] -522.595947
+[2016.12.19-23.21.28:580][560]LogBlueprintUserMessages: [CameraActor_BP_302] -514.175293
+[2016.12.19-23.21.28:596][561]LogBlueprintUserMessages: [CameraActor_BP_302] -505.890137
+[2016.12.19-23.21.28:613][562]LogBlueprintUserMessages: [CameraActor_BP_302] -497.738281
+[2016.12.19-23.21.28:629][563]LogBlueprintUserMessages: [CameraActor_BP_302] -489.717773
+[2016.12.19-23.21.28:645][564]LogBlueprintUserMessages: [CameraActor_BP_302] -481.826172
+[2016.12.19-23.21.28:661][565]LogBlueprintUserMessages: [CameraActor_BP_302] -474.061523
+[2016.12.19-23.21.28:677][566]LogBlueprintUserMessages: [CameraActor_BP_302] -466.421875
+[2016.12.19-23.21.28:693][567]LogBlueprintUserMessages: [CameraActor_BP_302] -458.905273
+[2016.12.19-23.21.28:709][568]LogBlueprintUserMessages: [CameraActor_BP_302] -451.509766
+[2016.12.19-23.21.28:726][569]LogBlueprintUserMessages: [CameraActor_BP_302] -444.233398
+[2016.12.19-23.21.28:742][570]LogBlueprintUserMessages: [CameraActor_BP_302] -437.073975
+[2016.12.19-23.21.28:758][571]LogBlueprintUserMessages: [CameraActor_BP_302] -430.030029
+[2016.12.19-23.21.28:774][572]LogBlueprintUserMessages: [CameraActor_BP_302] -423.099365
+[2016.12.19-23.21.28:790][573]LogBlueprintUserMessages: [CameraActor_BP_302] -416.280273
+[2016.12.19-23.21.28:806][574]LogBlueprintUserMessages: [CameraActor_BP_302] -409.571045
+[2016.12.19-23.21.28:822][575]LogBlueprintUserMessages: [CameraActor_BP_302] -402.969238
+[2016.12.19-23.21.28:838][576]LogBlueprintUserMessages: [CameraActor_BP_302] -396.474609
+[2016.12.19-23.21.28:854][577]LogBlueprintUserMessages: [CameraActor_BP_302] -390.084229
+[2016.12.19-23.21.28:870][578]LogBlueprintUserMessages: [CameraActor_BP_302] -383.796631
+[2016.12.19-23.21.28:887][579]LogBlueprintUserMessages: [CameraActor_BP_302] -377.610352
+[2016.12.19-23.21.28:903][580]LogBlueprintUserMessages: [CameraActor_BP_302] -371.523682
+[2016.12.19-23.21.28:919][581]LogBlueprintUserMessages: [CameraActor_BP_302] -365.535156
+[2016.12.19-23.21.28:935][582]LogBlueprintUserMessages: [CameraActor_BP_302] -359.643555
+[2016.12.19-23.21.28:951][583]LogBlueprintUserMessages: [CameraActor_BP_302] -353.846436
+[2016.12.19-23.21.28:967][584]LogBlueprintUserMessages: [CameraActor_BP_302] -348.142822
+[2016.12.19-23.21.28:984][585]LogBlueprintUserMessages: [CameraActor_BP_302] -342.530762
+[2016.12.19-23.21.29:000][586]LogBlueprintUserMessages: [CameraActor_BP_302] -337.009277
+[2016.12.19-23.21.29:016][587]LogBlueprintUserMessages: [CameraActor_BP_302] -331.57666
+[2016.12.19-23.21.29:032][588]LogBlueprintUserMessages: [CameraActor_BP_302] -326.231689
+[2016.12.19-23.21.29:048][589]LogBlueprintUserMessages: [CameraActor_BP_302] -320.972656
+[2016.12.19-23.21.29:064][590]LogBlueprintUserMessages: [CameraActor_BP_302] -315.79834
+[2016.12.19-23.21.29:080][591]LogBlueprintUserMessages: [CameraActor_BP_302] -310.70752
+[2016.12.19-23.21.29:097][592]LogBlueprintUserMessages: [CameraActor_BP_302] -305.698486
+[2016.12.19-23.21.29:113][593]LogBlueprintUserMessages: [CameraActor_BP_302] -300.770264
+[2016.12.19-23.21.29:129][594]LogBlueprintUserMessages: [CameraActor_BP_302] -295.921875
+[2016.12.19-23.21.29:145][595]LogBlueprintUserMessages: [CameraActor_BP_302] -291.150879
+[2016.12.19-23.21.29:161][596]LogBlueprintUserMessages: [CameraActor_BP_302] -286.457031
+[2016.12.19-23.21.29:177][597]LogBlueprintUserMessages: [CameraActor_BP_302] -281.838867
+[2016.12.19-23.21.29:193][598]LogBlueprintUserMessages: [CameraActor_BP_302] -277.294678
+[2016.12.19-23.21.29:209][599]LogBlueprintUserMessages: [CameraActor_BP_302] -272.823975
+[2016.12.19-23.21.29:225][600]LogBlueprintUserMessages: [CameraActor_BP_302] -268.425537
+[2016.12.19-23.21.29:241][601]LogBlueprintUserMessages: [CameraActor_BP_302] -264.0979
+[2016.12.19-23.21.29:257][602]LogBlueprintUserMessages: [CameraActor_BP_302] -259.8396
+[2016.12.19-23.21.29:274][603]LogBlueprintUserMessages: [CameraActor_BP_302] -255.650879
+[2016.12.19-23.21.29:290][604]LogBlueprintUserMessages: [CameraActor_BP_302] -251.529053
+[2016.12.19-23.21.29:306][605]LogBlueprintUserMessages: [CameraActor_BP_302] -247.473389
+[2016.12.19-23.21.29:322][606]LogBlueprintUserMessages: [CameraActor_BP_302] -243.483398
+[2016.12.19-23.21.29:338][607]LogBlueprintUserMessages: [CameraActor_BP_302] -239.557861
+[2016.12.19-23.21.29:355][608]LogBlueprintUserMessages: [CameraActor_BP_302] -235.695313
+[2016.12.19-23.21.29:371][609]LogBlueprintUserMessages: [CameraActor_BP_302] -231.895264
+[2016.12.19-23.21.29:387][610]LogBlueprintUserMessages: [CameraActor_BP_302] -228.156006
+[2016.12.19-23.21.29:403][611]LogBlueprintUserMessages: [CameraActor_BP_302] -224.477539
+[2016.12.19-23.21.29:419][612]LogBlueprintUserMessages: [CameraActor_BP_302] -220.858154
+[2016.12.19-23.21.29:435][613]LogBlueprintUserMessages: [CameraActor_BP_302] -217.297119
+[2016.12.19-23.21.29:451][614]LogBlueprintUserMessages: [CameraActor_BP_302] -213.793213
+[2016.12.19-23.21.45:595][608]LogBlueprintUserMessages: [CameraActor_BP_302] -2925.785645
+[2016.12.19-23.21.45:611][609]LogBlueprintUserMessages: [CameraActor_BP_302] -2881.968262
+[2016.12.19-23.21.45:627][610]LogBlueprintUserMessages: [CameraActor_BP_302] -2838.460938
+[2016.12.19-23.21.45:643][611]LogBlueprintUserMessages: [CameraActor_BP_302] -2795.318115
+[2016.12.19-23.21.45:659][612]LogBlueprintUserMessages: [CameraActor_BP_302] -2752.583008
+[2016.12.19-23.21.45:675][613]LogBlueprintUserMessages: [CameraActor_BP_302] -2710.289551
+[2016.12.19-23.21.45:692][614]LogBlueprintUserMessages: [CameraActor_BP_302] -2668.463867
+[2016.12.19-23.21.45:708][615]LogBlueprintUserMessages: [CameraActor_BP_302] -2627.126221
+[2016.12.19-23.21.45:724][616]LogBlueprintUserMessages: [CameraActor_BP_302] -2586.29248
+[2016.12.19-23.21.45:740][617]LogBlueprintUserMessages: [CameraActor_BP_302] -2545.974609
+[2016.12.19-23.21.45:756][618]LogBlueprintUserMessages: [CameraActor_BP_302] -2506.180908
+[2016.12.19-23.21.45:772][619]LogBlueprintUserMessages: [CameraActor_BP_302] -2466.91748
+[2016.12.19-23.21.45:788][620]LogBlueprintUserMessages: [CameraActor_BP_302] -2428.188232
+[2016.12.19-23.21.45:804][621]LogBlueprintUserMessages: [CameraActor_BP_302] -2389.995605
+[2016.12.19-23.21.45:821][622]LogBlueprintUserMessages: [CameraActor_BP_302] -2352.339844
+[2016.12.19-23.21.45:837][623]LogBlueprintUserMessages: [CameraActor_BP_302] -2315.220215
+[2016.12.19-23.21.45:853][624]LogBlueprintUserMessages: [CameraActor_BP_302] -2278.635986
+[2016.12.19-23.21.45:869][625]LogBlueprintUserMessages: [CameraActor_BP_302] -2242.583984
+[2016.12.19-23.21.45:885][626]LogBlueprintUserMessages: [CameraActor_BP_302] -2207.061523
+[2016.12.19-23.21.45:901][627]LogBlueprintUserMessages: [CameraActor_BP_302] -2172.064941
+[2016.12.19-23.21.45:917][628]LogBlueprintUserMessages: [CameraActor_BP_302] -2137.589844
+[2016.12.19-23.21.45:933][629]LogBlueprintUserMessages: [CameraActor_BP_302] -2103.631348
+[2016.12.19-23.21.45:949][630]LogBlueprintUserMessages: [CameraActor_BP_302] -2070.185059
+[2016.12.19-23.21.45:966][631]LogBlueprintUserMessages: [CameraActor_BP_302] -2037.24585
+[2016.12.19-23.21.45:982][632]LogBlueprintUserMessages: [CameraActor_BP_302] -2004.807617
+[2016.12.19-23.21.45:998][633]LogBlueprintUserMessages: [CameraActor_BP_302] -1972.865234
+[2016.12.19-23.21.46:014][634]LogBlueprintUserMessages: [CameraActor_BP_302] -1941.412842
+[2016.12.19-23.21.46:030][635]LogBlueprintUserMessages: [CameraActor_BP_302] -1910.44458
+[2016.12.19-23.21.46:046][636]LogBlueprintUserMessages: [CameraActor_BP_302] -1879.954224
+[2016.12.19-23.21.46:063][637]LogBlueprintUserMessages: [CameraActor_BP_302] -1849.935791
+[2016.12.19-23.21.46:079][638]LogBlueprintUserMessages: [CameraActor_BP_302] -1820.383301
+[2016.12.19-23.21.46:095][639]LogBlueprintUserMessages: [CameraActor_BP_302] -1791.290283
+[2016.12.19-23.21.46:111][640]LogBlueprintUserMessages: [CameraActor_BP_302] -1762.650879
+[2016.12.19-23.21.46:127][641]LogBlueprintUserMessages: [CameraActor_BP_302] -1734.45874
+[2016.12.19-23.21.46:143][642]LogBlueprintUserMessages: [CameraActor_BP_302] -1706.707764
+[2016.12.19-23.21.46:159][643]LogBlueprintUserMessages: [CameraActor_BP_302] -1679.391602
+[2016.12.19-23.21.46:175][644]LogBlueprintUserMessages: [CameraActor_BP_302] -1652.50415
+[2016.12.19-23.21.46:192][645]LogBlueprintUserMessages: [CameraActor_BP_302] -1626.039307
+[2016.12.19-23.21.46:208][646]LogBlueprintUserMessages: [CameraActor_BP_302] -1599.990967
+[2016.12.19-23.21.46:224][647]LogBlueprintUserMessages: [CameraActor_BP_302] -1574.353516
+[2016.12.19-23.21.46:240][648]LogBlueprintUserMessages: [CameraActor_BP_302] -1549.120117
+[2016.12.19-23.21.46:256][649]LogBlueprintUserMessages: [CameraActor_BP_302] -1524.2854
+[2016.12.19-23.21.46:272][650]LogBlueprintUserMessages: [CameraActor_BP_302] -1499.843262
+[2016.12.19-23.21.46:288][651]LogBlueprintUserMessages: [CameraActor_BP_302] -1475.788086
+[2016.12.19-23.21.46:304][652]LogBlueprintUserMessages: [CameraActor_BP_302] -1452.11377
+[2016.12.19-23.21.46:320][653]LogBlueprintUserMessages: [CameraActor_BP_302] -1428.815186
+[2016.12.19-23.21.46:337][654]LogBlueprintUserMessages: [CameraActor_BP_302] -1405.885742
+[2016.12.19-23.21.46:353][655]LogBlueprintUserMessages: [CameraActor_BP_302] -1383.320557
+[2016.12.19-23.21.46:369][656]LogBlueprintUserMessages: [CameraActor_BP_302] -1361.114014
+[2016.12.19-23.21.46:385][657]LogBlueprintUserMessages: [CameraActor_BP_302] -1339.260254
+[2016.12.19-23.21.46:401][658]LogBlueprintUserMessages: [CameraActor_BP_302] -1317.75415
+[2016.12.19-23.21.46:417][659]LogBlueprintUserMessages: [CameraActor_BP_302] -1296.590332
+[2016.12.19-23.21.46:434][660]LogBlueprintUserMessages: [CameraActor_BP_302] -1275.763672
+[2016.12.19-23.21.46:450][661]LogBlueprintUserMessages: [CameraActor_BP_302] -1255.268555
+[2016.12.19-23.21.46:466][662]LogBlueprintUserMessages: [CameraActor_BP_302] -1235.100342
+[2016.12.19-23.21.46:482][663]LogBlueprintUserMessages: [CameraActor_BP_302] -1215.253662
+[2016.12.19-23.21.46:498][664]LogBlueprintUserMessages: [CameraActor_BP_302] -1195.723877
+[2016.12.19-23.21.46:514][665]LogBlueprintUserMessages: [CameraActor_BP_302] -1176.505615
+[2016.12.19-23.21.46:530][666]LogBlueprintUserMessages: [CameraActor_BP_302] -1157.594238
+[2016.12.19-23.21.46:546][667]LogBlueprintUserMessages: [CameraActor_BP_302] -1138.985107
+[2016.12.19-23.21.46:562][668]LogBlueprintUserMessages: [CameraActor_BP_302] -1120.673096
+[2016.12.19-23.21.46:579][669]LogBlueprintUserMessages: [CameraActor_BP_302] -1102.653564
+[2016.12.19-23.21.46:595][670]LogBlueprintUserMessages: [CameraActor_BP_302] -1084.922363
+[2016.12.19-23.21.46:611][671]LogBlueprintUserMessages: [CameraActor_BP_302] -1067.474854
+[2016.12.19-23.21.46:627][672]LogBlueprintUserMessages: [CameraActor_BP_302] -1050.306885
+[2016.12.19-23.21.46:643][673]LogBlueprintUserMessages: [CameraActor_BP_302] -1033.413086
+[2016.12.19-23.21.46:659][674]LogBlueprintUserMessages: [CameraActor_BP_302] -1016.790039
+[2016.12.19-23.21.46:675][675]LogBlueprintUserMessages: [CameraActor_BP_302] -1000.433105
+[2016.12.19-23.21.46:691][676]LogBlueprintUserMessages: [CameraActor_BP_302] -984.337891
+[2016.12.19-23.21.46:707][677]LogBlueprintUserMessages: [CameraActor_BP_302] -968.500732
+[2016.12.19-23.21.46:724][678]LogBlueprintUserMessages: [CameraActor_BP_302] -952.917725
+[2016.12.19-23.21.46:740][679]LogBlueprintUserMessages: [CameraActor_BP_302] -937.584229
+[2016.12.19-23.21.46:756][680]LogBlueprintUserMessages: [CameraActor_BP_302] -922.496338
+[2016.12.19-23.21.46:772][681]LogBlueprintUserMessages: [CameraActor_BP_302] -907.650146
+[2016.12.19-23.21.46:789][682]LogBlueprintUserMessages: [CameraActor_BP_302] -893.04248
+[2016.12.19-23.21.46:805][683]LogBlueprintUserMessages: [CameraActor_BP_302] -878.668945
+[2016.12.19-23.21.46:821][684]LogBlueprintUserMessages: [CameraActor_BP_302] -864.525879
+[2016.12.19-23.21.46:837][685]LogBlueprintUserMessages: [CameraActor_BP_302] -850.609619
+[2016.12.19-23.21.46:853][686]LogBlueprintUserMessages: [CameraActor_BP_302] -836.917236
+[2016.12.19-23.21.46:869][687]LogBlueprintUserMessages: [CameraActor_BP_302] -823.443848
+[2016.12.19-23.21.46:885][688]LogBlueprintUserMessages: [CameraActor_BP_302] -810.187012
+[2016.12.19-23.21.46:901][689]LogBlueprintUserMessages: [CameraActor_BP_302] -797.143311
+[2016.12.19-23.21.46:917][690]LogBlueprintUserMessages: [CameraActor_BP_302] -784.308838
+[2016.12.19-23.21.46:933][691]LogBlueprintUserMessages: [CameraActor_BP_302] -771.68042
+[2016.12.19-23.21.46:950][692]LogBlueprintUserMessages: [CameraActor_BP_302] -759.254639
+[2016.12.19-23.21.46:966][693]LogBlueprintUserMessages: [CameraActor_BP_302] -747.028809
+[2016.12.19-23.21.46:982][694]LogBlueprintUserMessages: [CameraActor_BP_302] -734.999268
+[2016.12.19-23.21.46:998][695]LogBlueprintUserMessages: [CameraActor_BP_302] -723.162842
+[2016.12.19-23.21.47:014][696]LogBlueprintUserMessages: [CameraActor_BP_302] -711.516846
+[2016.12.19-23.21.47:030][697]LogBlueprintUserMessages: [CameraActor_BP_302] -700.057861
+[2016.12.19-23.21.47:046][698]LogBlueprintUserMessages: [CameraActor_BP_302] -688.779785
+[2016.12.19-23.21.47:062][699]LogBlueprintUserMessages: [CameraActor_BP_302] -677.686279
+[2016.12.19-23.21.47:078][700]LogBlueprintUserMessages: [CameraActor_BP_302] -666.770996
+[2016.12.19-23.22.00:547][535]LogBlueprintUserMessages: [CameraActor_BP_302] -3021.917969
+[2016.12.19-23.22.00:563][536]LogBlueprintUserMessages: [CameraActor_BP_302] -2977.693604
+[2016.12.19-23.22.00:579][537]LogBlueprintUserMessages: [CameraActor_BP_302] -2933.602051
+[2016.12.19-23.22.00:595][538]LogBlueprintUserMessages: [CameraActor_BP_302] -2889.736328
+[2016.12.19-23.22.00:611][539]LogBlueprintUserMessages: [CameraActor_BP_302] -2846.169434
+[2016.12.19-23.22.00:627][540]LogBlueprintUserMessages: [CameraActor_BP_302] -2802.958496
+[2016.12.19-23.22.00:643][541]LogBlueprintUserMessages: [CameraActor_BP_302] -2760.148438
+[2016.12.19-23.22.00:660][542]LogBlueprintUserMessages: [CameraActor_BP_302] -2717.773926
+[2016.12.19-23.22.00:676][543]LogBlueprintUserMessages: [CameraActor_BP_302] -2675.863525
+[2016.12.19-23.22.00:692][544]LogBlueprintUserMessages: [CameraActor_BP_302] -2634.437988
+[2016.12.19-23.22.00:708][545]LogBlueprintUserMessages: [CameraActor_BP_302] -2593.513672
+[2016.12.19-23.22.00:724][546]LogBlueprintUserMessages: [CameraActor_BP_302] -2553.103516
+[2016.12.19-23.22.00:740][547]LogBlueprintUserMessages: [CameraActor_BP_302] -2513.21582
+[2016.12.19-23.22.00:756][548]LogBlueprintUserMessages: [CameraActor_BP_302] -2473.85791
+[2016.12.19-23.22.00:772][549]LogBlueprintUserMessages: [CameraActor_BP_302] -2435.033691
+[2016.12.19-23.22.00:788][550]LogBlueprintUserMessages: [CameraActor_BP_302] -2396.745605
+[2016.12.19-23.22.00:804][551]LogBlueprintUserMessages: [CameraActor_BP_302] -2358.994141
+[2016.12.19-23.22.00:821][552]LogBlueprintUserMessages: [CameraActor_BP_302] -2321.779785
+[2016.12.19-23.22.00:837][553]LogBlueprintUserMessages: [CameraActor_BP_302] -2285.100342
+[2016.12.19-23.22.00:853][554]LogBlueprintUserMessages: [CameraActor_BP_302] -2248.954102
+[2016.12.19-23.22.00:869][555]LogBlueprintUserMessages: [CameraActor_BP_302] -2213.337891
+[2016.12.19-23.22.00:885][556]LogBlueprintUserMessages: [CameraActor_BP_302] -2178.247803
+[2016.12.19-23.22.00:901][557]LogBlueprintUserMessages: [CameraActor_BP_302] -2143.680176
+[2016.12.19-23.22.00:918][558]LogBlueprintUserMessages: [CameraActor_BP_302] -2109.630371
+[2016.12.19-23.22.00:934][559]LogBlueprintUserMessages: [CameraActor_BP_302] -2076.093506
+[2016.12.19-23.22.00:950][560]LogBlueprintUserMessages: [CameraActor_BP_302] -2043.064331
+[2016.12.19-23.22.00:966][561]LogBlueprintUserMessages: [CameraActor_BP_302] -2010.537476
+[2016.12.19-23.22.00:982][562]LogBlueprintUserMessages: [CameraActor_BP_302] -1978.507568
+[2016.12.19-23.22.00:998][563]LogBlueprintUserMessages: [CameraActor_BP_302] -1946.968506
+[2016.12.19-23.22.02:675][667]LogBlueprintUserMessages: [CameraActor_BP_302] -2694.117676
+[2016.12.19-23.22.02:691][668]LogBlueprintUserMessages: [CameraActor_BP_302] -2652.477783
+[2016.12.19-23.22.02:708][669]LogBlueprintUserMessages: [CameraActor_BP_302] -2611.332764
+[2016.12.19-23.22.02:724][670]LogBlueprintUserMessages: [CameraActor_BP_302] -2570.696777
+[2016.12.19-23.22.02:740][671]LogBlueprintUserMessages: [CameraActor_BP_302] -2530.579834
+[2016.12.19-23.22.02:756][672]LogBlueprintUserMessages: [CameraActor_BP_302] -2490.989746
+[2016.12.19-23.22.02:772][673]LogBlueprintUserMessages: [CameraActor_BP_302] -2451.931885
+[2016.12.19-23.22.02:788][674]LogBlueprintUserMessages: [CameraActor_BP_302] -2413.40918
+[2016.12.19-23.22.02:805][675]LogBlueprintUserMessages: [CameraActor_BP_302] -2375.42334
+[2016.12.19-23.22.02:821][676]LogBlueprintUserMessages: [CameraActor_BP_302] -2337.974365
+[2016.12.19-23.22.02:837][677]LogBlueprintUserMessages: [CameraActor_BP_302] -2301.061523
+[2016.12.19-23.22.02:853][678]LogBlueprintUserMessages: [CameraActor_BP_302] -2264.682617
+[2016.12.19-23.22.02:869][679]LogBlueprintUserMessages: [CameraActor_BP_302] -2228.834961
+[2016.12.19-23.22.02:885][680]LogBlueprintUserMessages: [CameraActor_BP_302] -2193.515625
+[2016.12.19-23.22.02:901][681]LogBlueprintUserMessages: [CameraActor_BP_302] -2158.720215
+[2016.12.19-23.22.02:918][682]LogBlueprintUserMessages: [CameraActor_BP_302] -2124.444824
+[2016.12.19-23.22.02:934][683]LogBlueprintUserMessages: [CameraActor_BP_302] -2090.68457
+[2016.12.19-23.22.02:950][684]LogBlueprintUserMessages: [CameraActor_BP_302] -2057.434082
+[2016.12.19-23.22.02:966][685]LogBlueprintUserMessages: [CameraActor_BP_302] -2024.688721
+[2016.12.19-23.22.02:982][686]LogBlueprintUserMessages: [CameraActor_BP_302] -1992.442261
+[2016.12.19-23.22.02:998][687]LogBlueprintUserMessages: [CameraActor_BP_302] -1960.689331
+[2016.12.19-23.22.03:014][688]LogBlueprintUserMessages: [CameraActor_BP_302] -1929.424194
+[2016.12.19-23.22.03:030][689]LogBlueprintUserMessages: [CameraActor_BP_302] -1898.640625
+[2016.12.19-23.22.03:046][690]LogBlueprintUserMessages: [CameraActor_BP_302] -1868.332886
+[2016.12.19-23.22.03:063][691]LogBlueprintUserMessages: [CameraActor_BP_302] -1838.494751
+[2016.12.19-23.22.03:079][692]LogBlueprintUserMessages: [CameraActor_BP_302] -1809.120117
+[2016.12.19-23.22.03:095][693]LogBlueprintUserMessages: [CameraActor_BP_302] -1780.202393
+[2016.12.19-23.22.03:111][694]LogBlueprintUserMessages: [CameraActor_BP_302] -1751.736084
+[2016.12.19-23.22.03:127][695]LogBlueprintUserMessages: [CameraActor_BP_302] -1723.714355
+[2016.12.19-23.22.03:143][696]LogBlueprintUserMessages: [CameraActor_BP_302] -1696.131592
+[2016.12.19-23.22.03:160][697]LogBlueprintUserMessages: [CameraActor_BP_302] -1668.981445
+[2016.12.19-23.22.03:176][698]LogBlueprintUserMessages: [CameraActor_BP_302] -1642.257568
+[2016.12.19-23.22.03:192][699]LogBlueprintUserMessages: [CameraActor_BP_302] -1615.954102
+[2016.12.19-23.22.03:208][700]LogBlueprintUserMessages: [CameraActor_BP_302] -1590.064697
+[2016.12.19-23.22.03:224][701]LogBlueprintUserMessages: [CameraActor_BP_302] -1564.583496
+[2016.12.19-23.22.03:240][702]LogBlueprintUserMessages: [CameraActor_BP_302] -1539.504639
+[2016.12.19-23.22.03:256][703]LogBlueprintUserMessages: [CameraActor_BP_302] -1514.821777
+[2016.12.19-23.22.03:272][704]LogBlueprintUserMessages: [CameraActor_BP_302] -1490.529785
+[2016.12.19-23.22.03:289][705]LogBlueprintUserMessages: [CameraActor_BP_302] -1466.621826
+[2016.12.19-23.22.03:305][706]LogBlueprintUserMessages: [CameraActor_BP_302] -1443.093018
+[2016.12.19-23.22.03:321][707]LogBlueprintUserMessages: [CameraActor_BP_302] -1419.937256
+[2016.12.19-23.22.03:337][708]LogBlueprintUserMessages: [CameraActor_BP_302] -1397.14917
+[2016.12.19-23.22.03:353][709]LogBlueprintUserMessages: [CameraActor_BP_302] -1374.722656
+[2016.12.19-23.22.03:369][710]LogBlueprintUserMessages: [CameraActor_BP_302] -1352.652588
+[2016.12.19-23.22.03:385][711]LogBlueprintUserMessages: [CameraActor_BP_302] -1330.93335
+[2016.12.19-23.22.03:401][712]LogBlueprintUserMessages: [CameraActor_BP_302] -1309.559814
+[2016.12.19-23.22.03:417][713]LogBlueprintUserMessages: [CameraActor_BP_302] -1288.526367
+[2016.12.19-23.22.03:434][714]LogBlueprintUserMessages: [CameraActor_BP_302] -1267.828125
+[2016.12.19-23.22.03:450][715]LogBlueprintUserMessages: [CameraActor_BP_302] -1247.459717
+[2016.12.19-23.22.03:466][716]LogBlueprintUserMessages: [CameraActor_BP_302] -1227.416016
+[2016.12.19-23.22.03:482][717]LogBlueprintUserMessages: [CameraActor_BP_302] -1207.691895
+[2016.12.19-23.22.03:498][718]LogBlueprintUserMessages: [CameraActor_BP_302] -1188.282959
+[2016.12.19-23.22.03:515][719]LogBlueprintUserMessages: [CameraActor_BP_302] -1169.183838
+[2016.12.19-23.22.03:531][720]LogBlueprintUserMessages: [CameraActor_BP_302] -1150.38916
+[2016.12.19-23.22.03:547][721]LogBlueprintUserMessages: [CameraActor_BP_302] -1131.895264
+[2016.12.19-23.22.03:563][722]LogBlueprintUserMessages: [CameraActor_BP_302] -1113.696777
+[2016.12.19-23.22.03:579][723]LogBlueprintUserMessages: [CameraActor_BP_302] -1095.789307
+[2016.12.19-23.22.03:595][724]LogBlueprintUserMessages: [CameraActor_BP_302] -1078.168213
+[2016.12.19-23.22.03:611][725]LogBlueprintUserMessages: [CameraActor_BP_302] -1060.828857
+[2016.12.19-23.22.03:627][726]LogBlueprintUserMessages: [CameraActor_BP_302] -1043.766846
+[2016.12.19-23.22.03:643][727]LogBlueprintUserMessages: [CameraActor_BP_302] -1026.978027
+[2016.12.19-23.22.03:659][728]LogBlueprintUserMessages: [CameraActor_BP_302] -1010.457764
+[2016.12.19-23.22.03:676][729]LogBlueprintUserMessages: [CameraActor_BP_302] -994.202393
+[2016.12.19-23.22.03:692][730]LogBlueprintUserMessages: [CameraActor_BP_302] -978.207275
+[2016.12.19-23.22.03:708][731]LogBlueprintUserMessages: [CameraActor_BP_302] -962.468262
+[2016.12.19-23.22.03:724][732]LogBlueprintUserMessages: [CameraActor_BP_302] -946.981689
+[2016.12.19-23.22.03:740][733]LogBlueprintUserMessages: [CameraActor_BP_302] -931.743164
+[2016.12.19-23.22.03:756][734]LogBlueprintUserMessages: [CameraActor_BP_302] -916.749023
+[2016.12.19-23.22.03:772][735]LogBlueprintUserMessages: [CameraActor_BP_302] -901.995117
+[2016.12.19-23.22.08:450][ 25]LogBlueprintUserMessages: [CameraActor_BP_302] -2956.196777
+[2016.12.19-23.22.08:466][ 26]LogBlueprintUserMessages: [CameraActor_BP_302] -2912.205078
+[2016.12.19-23.22.08:482][ 27]LogBlueprintUserMessages: [CameraActor_BP_302] -2868.477051
+[2016.12.19-23.22.08:498][ 28]LogBlueprintUserMessages: [CameraActor_BP_302] -2825.077148
+[2016.12.19-23.22.08:514][ 29]LogBlueprintUserMessages: [CameraActor_BP_302] -2782.056152
+[2016.12.19-23.22.08:530][ 30]LogBlueprintUserMessages: [CameraActor_BP_302] -2739.45459
+[2016.12.19-23.22.08:546][ 31]LogBlueprintUserMessages: [CameraActor_BP_302] -2697.302979
+[2016.12.19-23.22.08:563][ 32]LogBlueprintUserMessages: [CameraActor_BP_302] -2655.626221
+[2016.12.19-23.22.08:579][ 33]LogBlueprintUserMessages: [CameraActor_BP_302] -2614.442871
+[2016.12.19-23.22.08:595][ 34]LogBlueprintUserMessages: [CameraActor_BP_302] -2573.767578
+[2016.12.19-23.22.08:611][ 35]LogBlueprintUserMessages: [CameraActor_BP_302] -2533.611328
+[2016.12.19-23.22.08:627][ 36]LogBlueprintUserMessages: [CameraActor_BP_302] -2493.980957
+[2016.12.19-23.22.11:208][196]LogBlueprintUserMessages: [CameraActor_BP_302] -2428.313232
+[2016.12.19-23.22.12:515][277]LogBlueprintUserMessages: [CameraActor_BP_302] -2392.161621
+[2016.12.19-23.22.12:531][278]LogBlueprintUserMessages: [CameraActor_BP_302] -2356.241211
+[2016.12.19-23.22.12:547][279]LogBlueprintUserMessages: [CameraActor_BP_302] -2320.60083
+[2016.12.19-23.22.12:563][280]LogBlueprintUserMessages: [CameraActor_BP_302] -2285.285645
+[2016.12.19-23.22.12:579][281]LogBlueprintUserMessages: [CameraActor_BP_302] -2250.321289
+[2016.12.19-23.22.12:595][282]LogBlueprintUserMessages: [CameraActor_BP_302] -2215.731201
+[2016.12.19-23.22.12:611][283]LogBlueprintUserMessages: [CameraActor_BP_302] -2181.533203
+[2016.12.19-23.22.12:627][284]LogBlueprintUserMessages: [CameraActor_BP_302] -2147.741943
+[2016.12.19-23.22.12:643][285]LogBlueprintUserMessages: [CameraActor_BP_302] -2114.368164
+[2016.12.19-23.22.12:659][286]LogBlueprintUserMessages: [CameraActor_BP_302] -2081.419678
+[2016.12.19-23.22.12:675][287]LogBlueprintUserMessages: [CameraActor_BP_302] -2048.902832
+[2016.12.19-23.22.12:692][288]LogBlueprintUserMessages: [CameraActor_BP_302] -2016.821045
+[2016.12.19-23.22.12:708][289]LogBlueprintUserMessages: [CameraActor_BP_302] -1985.17749
+[2016.12.19-23.22.12:724][290]LogBlueprintUserMessages: [CameraActor_BP_302] -1953.973145
+[2016.12.19-23.22.12:740][291]LogBlueprintUserMessages: [CameraActor_BP_302] -1923.208008
+[2016.12.19-23.22.12:756][292]LogBlueprintUserMessages: [CameraActor_BP_302] -1892.881714
+[2016.12.19-23.22.12:772][293]LogBlueprintUserMessages: [CameraActor_BP_302] -1862.992188
+[2016.12.19-23.22.12:789][294]LogBlueprintUserMessages: [CameraActor_BP_302] -1833.53772
+[2016.12.19-23.22.12:805][295]LogBlueprintUserMessages: [CameraActor_BP_302] -1804.515381
+[2016.12.19-23.22.12:821][296]LogBlueprintUserMessages: [CameraActor_BP_302] -1775.922363
+[2016.12.19-23.22.12:837][297]LogBlueprintUserMessages: [CameraActor_BP_302] -1747.755005
+[2016.12.19-23.22.12:853][298]LogBlueprintUserMessages: [CameraActor_BP_302] -1720.009399
+[2016.12.19-23.22.12:869][299]LogBlueprintUserMessages: [CameraActor_BP_302] -1692.681396
+[2016.12.19-23.22.12:886][300]LogBlueprintUserMessages: [CameraActor_BP_302] -1665.766968
+[2016.12.19-23.22.12:902][301]LogBlueprintUserMessages: [CameraActor_BP_302] -1639.261597
+[2016.12.19-23.22.12:918][302]LogBlueprintUserMessages: [CameraActor_BP_302] -1613.160522
+[2016.12.19-23.22.12:934][303]LogBlueprintUserMessages: [CameraActor_BP_302] -1587.459106
+[2016.12.19-23.22.12:950][304]LogBlueprintUserMessages: [CameraActor_BP_302] -1562.152588
+[2016.12.19-23.22.12:966][305]LogBlueprintUserMessages: [CameraActor_BP_302] -1537.236206
+[2016.12.19-23.22.12:982][306]LogBlueprintUserMessages: [CameraActor_BP_302] -1512.704712
+[2016.12.19-23.22.12:998][307]LogBlueprintUserMessages: [CameraActor_BP_302] -1488.553467
+[2016.12.19-23.22.13:014][308]LogBlueprintUserMessages: [CameraActor_BP_302] -1464.777466
+[2016.12.19-23.22.40:095][987]LogBlueprintUserMessages: [CameraActor_BP_302] -3029.275879
+[2016.12.19-23.22.40:111][988]LogBlueprintUserMessages: [CameraActor_BP_302] -2983.805664
+[2016.12.19-23.22.40:128][989]LogBlueprintUserMessages: [CameraActor_BP_302] -2938.640625
+[2016.12.19-23.22.40:144][990]LogBlueprintUserMessages: [CameraActor_BP_302] -2893.845459
+[2016.12.19-23.22.40:160][991]LogBlueprintUserMessages: [CameraActor_BP_302] -2849.470215
+[2016.12.19-23.22.40:176][992]LogBlueprintUserMessages: [CameraActor_BP_302] -2805.553223
+[2016.12.19-23.22.40:192][993]LogBlueprintUserMessages: [CameraActor_BP_302] -2762.124023
+[2016.12.19-23.22.40:208][994]LogBlueprintUserMessages: [CameraActor_BP_302] -2719.205566
+[2016.12.19-23.22.40:224][995]LogBlueprintUserMessages: [CameraActor_BP_302] -2676.814941
+[2016.12.19-23.22.40:240][996]LogBlueprintUserMessages: [CameraActor_BP_302] -2634.965332
+[2016.12.19-23.22.40:257][997]LogBlueprintUserMessages: [CameraActor_BP_302] -2593.665039
+[2016.12.19-23.22.40:273][998]LogBlueprintUserMessages: [CameraActor_BP_302] -2552.921143
+[2016.12.19-23.22.40:289][999]LogBlueprintUserMessages: [CameraActor_BP_302] -2512.737061
+[2016.12.19-23.22.40:305][  0]LogBlueprintUserMessages: [CameraActor_BP_302] -2473.115234
+[2016.12.19-23.22.40:321][  1]LogBlueprintUserMessages: [CameraActor_BP_302] -2434.055664
+[2016.12.19-23.22.40:338][  2]LogBlueprintUserMessages: [CameraActor_BP_302] -2395.557617
+[2016.12.19-23.22.40:354][  3]LogBlueprintUserMessages: [CameraActor_BP_302] -2357.619629
+[2016.12.19-23.22.40:370][  4]LogBlueprintUserMessages: [CameraActor_BP_302] -2320.238281
+[2016.12.19-23.22.40:386][  5]LogBlueprintUserMessages: [CameraActor_BP_302] -2283.4104
+[2016.12.19-23.22.40:402][  6]LogBlueprintUserMessages: [CameraActor_BP_302] -2247.131836
+[2016.12.19-23.22.40:418][  7]LogBlueprintUserMessages: [CameraActor_BP_302] -2211.397705
+[2016.12.19-23.22.42:789][154]LogBlueprintUserMessages: [CameraActor_BP_302] -2176.203125
+[2016.12.19-23.22.42:805][155]LogBlueprintUserMessages: [CameraActor_BP_302] -2141.542969
+[2016.12.19-23.22.42:821][156]LogBlueprintUserMessages: [CameraActor_BP_302] -2107.411133
+[2016.12.19-23.22.42:837][157]LogBlueprintUserMessages: [CameraActor_BP_302] -2073.801758
+[2016.12.19-23.22.42:854][158]LogBlueprintUserMessages: [CameraActor_BP_302] -2040.709106
+[2016.12.19-23.22.42:870][159]LogBlueprintUserMessages: [CameraActor_BP_302] -2008.126709
+[2016.12.19-23.22.42:886][160]LogBlueprintUserMessages: [CameraActor_BP_302] -1976.048218
+[2016.12.19-23.22.42:902][161]LogBlueprintUserMessages: [CameraActor_BP_302] -1944.467529
+[2016.12.19-23.22.42:918][162]LogBlueprintUserMessages: [CameraActor_BP_302] -1913.377808
+[2016.12.19-23.22.42:934][163]LogBlueprintUserMessages: [CameraActor_BP_302] -1882.772827
+[2016.12.19-23.22.42:951][164]LogBlueprintUserMessages: [CameraActor_BP_302] -1852.645874
+[2016.12.19-23.22.42:967][165]LogBlueprintUserMessages: [CameraActor_BP_302] -1822.990234
+[2016.12.19-23.22.42:983][166]LogBlueprintUserMessages: [CameraActor_BP_302] -1793.799805
+[2016.12.19-23.22.42:999][167]LogBlueprintUserMessages: [CameraActor_BP_302] -1765.067627
+[2016.12.19-23.22.43:015][168]LogBlueprintUserMessages: [CameraActor_BP_302] -1736.787354
+[2016.12.19-23.22.43:031][169]LogBlueprintUserMessages: [CameraActor_BP_302] -1708.952393
+[2016.12.19-23.22.43:047][170]LogBlueprintUserMessages: [CameraActor_BP_302] -1681.556396
+[2016.12.19-23.22.43:063][171]LogBlueprintUserMessages: [CameraActor_BP_302] -1654.593018
+[2016.12.19-23.22.43:079][172]LogBlueprintUserMessages: [CameraActor_BP_302] -1628.055908
+[2016.12.19-23.22.43:095][173]LogBlueprintUserMessages: [CameraActor_BP_302] -1601.938232
+[2016.12.19-23.22.43:111][174]LogBlueprintUserMessages: [CameraActor_BP_302] -1576.234863
+[2016.12.19-23.22.43:128][175]LogBlueprintUserMessages: [CameraActor_BP_302] -1550.938477
+[2016.12.19-23.22.43:144][176]LogBlueprintUserMessages: [CameraActor_BP_302] -1526.043457
+[2016.12.19-23.22.43:160][177]LogBlueprintUserMessages: [CameraActor_BP_302] -1501.543945
+[2016.12.19-23.22.43:176][178]LogBlueprintUserMessages: [CameraActor_BP_302] -1477.433838
+[2016.12.19-23.22.43:192][179]LogBlueprintUserMessages: [CameraActor_BP_302] -1453.706543
+[2016.12.19-23.22.43:208][180]LogBlueprintUserMessages: [CameraActor_BP_302] -1430.357422
+[2016.12.19-23.22.43:224][181]LogBlueprintUserMessages: [CameraActor_BP_302] -1407.379395
+[2016.12.19-23.22.43:241][182]LogBlueprintUserMessages: [CameraActor_BP_302] -1384.767822
+[2016.12.19-23.22.43:257][183]LogBlueprintUserMessages: [CameraActor_BP_302] -1362.516357
+[2016.12.19-23.22.43:273][184]LogBlueprintUserMessages: [CameraActor_BP_302] -1340.619629
+[2016.12.19-23.22.43:289][185]LogBlueprintUserMessages: [CameraActor_BP_302] -1319.07251
+[2016.12.19-23.22.43:305][186]LogBlueprintUserMessages: [CameraActor_BP_302] -1297.869141
+[2016.12.19-23.22.43:322][187]LogBlueprintUserMessages: [CameraActor_BP_302] -1277.00415
+[2016.12.19-23.22.43:338][188]LogBlueprintUserMessages: [CameraActor_BP_302] -1256.4729
+[2016.12.19-23.22.43:354][189]LogBlueprintUserMessages: [CameraActor_BP_302] -1236.269531
+[2016.12.19-23.22.43:370][190]LogBlueprintUserMessages: [CameraActor_BP_302] -1216.388916
+[2016.12.19-23.22.43:386][191]LogBlueprintUserMessages: [CameraActor_BP_302] -1196.826416
+[2016.12.19-23.22.44:999][291]LogBlueprintUserMessages: [CameraActor_BP_302] -2588.364502
+[2016.12.19-23.22.45:015][292]LogBlueprintUserMessages: [CameraActor_BP_302] -2547.692871
+[2016.12.19-23.22.45:031][293]LogBlueprintUserMessages: [CameraActor_BP_302] -2507.581299
+[2016.12.19-23.22.45:047][294]LogBlueprintUserMessages: [CameraActor_BP_302] -2468.032227
+[2016.12.19-23.22.45:063][295]LogBlueprintUserMessages: [CameraActor_BP_302] -2429.04541
+[2016.12.19-23.22.45:079][296]LogBlueprintUserMessages: [CameraActor_BP_302] -2390.620117
+[2016.12.19-23.22.45:096][297]LogBlueprintUserMessages: [CameraActor_BP_302] -2352.753906
+[2016.12.19-23.22.45:112][298]LogBlueprintUserMessages: [CameraActor_BP_302] -2315.44458
+[2016.12.19-23.22.45:128][299]LogBlueprintUserMessages: [CameraActor_BP_302] -2278.687988
+[2016.12.19-23.22.45:144][300]LogBlueprintUserMessages: [CameraActor_BP_302] -2242.47998
+[2016.12.19-23.22.45:160][301]LogBlueprintUserMessages: [CameraActor_BP_302] -2206.816162
+[2016.12.19-23.22.45:176][302]LogBlueprintUserMessages: [CameraActor_BP_302] -2171.690918
+[2016.12.19-23.22.45:193][303]LogBlueprintUserMessages: [CameraActor_BP_302] -2137.099609
+[2016.12.19-23.22.45:209][304]LogBlueprintUserMessages: [CameraActor_BP_302] -2103.035645
+[2016.12.19-23.22.45:225][305]LogBlueprintUserMessages: [CameraActor_BP_302] -2069.493652
+[2016.12.19-23.22.45:241][306]LogBlueprintUserMessages: [CameraActor_BP_302] -2036.467407
+[2016.12.19-23.22.45:257][307]LogBlueprintUserMessages: [CameraActor_BP_302] -2003.950439
+[2016.12.19-23.22.45:273][308]LogBlueprintUserMessages: [CameraActor_BP_302] -1971.937012
+[2016.12.19-23.22.45:289][309]LogBlueprintUserMessages: [CameraActor_BP_302] -1940.420044
+[2016.12.19-23.22.45:305][310]LogBlueprintUserMessages: [CameraActor_BP_302] -1909.393433
+[2016.12.19-23.22.45:321][311]LogBlueprintUserMessages: [CameraActor_BP_302] -1878.850708
+[2016.12.19-23.22.45:337][312]LogBlueprintUserMessages: [CameraActor_BP_302] -1848.784912
+[2016.12.19-23.22.45:353][313]LogBlueprintUserMessages: [CameraActor_BP_302] -1819.190186
+[2016.12.19-23.22.45:370][314]LogBlueprintUserMessages: [CameraActor_BP_302] -1790.059326
+[2016.12.19-23.22.45:386][315]LogBlueprintUserMessages: [CameraActor_BP_302] -1761.385742
+[2016.12.19-23.23.15:531][184]LogBlueprintUserMessages: [CameraActor_BP_302] -2534.417969
+[2016.12.19-23.23.15:548][185]LogBlueprintUserMessages: [CameraActor_BP_302] -2494.491699
+[2016.12.19-23.23.15:564][186]LogBlueprintUserMessages: [CameraActor_BP_302] -2455.127686
+[2016.12.19-23.23.15:580][187]LogBlueprintUserMessages: [CameraActor_BP_302] -2416.326172
+[2016.12.19-23.23.15:596][188]LogBlueprintUserMessages: [CameraActor_BP_302] -2378.085449
+[2016.12.19-23.23.15:612][189]LogBlueprintUserMessages: [CameraActor_BP_302] -2340.402832
+[2016.12.19-23.23.15:628][190]LogBlueprintUserMessages: [CameraActor_BP_302] -2303.275879
+[2016.12.19-23.23.15:645][191]LogBlueprintUserMessages: [CameraActor_BP_302] -2266.700684
+[2016.12.19-23.23.15:661][192]LogBlueprintUserMessages: [CameraActor_BP_302] -2230.672363
+[2016.12.19-23.23.15:677][193]LogBlueprintUserMessages: [CameraActor_BP_302] -2195.186523
+[2016.12.19-23.23.15:693][194]LogBlueprintUserMessages: [CameraActor_BP_302] -2160.237793
+[2016.12.19-23.23.15:709][195]LogBlueprintUserMessages: [CameraActor_BP_302] -2125.820557
+[2016.12.19-23.23.15:725][196]LogBlueprintUserMessages: [CameraActor_BP_302] -2091.929199
+[2016.12.19-23.23.15:741][197]LogBlueprintUserMessages: [CameraActor_BP_302] -2058.557617
+[2016.12.19-23.23.15:757][198]LogBlueprintUserMessages: [CameraActor_BP_302] -2025.700073
+[2016.12.19-23.23.15:773][199]LogBlueprintUserMessages: [CameraActor_BP_302] -1993.349731
+[2016.12.19-23.23.15:789][200]LogBlueprintUserMessages: [CameraActor_BP_302] -1961.50061
+[2016.12.19-23.23.15:805][201]LogBlueprintUserMessages: [CameraActor_BP_302] -1930.145874
+[2016.12.19-23.23.15:822][202]LogBlueprintUserMessages: [CameraActor_BP_302] -1899.279297
+[2016.12.19-23.23.15:838][203]LogBlueprintUserMessages: [CameraActor_BP_302] -1868.894531
+[2016.12.19-23.23.15:854][204]LogBlueprintUserMessages: [CameraActor_BP_302] -1838.984863
+[2016.12.19-23.23.15:870][205]LogBlueprintUserMessages: [CameraActor_BP_302] -1809.532471
+[2016.12.19-23.23.15:886][206]LogBlueprintUserMessages: [CameraActor_BP_302] -1780.553223
+[2016.12.19-23.23.15:902][207]LogBlueprintUserMessages: [CameraActor_BP_302] -1752.029297
+[2016.12.19-23.23.15:918][208]LogBlueprintUserMessages: [CameraActor_BP_302] -1723.954346
+[2016.12.19-23.23.15:935][209]LogBlueprintUserMessages: [CameraActor_BP_302] -1696.321533
+[2016.12.19-23.23.15:951][210]LogBlueprintUserMessages: [CameraActor_BP_302] -1669.125244
+[2016.12.19-23.23.41:322][783]LogBlueprintUserMessages: [CameraActor_BP_302] -3018.915039
+[2016.12.19-23.23.41:338][784]LogBlueprintUserMessages: [CameraActor_BP_302] -2973.507813
+[2016.12.19-23.23.41:354][785]LogBlueprintUserMessages: [CameraActor_BP_302] -2928.421875
+[2016.12.19-23.23.41:371][786]LogBlueprintUserMessages: [CameraActor_BP_302] -2883.718262
+[2016.12.19-23.23.41:387][787]LogBlueprintUserMessages: [CameraActor_BP_302] -2839.444336
+[2016.12.19-23.23.41:403][788]LogBlueprintUserMessages: [CameraActor_BP_302] -2795.635986
+[2016.12.19-23.23.41:419][789]LogBlueprintUserMessages: [CameraActor_BP_302] -2752.321289
+[2016.12.19-23.23.41:435][790]LogBlueprintUserMessages: [CameraActor_BP_302] -2709.521973
+[2016.12.19-23.23.41:451][791]LogBlueprintUserMessages: [CameraActor_BP_302] -2667.253418
+[2016.12.19-23.23.41:467][792]LogBlueprintUserMessages: [CameraActor_BP_302] -2625.527832
+[2016.12.19-23.23.41:483][793]LogBlueprintUserMessages: [CameraActor_BP_302] -2584.35376
+[2016.12.19-23.23.41:500][794]LogBlueprintUserMessages: [CameraActor_BP_302] -2543.736816
+[2016.12.19-23.23.41:516][795]LogBlueprintUserMessages: [CameraActor_BP_302] -2503.680664
+[2016.12.19-23.23.41:532][796]LogBlueprintUserMessages: [CameraActor_BP_302] -2464.186523
+[2016.12.19-23.23.41:548][797]LogBlueprintUserMessages: [CameraActor_BP_302] -2425.254883
+[2016.12.19-23.23.41:564][798]LogBlueprintUserMessages: [CameraActor_BP_302] -2386.884521
+[2016.12.19-23.23.44:597][986]LogBlueprintUserMessages: [CameraActor_BP_302] -2349.073242
+[2016.12.19-23.23.44:613][987]LogBlueprintUserMessages: [CameraActor_BP_302] -2311.818115
+[2016.12.19-23.23.44:629][988]LogBlueprintUserMessages: [CameraActor_BP_302] -2275.113525
+[2016.12.19-23.23.44:645][989]LogBlueprintUserMessages: [CameraActor_BP_302] -2238.958984
+[2016.12.19-23.23.44:661][990]LogBlueprintUserMessages: [CameraActor_BP_302] -2203.348145
+[2016.12.19-23.23.44:677][991]LogBlueprintUserMessages: [CameraActor_BP_302] -2168.275635
+[2016.12.19-23.23.44:693][992]LogBlueprintUserMessages: [CameraActor_BP_302] -2133.736084
+[2016.12.19-23.23.44:709][993]LogBlueprintUserMessages: [CameraActor_BP_302] -2099.723633
+[2016.12.19-23.23.44:725][994]LogBlueprintUserMessages: [CameraActor_BP_302] -2066.232422
+[2016.12.19-23.23.44:741][995]LogBlueprintUserMessages: [CameraActor_BP_302] -2033.256348
+[2016.12.19-23.23.44:758][996]LogBlueprintUserMessages: [CameraActor_BP_302] -2000.789429
+[2016.12.19-23.23.44:774][997]LogBlueprintUserMessages: [CameraActor_BP_302] -1968.824829
+[2016.12.19-23.23.44:790][998]LogBlueprintUserMessages: [CameraActor_BP_302] -1937.356445
+[2016.12.19-23.23.44:806][999]LogBlueprintUserMessages: [CameraActor_BP_302] -1906.377563
+[2016.12.19-23.23.44:822][  0]LogBlueprintUserMessages: [CameraActor_BP_302] -1875.881714
+[2016.12.19-23.23.44:838][  1]LogBlueprintUserMessages: [CameraActor_BP_302] -1845.862549
+[2016.12.19-23.23.44:855][  2]LogBlueprintUserMessages: [CameraActor_BP_302] -1816.313232
+[2016.12.19-23.23.44:871][  3]LogBlueprintUserMessages: [CameraActor_BP_302] -1787.227539
+[2016.12.19-23.23.44:887][  4]LogBlueprintUserMessages: [CameraActor_BP_302] -1758.598633
+[2016.12.19-23.23.44:903][  5]LogBlueprintUserMessages: [CameraActor_BP_302] -1730.42041
+[2016.12.19-23.23.44:919][  6]LogBlueprintUserMessages: [CameraActor_BP_302] -1702.685791
+[2016.12.19-23.23.44:935][  7]LogBlueprintUserMessages: [CameraActor_BP_302] -1675.388672
+[2016.12.19-23.23.44:952][  8]LogBlueprintUserMessages: [CameraActor_BP_302] -1648.522705
+[2016.12.19-23.23.44:968][  9]LogBlueprintUserMessages: [CameraActor_BP_302] -1622.081543
+[2016.12.19-23.23.45:903][ 67]LogBlueprintUserMessages: [CameraActor_BP_302] -1596.058838
+[2016.12.19-23.23.45:919][ 68]LogBlueprintUserMessages: [CameraActor_BP_302] -1570.447998
+[2016.12.19-23.23.45:935][ 69]LogBlueprintUserMessages: [CameraActor_BP_302] -1545.243652
+[2016.12.19-23.23.45:951][ 70]LogBlueprintUserMessages: [CameraActor_BP_302] -1520.438965
+[2016.12.19-23.23.45:968][ 71]LogBlueprintUserMessages: [CameraActor_BP_302] -1496.02832
+[2016.12.19-23.23.45:984][ 72]LogBlueprintUserMessages: [CameraActor_BP_302] -1472.005859
+[2016.12.19-23.23.46:000][ 73]LogBlueprintUserMessages: [CameraActor_BP_302] -1448.365234
+[2016.12.19-23.23.46:016][ 74]LogBlueprintUserMessages: [CameraActor_BP_302] -1425.101074
+[2016.12.19-23.23.46:032][ 75]LogBlueprintUserMessages: [CameraActor_BP_302] -1402.207031
+[2016.12.19-23.23.46:048][ 76]LogBlueprintUserMessages: [CameraActor_BP_302] -1379.67749
+[2016.12.19-23.23.46:064][ 77]LogBlueprintUserMessages: [CameraActor_BP_302] -1357.507324
+[2016.12.19-23.23.46:081][ 78]LogBlueprintUserMessages: [CameraActor_BP_302] -1335.69043
+[2016.12.19-23.23.46:097][ 79]LogBlueprintUserMessages: [CameraActor_BP_302] -1314.221924
+[2016.12.19-23.23.46:113][ 80]LogBlueprintUserMessages: [CameraActor_BP_302] -1293.096191
+[2016.12.19-23.23.46:129][ 81]LogBlueprintUserMessages: [CameraActor_BP_302] -1272.307861
+[2016.12.19-23.23.46:145][ 82]LogBlueprintUserMessages: [CameraActor_BP_302] -1251.851074
+[2016.12.19-23.23.46:161][ 83]LogBlueprintUserMessages: [CameraActor_BP_302] -1231.72168
+[2016.12.19-23.23.46:177][ 84]LogBlueprintUserMessages: [CameraActor_BP_302] -1211.914063
+[2016.12.19-23.23.46:193][ 85]LogBlueprintUserMessages: [CameraActor_BP_302] -1192.423096
+[2016.12.19-23.23.46:209][ 86]LogBlueprintUserMessages: [CameraActor_BP_302] -1173.243896
+[2016.12.19-23.23.46:225][ 87]LogBlueprintUserMessages: [CameraActor_BP_302] -1154.371582
+[2016.12.19-23.23.46:241][ 88]LogBlueprintUserMessages: [CameraActor_BP_302] -1135.801514
+[2016.12.19-23.23.46:258][ 89]LogBlueprintUserMessages: [CameraActor_BP_302] -1117.528564
+[2016.12.19-23.23.46:274][ 90]LogBlueprintUserMessages: [CameraActor_BP_302] -1099.54834
+[2016.12.19-23.23.51:919][440]LogBlueprintUserMessages: [CameraActor_BP_302] -3039.481689
+[2016.12.19-23.23.51:935][441]LogBlueprintUserMessages: [CameraActor_BP_302] -2993.954102
+[2016.12.19-23.23.51:952][442]LogBlueprintUserMessages: [CameraActor_BP_302] -2948.7146
+[2016.12.19-23.23.51:968][443]LogBlueprintUserMessages: [CameraActor_BP_302] -2903.832031
+[2016.12.19-23.23.51:984][444]LogBlueprintUserMessages: [CameraActor_BP_302] -2859.359375
+[2016.12.19-23.23.52:000][445]LogBlueprintUserMessages: [CameraActor_BP_302] -2815.336914
+[2016.12.19-23.23.52:016][446]LogBlueprintUserMessages: [CameraActor_BP_302] -2771.796875
+[2016.12.19-23.23.52:032][447]LogBlueprintUserMessages: [CameraActor_BP_302] -2728.762451
+[2016.12.19-23.23.52:048][448]LogBlueprintUserMessages: [CameraActor_BP_302] -2686.25293
+[2016.12.19-23.23.52:064][449]LogBlueprintUserMessages: [CameraActor_BP_302] -2644.28125
+[2016.12.19-23.23.52:081][450]LogBlueprintUserMessages: [CameraActor_BP_302] -2602.857422
+[2016.12.19-23.23.52:097][451]LogBlueprintUserMessages: [CameraActor_BP_302] -2561.98877
+[2016.12.19-23.23.52:113][452]LogBlueprintUserMessages: [CameraActor_BP_302] -2521.679199
+[2016.12.19-23.23.52:129][453]LogBlueprintUserMessages: [CameraActor_BP_302] -2481.931396
+[2016.12.19-23.23.52:145][454]LogBlueprintUserMessages: [CameraActor_BP_302] -2442.746094
+[2016.12.19-23.23.52:161][455]LogBlueprintUserMessages: [CameraActor_BP_302] -2404.122803
+[2016.12.19-23.23.52:177][456]LogBlueprintUserMessages: [CameraActor_BP_302] -2366.059814
+[2016.12.19-23.23.52:193][457]LogBlueprintUserMessages: [CameraActor_BP_302] -2328.554199
+[2016.12.19-23.23.52:209][458]LogBlueprintUserMessages: [CameraActor_BP_302] -2291.602783
+[2016.12.19-23.23.52:226][459]LogBlueprintUserMessages: [CameraActor_BP_302] -2255.20166
+[2016.12.19-23.23.52:242][460]LogBlueprintUserMessages: [CameraActor_BP_302] -2219.346191
+[2016.12.19-23.23.52:258][461]LogBlueprintUserMessages: [CameraActor_BP_302] -2184.031738
+[2016.12.19-23.23.52:274][462]LogBlueprintUserMessages: [CameraActor_BP_302] -2149.252441
+[2016.12.19-23.23.52:290][463]LogBlueprintUserMessages: [CameraActor_BP_302] -2115.00293
+[2016.12.19-23.23.52:306][464]LogBlueprintUserMessages: [CameraActor_BP_302] -2081.2771
+[2016.12.19-23.23.52:322][465]LogBlueprintUserMessages: [CameraActor_BP_302] -2048.069336
+[2016.12.19-23.23.52:339][466]LogBlueprintUserMessages: [CameraActor_BP_302] -2015.373535
+[2016.12.19-23.24.11:129][631]LogBlueprintUserMessages: [CameraActor_BP_302] -2529.64624
+[2016.12.19-23.24.11:145][632]LogBlueprintUserMessages: [CameraActor_BP_302] -2489.786621
+[2016.12.19-23.24.11:161][633]LogBlueprintUserMessages: [CameraActor_BP_302] -2450.489746
+[2016.12.19-23.24.11:177][634]LogBlueprintUserMessages: [CameraActor_BP_302] -2411.754639
+[2016.12.19-23.24.11:193][635]LogBlueprintUserMessages: [CameraActor_BP_302] -2373.580322
+[2016.12.19-23.24.11:210][636]LogBlueprintUserMessages: [CameraActor_BP_302] -2335.964355
+[2016.12.19-23.24.11:226][637]LogBlueprintUserMessages: [CameraActor_BP_302] -2298.903076
+[2016.12.19-23.24.11:242][638]LogBlueprintUserMessages: [CameraActor_BP_302] -2262.393066
+[2016.12.19-23.24.11:258][639]LogBlueprintUserMessages: [CameraActor_BP_302] -2226.429443
+[2016.12.19-23.24.11:274][640]LogBlueprintUserMessages: [CameraActor_BP_302] -2191.007568
+[2016.12.19-23.24.11:290][641]LogBlueprintUserMessages: [CameraActor_BP_302] -2156.122559
+[2016.12.19-23.24.11:307][642]LogBlueprintUserMessages: [CameraActor_BP_302] -2121.768066
+[2016.12.19-23.24.11:323][643]LogBlueprintUserMessages: [CameraActor_BP_302] -2087.938965
+[2016.12.19-23.24.11:339][644]LogBlueprintUserMessages: [CameraActor_BP_302] -2054.628662
+[2016.12.19-23.24.11:355][645]LogBlueprintUserMessages: [CameraActor_BP_302] -2021.831543
+[2016.12.19-23.24.11:371][646]LogBlueprintUserMessages: [CameraActor_BP_302] -1989.541138
+[2016.12.19-23.24.11:387][647]LogBlueprintUserMessages: [CameraActor_BP_302] -1957.750977
+[2016.12.19-23.24.11:403][648]LogBlueprintUserMessages: [CameraActor_BP_302] -1926.454712
+[2016.12.19-23.24.11:419][649]LogBlueprintUserMessages: [CameraActor_BP_302] -1895.645752
+[2016.12.19-23.24.11:436][650]LogBlueprintUserMessages: [CameraActor_BP_302] -1865.317627
+[2016.12.19-23.24.11:452][651]LogBlueprintUserMessages: [CameraActor_BP_302] -1835.463623
+[2016.12.19-23.24.11:468][652]LogBlueprintUserMessages: [CameraActor_BP_302] -1806.077393
+[2016.12.19-23.24.11:484][653]LogBlueprintUserMessages: [CameraActor_BP_302] -1777.152344
+[2016.12.19-23.24.11:500][654]LogBlueprintUserMessages: [CameraActor_BP_302] -1748.681885
+[2016.12.19-23.24.11:516][655]LogBlueprintUserMessages: [CameraActor_BP_302] -1720.659668
+[2016.12.19-23.24.11:532][656]LogBlueprintUserMessages: [CameraActor_BP_302] -1693.079102
+[2016.12.19-23.24.11:548][657]LogBlueprintUserMessages: [CameraActor_BP_302] -1665.933838
+[2016.12.19-23.24.11:564][658]LogBlueprintUserMessages: [CameraActor_BP_302] -1639.217041
+[2016.12.19-23.24.11:581][659]LogBlueprintUserMessages: [CameraActor_BP_302] -1612.92334
+[2016.12.19-23.24.11:597][660]LogBlueprintUserMessages: [CameraActor_BP_302] -1587.045654
+[2016.12.19-23.24.11:613][661]LogBlueprintUserMessages: [CameraActor_BP_302] -1561.577881
+[2016.12.19-23.24.11:629][662]LogBlueprintUserMessages: [CameraActor_BP_302] -1536.51416
+[2016.12.19-23.24.11:645][663]LogBlueprintUserMessages: [CameraActor_BP_302] -1511.848389
+[2016.12.19-23.24.11:662][664]LogBlueprintUserMessages: [CameraActor_BP_302] -1487.574707
+[2016.12.19-23.24.11:678][665]LogBlueprintUserMessages: [CameraActor_BP_302] -1463.686523
+[2016.12.19-23.24.11:694][666]LogBlueprintUserMessages: [CameraActor_BP_302] -1440.178223
+[2016.12.19-23.24.11:710][667]LogBlueprintUserMessages: [CameraActor_BP_302] -1417.044189
+[2016.12.19-23.24.11:726][668]LogBlueprintUserMessages: [CameraActor_BP_302] -1394.27832
+[2016.12.19-23.24.11:742][669]LogBlueprintUserMessages: [CameraActor_BP_302] -1371.875488
+[2016.12.19-23.24.19:888][174]LogBlueprintUserMessages: [CameraActor_BP_302] -2893.718994
+[2016.12.19-23.24.19:904][175]LogBlueprintUserMessages: [CameraActor_BP_302] -2873.39624
+[2016.12.19-23.24.19:920][176]LogBlueprintUserMessages: [CameraActor_BP_302] -2849.281982
+[2016.12.19-23.24.19:936][177]LogBlueprintUserMessages: [CameraActor_BP_302] -2822.089844
+[2016.12.19-23.24.19:952][178]LogBlueprintUserMessages: [CameraActor_BP_302] -2792.449951
+[2016.12.19-23.24.19:968][179]LogBlueprintUserMessages: [CameraActor_BP_302] -2760.898193
+[2016.12.19-23.24.19:984][180]LogBlueprintUserMessages: [CameraActor_BP_302] -2727.880127
+[2016.12.19-23.24.20:000][181]LogBlueprintUserMessages: [CameraActor_BP_302] -2693.760254
+[2016.12.19-23.24.20:016][182]LogBlueprintUserMessages: [CameraActor_BP_302] -2658.834961
+[2016.12.19-23.24.20:032][183]LogBlueprintUserMessages: [CameraActor_BP_302] -2623.343506
+[2016.12.19-23.24.20:048][184]LogBlueprintUserMessages: [CameraActor_BP_302] -2587.47876
+[2016.12.19-23.24.20:064][185]LogBlueprintUserMessages: [CameraActor_BP_302] -2551.396973
+[2016.12.19-23.24.20:081][186]LogBlueprintUserMessages: [CameraActor_BP_302] -2515.223633
+[2016.12.19-23.24.20:097][187]LogBlueprintUserMessages: [CameraActor_BP_302] -2479.060791
+[2016.12.19-23.24.20:113][188]LogBlueprintUserMessages: [CameraActor_BP_302] -2442.991211
+[2016.12.19-23.24.20:129][189]LogBlueprintUserMessages: [CameraActor_BP_302] -2407.082031
+[2016.12.19-23.24.20:145][190]LogBlueprintUserMessages: [CameraActor_BP_302] -2371.388184
+[2016.12.19-23.24.20:161][191]LogBlueprintUserMessages: [CameraActor_BP_302] -2335.954102
+[2016.12.19-23.24.20:178][192]LogBlueprintUserMessages: [CameraActor_BP_302] -2300.815674
+[2016.12.19-23.24.20:194][193]LogBlueprintUserMessages: [CameraActor_BP_302] -2266.002686
+[2016.12.19-23.24.20:210][194]LogBlueprintUserMessages: [CameraActor_BP_302] -2231.538818
+[2016.12.19-23.24.20:226][195]LogBlueprintUserMessages: [CameraActor_BP_302] -2197.443359
+[2016.12.19-23.24.20:242][196]LogBlueprintUserMessages: [CameraActor_BP_302] -2163.731201
+[2016.12.19-23.24.20:258][197]LogBlueprintUserMessages: [CameraActor_BP_302] -2130.415039
+[2016.12.19-23.24.20:275][198]LogBlueprintUserMessages: [CameraActor_BP_302] -2097.504639
+[2016.12.19-23.24.20:291][199]LogBlueprintUserMessages: [CameraActor_BP_302] -2065.006836
+[2016.12.19-23.24.20:307][200]LogBlueprintUserMessages: [CameraActor_BP_302] -2032.927246
+[2016.12.19-23.24.20:323][201]LogBlueprintUserMessages: [CameraActor_BP_302] -2001.269653
+[2016.12.19-23.24.20:339][202]LogBlueprintUserMessages: [CameraActor_BP_302] -1970.036621
+[2016.12.19-23.24.20:355][203]LogBlueprintUserMessages: [CameraActor_BP_302] -1939.229248
+[2016.12.19-23.24.20:371][204]LogBlueprintUserMessages: [CameraActor_BP_302] -1908.848267
+[2016.12.19-23.24.20:387][205]LogBlueprintUserMessages: [CameraActor_BP_302] -1878.893188
+[2016.12.19-23.24.20:403][206]LogBlueprintUserMessages: [CameraActor_BP_302] -1849.362671
+[2016.12.19-23.24.20:419][207]LogBlueprintUserMessages: [CameraActor_BP_302] -1820.255005
+[2016.12.19-23.24.20:435][208]LogBlueprintUserMessages: [CameraActor_BP_302] -1791.568115
+[2016.12.19-23.24.20:452][209]LogBlueprintUserMessages: [CameraActor_BP_302] -1763.299316
+[2016.12.19-23.24.20:468][210]LogBlueprintUserMessages: [CameraActor_BP_302] -1735.444824
+[2016.12.19-23.24.20:484][211]LogBlueprintUserMessages: [CameraActor_BP_302] -1708.002319
+[2016.12.19-23.24.20:500][212]LogBlueprintUserMessages: [CameraActor_BP_302] -1680.967651
+[2016.12.19-23.24.44:033][671]LogBlueprintUserMessages: [CameraActor_BP_302] -1661.826904
+[2016.12.19-23.24.44:049][672]LogBlueprintUserMessages: [CameraActor_BP_302] -1635.30127
+[2016.12.19-23.24.44:065][673]LogBlueprintUserMessages: [CameraActor_BP_302] -1609.187744
+[2016.12.19-23.24.44:081][674]LogBlueprintUserMessages: [CameraActor_BP_302] -1583.480957
+[2016.12.19-23.24.44:097][675]LogBlueprintUserMessages: [CameraActor_BP_302] -1558.175293
+[2016.12.19-23.24.44:113][676]LogBlueprintUserMessages: [CameraActor_BP_302] -1533.265137
+[2016.12.19-23.24.44:130][677]LogBlueprintUserMessages: [CameraActor_BP_302] -1508.745117
+[2016.12.19-23.24.44:146][678]LogBlueprintUserMessages: [CameraActor_BP_302] -1484.609375
+[2016.12.19-23.24.44:162][679]LogBlueprintUserMessages: [CameraActor_BP_302] -1460.852539
+[2016.12.19-23.24.44:178][680]LogBlueprintUserMessages: [CameraActor_BP_302] -1437.468994
+[2016.12.19-23.24.44:194][681]LogBlueprintUserMessages: [CameraActor_BP_302] -1414.453613
+[2016.12.19-23.24.44:210][682]LogBlueprintUserMessages: [CameraActor_BP_302] -1391.800537
+[2016.12.19-23.24.44:226][683]LogBlueprintUserMessages: [CameraActor_BP_302] -1369.505127
+[2016.12.19-23.24.44:242][684]LogBlueprintUserMessages: [CameraActor_BP_302] -1347.562012
+[2016.12.19-23.24.44:258][685]LogBlueprintUserMessages: [CameraActor_BP_302] -1325.965332
+[2016.12.19-23.24.44:275][686]LogBlueprintUserMessages: [CameraActor_BP_302] -1304.710205
+[2016.12.19-23.24.44:291][687]LogBlueprintUserMessages: [CameraActor_BP_302] -1283.79126
+[2016.12.19-23.24.44:307][688]LogBlueprintUserMessages: [CameraActor_BP_302] -1263.204102
+[2016.12.19-23.24.44:323][689]LogBlueprintUserMessages: [CameraActor_BP_302] -1242.943115
+[2016.12.19-23.24.44:339][690]LogBlueprintUserMessages: [CameraActor_BP_302] -1223.003662
+[2016.12.19-23.24.44:355][691]LogBlueprintUserMessages: [CameraActor_BP_302] -1203.380859
+[2016.12.19-23.24.44:372][692]LogBlueprintUserMessages: [CameraActor_BP_302] -1184.06958
+[2016.12.19-23.24.44:388][693]LogBlueprintUserMessages: [CameraActor_BP_302] -1165.065186
+[2016.12.19-23.24.44:404][694]LogBlueprintUserMessages: [CameraActor_BP_302] -1146.363037
+[2016.12.19-23.24.44:420][695]LogBlueprintUserMessages: [CameraActor_BP_302] -1127.958496
+[2016.12.19-23.24.44:436][696]LogBlueprintUserMessages: [CameraActor_BP_302] -1109.846924
+[2016.12.19-23.24.44:452][697]LogBlueprintUserMessages: [CameraActor_BP_302] -1092.023926
+[2016.12.19-23.24.44:468][698]LogBlueprintUserMessages: [CameraActor_BP_302] -1074.484863
+[2016.12.19-23.24.44:484][699]LogBlueprintUserMessages: [CameraActor_BP_302] -1057.225586
+[2016.12.19-23.24.44:500][700]LogBlueprintUserMessages: [CameraActor_BP_302] -1040.241211
+[2016.12.19-23.24.44:517][701]LogBlueprintUserMessages: [CameraActor_BP_302] -1023.527832
+[2016.12.19-23.24.44:533][702]LogBlueprintUserMessages: [CameraActor_BP_302] -1007.081299
+[2016.12.19-23.24.44:549][703]LogBlueprintUserMessages: [CameraActor_BP_302] -990.897217
+[2016.12.19-23.24.44:565][704]LogBlueprintUserMessages: [CameraActor_BP_302] -974.971436
+[2016.12.19-23.24.44:581][705]LogBlueprintUserMessages: [CameraActor_BP_302] -959.300293
+[2016.12.19-23.24.44:597][706]LogBlueprintUserMessages: [CameraActor_BP_302] -943.879883
+[2016.12.19-23.24.44:613][707]LogBlueprintUserMessages: [CameraActor_BP_302] -928.706055
+[2016.12.19-23.24.44:629][708]LogBlueprintUserMessages: [CameraActor_BP_302] -913.774658
+[2016.12.19-23.24.44:645][709]LogBlueprintUserMessages: [CameraActor_BP_302] -899.082275
+[2016.12.19-23.24.44:662][710]LogBlueprintUserMessages: [CameraActor_BP_302] -884.625
+[2016.12.19-23.24.44:678][711]LogBlueprintUserMessages: [CameraActor_BP_302] -870.398682
+[2016.12.19-23.24.44:694][712]LogBlueprintUserMessages: [CameraActor_BP_302] -856.400146
+[2016.12.19-23.24.44:710][713]LogBlueprintUserMessages: [CameraActor_BP_302] -842.625977
+[2016.12.19-23.24.44:726][714]LogBlueprintUserMessages: [CameraActor_BP_302] -829.072266
+[2016.12.19-23.24.44:742][715]LogBlueprintUserMessages: [CameraActor_BP_302] -815.73584
+[2016.12.19-23.24.44:759][716]LogBlueprintUserMessages: [CameraActor_BP_302] -802.612793
+[2016.12.19-23.24.44:775][717]LogBlueprintUserMessages: [CameraActor_BP_302] -789.700195
+[2016.12.19-23.24.44:791][718]LogBlueprintUserMessages: [CameraActor_BP_302] -776.994385
+[2016.12.19-23.24.44:807][719]LogBlueprintUserMessages: [CameraActor_BP_302] -764.492188
+[2016.12.19-23.24.44:823][720]LogBlueprintUserMessages: [CameraActor_BP_302] -752.190674
+[2016.12.19-23.24.44:839][721]LogBlueprintUserMessages: [CameraActor_BP_302] -740.086182
+[2016.12.19-23.24.44:855][722]LogBlueprintUserMessages: [CameraActor_BP_302] -728.176025
+[2016.12.19-23.24.44:871][723]LogBlueprintUserMessages: [CameraActor_BP_302] -716.457031
+[2016.12.19-23.24.44:888][724]LogBlueprintUserMessages: [CameraActor_BP_302] -704.925781
+[2016.12.19-23.24.44:904][725]LogBlueprintUserMessages: [CameraActor_BP_302] -693.579834
+[2016.12.19-23.24.44:920][726]LogBlueprintUserMessages: [CameraActor_BP_302] -682.415771
+[2016.12.19-23.24.44:936][727]LogBlueprintUserMessages: [CameraActor_BP_302] -671.430664
+[2016.12.19-23.24.44:952][728]LogBlueprintUserMessages: [CameraActor_BP_302] -660.622314
+[2016.12.19-23.24.44:968][729]LogBlueprintUserMessages: [CameraActor_BP_302] -649.987061
+[2016.12.19-23.24.44:984][730]LogBlueprintUserMessages: [CameraActor_BP_302] -639.522949
+[2016.12.19-23.24.45:000][731]LogBlueprintUserMessages: [CameraActor_BP_302] -629.226807
+[2016.12.19-23.24.45:017][732]LogBlueprintUserMessages: [CameraActor_BP_302] -619.096191
+[2016.12.19-23.24.45:033][733]LogBlueprintUserMessages: [CameraActor_BP_302] -609.128174
+[2016.12.19-23.24.45:049][734]LogBlueprintUserMessages: [CameraActor_BP_302] -599.320068
+[2016.12.19-23.24.45:065][735]LogBlueprintUserMessages: [CameraActor_BP_302] -589.669922
+[2016.12.19-23.24.45:081][736]LogBlueprintUserMessages: [CameraActor_BP_302] -580.174805
+[2016.12.19-23.24.45:097][737]LogBlueprintUserMessages: [CameraActor_BP_302] -570.831787
+[2016.12.19-23.24.45:114][738]LogBlueprintUserMessages: [CameraActor_BP_302] -561.639404
+[2016.12.19-23.24.45:130][739]LogBlueprintUserMessages: [CameraActor_BP_302] -552.594482
+[2016.12.19-23.24.45:146][740]LogBlueprintUserMessages: [CameraActor_BP_302] -543.694824
+[2016.12.19-23.24.45:162][741]LogBlueprintUserMessages: [CameraActor_BP_302] -534.938477
+[2016.12.19-23.24.45:178][742]LogBlueprintUserMessages: [CameraActor_BP_302] -526.32251
+[2016.12.19-23.24.45:194][743]LogBlueprintUserMessages: [CameraActor_BP_302] -517.845703
+[2016.12.19-23.24.45:210][744]LogBlueprintUserMessages: [CameraActor_BP_302] -509.504639
+[2016.12.19-23.24.45:226][745]LogBlueprintUserMessages: [CameraActor_BP_302] -501.297852
+[2016.12.19-23.24.45:242][746]LogBlueprintUserMessages: [CameraActor_BP_302] -493.2229
+[2016.12.19-23.24.45:259][747]LogBlueprintUserMessages: [CameraActor_BP_302] -485.277832
+[2016.12.19-23.24.45:275][748]LogBlueprintUserMessages: [CameraActor_BP_302] -477.460693
+[2016.12.19-23.24.45:291][749]LogBlueprintUserMessages: [CameraActor_BP_302] -469.769531
+[2016.12.19-23.24.45:307][750]LogBlueprintUserMessages: [CameraActor_BP_302] -462.20166
+[2016.12.19-23.24.45:323][751]LogBlueprintUserMessages: [CameraActor_BP_302] -454.755615
+[2016.12.19-23.24.45:339][752]LogBlueprintUserMessages: [CameraActor_BP_302] -447.429199
+[2016.12.19-23.24.45:355][753]LogBlueprintUserMessages: [CameraActor_BP_302] -440.220703
+[2016.12.19-23.24.45:371][754]LogBlueprintUserMessages: [CameraActor_BP_302] -433.128418
+[2016.12.19-23.24.45:388][755]LogBlueprintUserMessages: [CameraActor_BP_302] -426.14917
+[2016.12.19-23.24.45:404][756]LogBlueprintUserMessages: [CameraActor_BP_302] -419.282959
+[2016.12.19-23.24.45:420][757]LogBlueprintUserMessages: [CameraActor_BP_302] -412.527588
+[2016.12.19-23.24.45:436][758]LogBlueprintUserMessages: [CameraActor_BP_302] -405.880615
+[2016.12.19-23.24.45:452][759]LogBlueprintUserMessages: [CameraActor_BP_302] -399.340576
+[2016.12.19-23.24.45:468][760]LogBlueprintUserMessages: [CameraActor_BP_302] -392.906006
+[2016.12.19-23.24.45:485][761]LogBlueprintUserMessages: [CameraActor_BP_302] -386.575195
+[2016.12.19-23.24.45:501][762]LogBlueprintUserMessages: [CameraActor_BP_302] -380.345947
+[2016.12.19-23.24.45:517][763]LogBlueprintUserMessages: [CameraActor_BP_302] -374.216797
+[2016.12.19-23.24.45:533][764]LogBlueprintUserMessages: [CameraActor_BP_302] -368.186768
+[2016.12.19-23.24.45:549][765]LogBlueprintUserMessages: [CameraActor_BP_302] -362.253662
+[2016.12.19-23.24.45:565][766]LogBlueprintUserMessages: [CameraActor_BP_302] -356.415771
+[2016.12.19-23.24.45:581][767]LogBlueprintUserMessages: [CameraActor_BP_302] -350.672363
+[2016.12.19-23.24.45:597][768]LogBlueprintUserMessages: [CameraActor_BP_302] -345.02124
+[2016.12.19-23.24.45:613][769]LogBlueprintUserMessages: [CameraActor_BP_302] -339.460693
+[2016.12.19-23.24.45:630][770]LogBlueprintUserMessages: [CameraActor_BP_302] -333.990234
+[2016.12.19-23.24.45:646][771]LogBlueprintUserMessages: [CameraActor_BP_302] -328.607666
+[2016.12.19-23.24.45:662][772]LogBlueprintUserMessages: [CameraActor_BP_302] -323.311768
+[2016.12.19-23.24.45:678][773]LogBlueprintUserMessages: [CameraActor_BP_302] -318.10083
+[2016.12.19-23.24.45:694][774]LogBlueprintUserMessages: [CameraActor_BP_302] -312.974121
+[2016.12.19-23.24.45:710][775]LogBlueprintUserMessages: [CameraActor_BP_302] -307.929932
+[2016.12.19-23.24.45:726][776]LogBlueprintUserMessages: [CameraActor_BP_302] -302.967285
+[2016.12.19-23.24.45:742][777]LogBlueprintUserMessages: [CameraActor_BP_302] -298.084473
+[2016.12.19-23.24.45:758][778]LogBlueprintUserMessages: [CameraActor_BP_302] -293.280029
+[2016.12.19-23.24.45:775][779]LogBlueprintUserMessages: [CameraActor_BP_302] -288.552734
+[2016.12.19-23.24.45:791][780]LogBlueprintUserMessages: [CameraActor_BP_302] -283.9021
+[2016.12.19-23.24.45:807][781]LogBlueprintUserMessages: [CameraActor_BP_302] -279.325928
+[2016.12.19-23.24.45:823][782]LogBlueprintUserMessages: [CameraActor_BP_302] -274.82373
+[2016.12.19-23.24.45:839][783]LogBlueprintUserMessages: [CameraActor_BP_302] -270.394043
+[2016.12.19-23.24.45:856][784]LogBlueprintUserMessages: [CameraActor_BP_302] -266.035889
+[2016.12.19-23.24.45:872][785]LogBlueprintUserMessages: [CameraActor_BP_302] -261.747314
+[2016.12.19-23.24.45:888][786]LogBlueprintUserMessages: [CameraActor_BP_302] -257.52832
+[2016.12.19-23.24.45:904][787]LogBlueprintUserMessages: [CameraActor_BP_302] -253.377197
+[2016.12.19-23.24.45:920][788]LogBlueprintUserMessages: [CameraActor_BP_302] -249.292969
+[2016.12.19-23.24.45:936][789]LogBlueprintUserMessages: [CameraActor_BP_302] -245.27417
+[2016.12.19-23.24.45:952][790]LogBlueprintUserMessages: [CameraActor_BP_302] -241.320557
+[2016.12.19-23.24.45:968][791]LogBlueprintUserMessages: [CameraActor_BP_302] -237.430176
+[2016.12.19-23.24.45:984][792]LogBlueprintUserMessages: [CameraActor_BP_302] -233.602783
+[2016.12.19-23.24.46:000][793]LogBlueprintUserMessages: [CameraActor_BP_302] -229.837158
+[2016.12.19-23.24.46:017][794]LogBlueprintUserMessages: [CameraActor_BP_302] -226.13208
+[2016.12.19-23.24.46:033][795]LogBlueprintUserMessages: [CameraActor_BP_302] -222.486816
+[2016.12.19-23.24.46:049][796]LogBlueprintUserMessages: [CameraActor_BP_302] -218.900146
+[2016.12.19-23.24.46:065][797]LogBlueprintUserMessages: [CameraActor_BP_302] -215.371094
+[2016.12.19-23.24.46:081][798]LogBlueprintUserMessages: [CameraActor_BP_302] -211.898926
+[2016.12.19-23.24.46:097][799]LogBlueprintUserMessages: [CameraActor_BP_302] -208.48291
+[2016.12.19-23.24.46:113][800]LogBlueprintUserMessages: [CameraActor_BP_302] -205.121582
+[2016.12.19-23.24.46:129][801]LogBlueprintUserMessages: [CameraActor_BP_302] -201.814941
+[2016.12.19-23.24.46:146][802]LogBlueprintUserMessages: [CameraActor_BP_302] -198.561279
+[2016.12.19-23.24.46:162][803]LogBlueprintUserMessages: [CameraActor_BP_302] -195.360352
+[2016.12.19-23.24.46:178][804]LogBlueprintUserMessages: [CameraActor_BP_302] -192.211182
+[2016.12.19-23.24.46:194][805]LogBlueprintUserMessages: [CameraActor_BP_302] -189.112305
+[2016.12.19-23.24.46:210][806]LogBlueprintUserMessages: [CameraActor_BP_302] -186.063232
+[2016.12.19-23.24.46:226][807]LogBlueprintUserMessages: [CameraActor_BP_302] -183.063721
+[2016.12.19-23.24.46:243][808]LogBlueprintUserMessages: [CameraActor_BP_302] -180.112305
+[2016.12.19-23.24.46:259][809]LogBlueprintUserMessages: [CameraActor_BP_302] -177.208496
+[2016.12.19-23.24.46:275][810]LogBlueprintUserMessages: [CameraActor_BP_302] -174.351563
+[2016.12.19-23.24.46:291][811]LogBlueprintUserMessages: [CameraActor_BP_302] -171.540283
+[2016.12.19-23.24.46:307][812]LogBlueprintUserMessages: [CameraActor_BP_302] -168.774658
+[2016.12.19-23.24.46:323][813]LogBlueprintUserMessages: [CameraActor_BP_302] -166.053467
+[2016.12.19-23.24.46:339][814]LogBlueprintUserMessages: [CameraActor_BP_302] -163.376221
+[2016.12.19-23.24.46:355][815]LogBlueprintUserMessages: [CameraActor_BP_302] -160.742188
+[2016.12.19-23.24.46:371][816]LogBlueprintUserMessages: [CameraActor_BP_302] -158.150391
+[2016.12.19-23.24.46:388][817]LogBlueprintUserMessages: [CameraActor_BP_302] -155.601074
+[2016.12.19-23.24.46:404][818]LogBlueprintUserMessages: [CameraActor_BP_302] -153.092041
+[2016.12.19-23.24.46:420][819]LogBlueprintUserMessages: [CameraActor_BP_302] -150.623779
+[2016.12.19-23.24.46:436][820]LogBlueprintUserMessages: [CameraActor_BP_302] -148.195313
+[2016.12.19-23.24.46:452][821]LogBlueprintUserMessages: [CameraActor_BP_302] -145.805908
+[2016.12.19-23.24.46:468][822]LogBlueprintUserMessages: [CameraActor_BP_302] -143.455078
+[2016.12.19-23.24.46:484][823]LogBlueprintUserMessages: [CameraActor_BP_302] -141.140381
+[2016.12.19-23.24.46:500][824]LogBlueprintUserMessages: [CameraActor_BP_302] -138.86499
+[2016.12.19-23.24.46:517][825]LogBlueprintUserMessages: [CameraActor_BP_302] -136.625732
+[2016.12.19-23.24.46:533][826]LogBlueprintUserMessages: [CameraActor_BP_302] -134.422852
+[2016.12.19-23.24.46:549][827]LogBlueprintUserMessages: [CameraActor_BP_302] -132.255371
+[2016.12.19-23.24.46:565][828]LogBlueprintUserMessages: [CameraActor_BP_302] -130.122803
+[2016.12.19-23.24.46:581][829]LogBlueprintUserMessages: [CameraActor_BP_302] -128.024414
+[2016.12.19-23.24.46:597][830]LogBlueprintUserMessages: [CameraActor_BP_302] -125.959961
+[2016.12.19-23.24.46:614][831]LogBlueprintUserMessages: [CameraActor_BP_302] -123.929443
+[2016.12.19-23.24.46:630][832]LogBlueprintUserMessages: [CameraActor_BP_302] -121.931396
+[2016.12.19-23.24.46:646][833]LogBlueprintUserMessages: [CameraActor_BP_302] -119.965332
+[2016.12.19-23.24.46:662][834]LogBlueprintUserMessages: [CameraActor_BP_302] -118.031006
+[2016.12.19-23.24.46:678][835]LogBlueprintUserMessages: [CameraActor_BP_302] -116.12793
+[2016.12.19-23.24.46:694][836]LogBlueprintUserMessages: [CameraActor_BP_302] -114.255615
+[2016.12.19-23.24.46:710][837]LogBlueprintUserMessages: [CameraActor_BP_302] -112.41333
+[2016.12.19-23.24.46:726][838]LogBlueprintUserMessages: [CameraActor_BP_302] -110.600586
+[2016.12.19-23.24.46:742][839]LogBlueprintUserMessages: [CameraActor_BP_302] -108.817139
+[2016.12.19-23.24.46:759][840]LogBlueprintUserMessages: [CameraActor_BP_302] -107.062744
+[2016.12.19-23.24.46:775][841]LogBlueprintUserMessages: [CameraActor_BP_302] -105.336182
+[2016.12.19-23.24.52:227][179]LogBlueprintUserMessages: [CameraActor_BP_302] -1294.087158
+[2016.12.19-23.24.52:243][180]LogBlueprintUserMessages: [CameraActor_BP_302] -1273.33667
+[2016.12.19-23.24.52:259][181]LogBlueprintUserMessages: [CameraActor_BP_302] -1252.915039
+[2016.12.19-23.24.52:275][182]LogBlueprintUserMessages: [CameraActor_BP_302] -1232.817383
+[2016.12.19-23.24.52:291][183]LogBlueprintUserMessages: [CameraActor_BP_302] -1213.038574
+[2016.12.19-23.24.52:307][184]LogBlueprintUserMessages: [CameraActor_BP_302] -1193.573975
+[2016.12.19-23.24.52:323][185]LogBlueprintUserMessages: [CameraActor_BP_302] -1174.418457
+[2016.12.19-23.24.52:339][186]LogBlueprintUserMessages: [CameraActor_BP_302] -1155.567627
+[2016.12.19-23.24.52:355][187]LogBlueprintUserMessages: [CameraActor_BP_302] -1137.016602
+[2016.12.19-23.24.52:371][188]LogBlueprintUserMessages: [CameraActor_BP_302] -1118.760742
+[2016.12.19-23.24.52:387][189]LogBlueprintUserMessages: [CameraActor_BP_302] -1100.795654
+[2016.12.19-23.24.52:404][190]LogBlueprintUserMessages: [CameraActor_BP_302] -1083.116699
+[2016.12.19-23.24.52:420][191]LogBlueprintUserMessages: [CameraActor_BP_302] -1065.719482
+[2016.12.19-23.24.52:436][192]LogBlueprintUserMessages: [CameraActor_BP_302] -1048.599854
+[2016.12.19-23.24.52:452][193]LogBlueprintUserMessages: [CameraActor_BP_302] -1031.75293
+[2016.12.19-23.24.52:468][194]LogBlueprintUserMessages: [CameraActor_BP_302] -1015.175293
+[2016.12.19-23.24.52:485][195]LogBlueprintUserMessages: [CameraActor_BP_302] -998.861816
+[2016.12.19-23.24.52:501][196]LogBlueprintUserMessages: [CameraActor_BP_302] -982.809326
+[2016.12.19-23.24.52:517][197]LogBlueprintUserMessages: [CameraActor_BP_302] -967.012939
+[2016.12.19-23.24.52:533][198]LogBlueprintUserMessages: [CameraActor_BP_302] -951.469238
+[2016.12.19-23.24.52:549][199]LogBlueprintUserMessages: [CameraActor_BP_302] -936.173828
+[2016.12.19-23.24.52:565][200]LogBlueprintUserMessages: [CameraActor_BP_302] -921.123047
+[2016.12.19-23.24.52:581][201]LogBlueprintUserMessages: [CameraActor_BP_302] -906.312988
+[2016.12.19-23.24.52:598][202]LogBlueprintUserMessages: [CameraActor_BP_302] -891.739746
+[2016.12.19-23.24.52:614][203]LogBlueprintUserMessages: [CameraActor_BP_302] -877.399658
+[2016.12.19-23.24.52:630][204]LogBlueprintUserMessages: [CameraActor_BP_302] -863.289307
+[2016.12.19-23.24.52:646][205]LogBlueprintUserMessages: [CameraActor_BP_302] -849.404785
+[2016.12.19-23.24.52:662][206]LogBlueprintUserMessages: [CameraActor_BP_302] -835.742188
+[2016.12.19-23.24.52:678][207]LogBlueprintUserMessages: [CameraActor_BP_302] -822.298828
+[2016.12.19-23.24.52:694][208]LogBlueprintUserMessages: [CameraActor_BP_302] -809.070801
+[2016.12.19-23.24.52:710][209]LogBlueprintUserMessages: [CameraActor_BP_302] -796.054688
+[2016.12.19-23.24.52:726][210]LogBlueprintUserMessages: [CameraActor_BP_302] -783.24707
+[2016.12.19-23.24.52:742][211]LogBlueprintUserMessages: [CameraActor_BP_302] -770.644775
+[2016.12.19-23.24.52:758][212]LogBlueprintUserMessages: [CameraActor_BP_302] -758.244629
+[2016.12.19-23.24.52:775][213]LogBlueprintUserMessages: [CameraActor_BP_302] -746.043457
+[2016.12.19-23.24.52:791][214]LogBlueprintUserMessages: [CameraActor_BP_302] -734.037598
+[2016.12.19-23.24.52:807][215]LogBlueprintUserMessages: [CameraActor_BP_302] -722.224609
+[2016.12.19-23.24.52:823][216]LogBlueprintUserMessages: [CameraActor_BP_302] -710.601074
+[2016.12.19-23.24.52:839][217]LogBlueprintUserMessages: [CameraActor_BP_302] -699.163818
+[2016.12.19-23.24.52:856][218]LogBlueprintUserMessages: [CameraActor_BP_302] -687.910156
+[2016.12.19-23.24.52:872][219]LogBlueprintUserMessages: [CameraActor_BP_302] -676.837402
+[2016.12.19-23.24.52:888][220]LogBlueprintUserMessages: [CameraActor_BP_302] -665.941895
+[2016.12.19-23.24.52:904][221]LogBlueprintUserMessages: [CameraActor_BP_302] -655.221191
+[2016.12.19-23.24.52:920][222]LogBlueprintUserMessages: [CameraActor_BP_302] -644.672852
+[2016.12.19-23.24.52:936][223]LogBlueprintUserMessages: [CameraActor_BP_302] -634.293945
+[2016.12.19-23.24.52:952][224]LogBlueprintUserMessages: [CameraActor_BP_302] -624.081787
+[2016.12.19-23.24.52:969][225]LogBlueprintUserMessages: [CameraActor_BP_302] -614.033691
+[2016.12.19-23.24.52:985][226]LogBlueprintUserMessages: [CameraActor_BP_302] -604.146484
+[2016.12.19-23.24.53:001][227]LogBlueprintUserMessages: [CameraActor_BP_302] -594.418945
+[2016.12.19-23.24.53:017][228]LogBlueprintUserMessages: [CameraActor_BP_302] -584.846924
+[2016.12.19-23.24.53:033][229]LogBlueprintUserMessages: [CameraActor_BP_302] -575.429199
+[2016.12.19-23.24.53:049][230]LogBlueprintUserMessages: [CameraActor_BP_302] -566.162842
+[2016.12.19-23.24.53:065][231]LogBlueprintUserMessages: [CameraActor_BP_302] -557.044922
+[2016.12.19-23.24.53:081][232]LogBlueprintUserMessages: [CameraActor_BP_302] -548.073975
+[2016.12.19-23.24.53:097][233]LogBlueprintUserMessages: [CameraActor_BP_302] -539.246826
+[2016.12.19-23.24.53:113][234]LogBlueprintUserMessages: [CameraActor_BP_302] -530.562012
+[2016.12.19-23.24.53:129][235]LogBlueprintUserMessages: [CameraActor_BP_302] -522.016602
+[2016.12.19-23.24.53:146][236]LogBlueprintUserMessages: [CameraActor_BP_302] -513.608643
+[2016.12.19-23.24.53:162][237]LogBlueprintUserMessages: [CameraActor_BP_302] -505.335938
+[2016.12.19-23.24.53:178][238]LogBlueprintUserMessages: [CameraActor_BP_302] -497.196289
+[2016.12.19-23.24.53:194][239]LogBlueprintUserMessages: [CameraActor_BP_302] -489.187256
+[2016.12.19-23.24.53:210][240]LogBlueprintUserMessages: [CameraActor_BP_302] -481.306885
+[2016.12.19-23.24.53:226][241]LogBlueprintUserMessages: [CameraActor_BP_302] -473.553711
+[2016.12.19-23.24.53:243][242]LogBlueprintUserMessages: [CameraActor_BP_302] -465.925049
+[2016.12.19-23.24.53:259][243]LogBlueprintUserMessages: [CameraActor_BP_302] -458.419189
+[2016.12.19-23.24.53:275][244]LogBlueprintUserMessages: [CameraActor_BP_302] -451.033936
+[2016.12.19-23.24.53:291][245]LogBlueprintUserMessages: [CameraActor_BP_302] -443.767578
+[2016.12.19-23.24.53:307][246]LogBlueprintUserMessages: [CameraActor_BP_302] -436.618164
+[2016.12.19-23.24.53:323][247]LogBlueprintUserMessages: [CameraActor_BP_302] -429.583496
+[2016.12.19-23.24.53:340][248]LogBlueprintUserMessages: [CameraActor_BP_302] -422.662354
+[2016.12.19-23.25.08:533][190]LogBlueprintUserMessages: [CameraActor_BP_302] -2469.502197
+[2016.12.19-23.25.08:549][191]LogBlueprintUserMessages: [CameraActor_BP_302] -2431.305664
+[2016.12.19-23.25.08:566][192]LogBlueprintUserMessages: [CameraActor_BP_302] -2393.58374
+[2016.12.19-23.25.08:582][193]LogBlueprintUserMessages: [CameraActor_BP_302] -2356.344238
+[2016.12.19-23.25.08:598][194]LogBlueprintUserMessages: [CameraActor_BP_302] -2319.593262
+[2016.12.19-23.25.08:614][195]LogBlueprintUserMessages: [CameraActor_BP_302] -2283.333984
+[2016.12.19-23.25.08:630][196]LogBlueprintUserMessages: [CameraActor_BP_302] -2247.568848
+[2016.12.19-23.25.08:646][197]LogBlueprintUserMessages: [CameraActor_BP_302] -2212.299316
+[2016.12.19-23.25.08:662][198]LogBlueprintUserMessages: [CameraActor_BP_302] -2177.524902
+[2016.12.19-23.25.08:678][199]LogBlueprintUserMessages: [CameraActor_BP_302] -2143.244141
+[2016.12.19-23.25.08:694][200]LogBlueprintUserMessages: [CameraActor_BP_302] -2109.455566
+[2016.12.19-23.25.08:710][201]LogBlueprintUserMessages: [CameraActor_BP_302] -2076.156982
+[2016.12.19-23.25.08:726][202]LogBlueprintUserMessages: [CameraActor_BP_302] -2043.345093
+[2016.12.19-23.25.08:743][203]LogBlueprintUserMessages: [CameraActor_BP_302] -2011.016357
+[2016.12.19-23.25.08:759][204]LogBlueprintUserMessages: [CameraActor_BP_302] -1979.167236
+[2016.12.19-23.25.08:775][205]LogBlueprintUserMessages: [CameraActor_BP_302] -1947.792725
+[2016.12.19-23.25.08:791][206]LogBlueprintUserMessages: [CameraActor_BP_302] -1916.862793
+[2016.12.19-23.25.08:807][207]LogBlueprintUserMessages: [CameraActor_BP_302] -1886.425049
+[2016.12.19-23.25.08:824][208]LogBlueprintUserMessages: [CameraActor_BP_302] -1856.448242
+[2016.12.19-23.25.08:840][209]LogBlueprintUserMessages: [CameraActor_BP_302] -1826.92688
+[2016.12.19-23.25.08:856][210]LogBlueprintUserMessages: [CameraActor_BP_302] -1797.856201
+[2016.12.19-23.25.08:872][211]LogBlueprintUserMessages: [CameraActor_BP_302] -1769.230591
+[2016.12.19-23.25.08:888][212]LogBlueprintUserMessages: [CameraActor_BP_302] -1741.0448
+[2016.12.19-23.25.08:904][213]LogBlueprintUserMessages: [CameraActor_BP_302] -1713.292725
+[2016.12.19-23.25.08:920][214]LogBlueprintUserMessages: [CameraActor_BP_302] -1685.969482
+[2016.12.19-23.25.08:937][215]LogBlueprintUserMessages: [CameraActor_BP_302] -1659.069336
+[2016.12.19-23.25.08:953][216]LogBlueprintUserMessages: [CameraActor_BP_302] -1632.586426
+[2016.12.19-23.25.08:969][217]LogBlueprintUserMessages: [CameraActor_BP_302] -1606.515137
+[2016.12.19-23.25.08:985][218]LogBlueprintUserMessages: [CameraActor_BP_302] -1580.850342
+[2016.12.19-23.25.09:001][219]LogBlueprintUserMessages: [CameraActor_BP_302] -1555.585938
+[2016.12.19-23.25.09:017][220]LogBlueprintUserMessages: [CameraActor_BP_302] -1530.716553
+[2016.12.19-23.25.09:033][221]LogBlueprintUserMessages: [CameraActor_BP_302] -1506.236572
+[2016.12.19-23.25.09:049][222]LogBlueprintUserMessages: [CameraActor_BP_302] -1482.140381
+[2016.12.19-23.25.09:065][223]LogBlueprintUserMessages: [CameraActor_BP_302] -1458.422363
+[2016.12.19-23.25.09:081][224]LogBlueprintUserMessages: [CameraActor_BP_302] -1435.077637
+[2016.12.19-23.25.09:098][225]LogBlueprintUserMessages: [CameraActor_BP_302] -1412.099609
+[2016.12.19-23.25.09:114][226]LogBlueprintUserMessages: [CameraActor_BP_302] -1389.484131
+[2016.12.19-23.25.09:130][227]LogBlueprintUserMessages: [CameraActor_BP_302] -1367.225098
+[2016.12.19-23.25.09:146][228]LogBlueprintUserMessages: [CameraActor_BP_302] -1345.317871
+[2016.12.19-23.25.09:162][229]LogBlueprintUserMessages: [CameraActor_BP_302] -1323.75708
+[2016.12.19-23.25.09:178][230]LogBlueprintUserMessages: [CameraActor_BP_302] -1302.536865
+[2016.12.19-23.25.09:195][231]LogBlueprintUserMessages: [CameraActor_BP_302] -1281.652832
+[2016.12.19-23.25.09:211][232]LogBlueprintUserMessages: [CameraActor_BP_302] -1261.099365
+[2016.12.19-23.25.09:227][233]LogBlueprintUserMessages: [CameraActor_BP_302] -1240.87207
+[2016.12.19-23.25.09:243][234]LogBlueprintUserMessages: [CameraActor_BP_302] -1220.965332
+[2016.12.19-23.25.09:259][235]LogBlueprintUserMessages: [CameraActor_BP_302] -1201.374756
+[2016.12.19-23.25.09:275][236]LogBlueprintUserMessages: [CameraActor_BP_302] -1182.095459
+[2016.12.19-23.25.09:291][237]LogBlueprintUserMessages: [CameraActor_BP_302] -1163.122314
+[2016.12.19-23.25.09:308][238]LogBlueprintUserMessages: [CameraActor_BP_302] -1144.451416
+[2016.12.19-23.25.09:324][239]LogBlueprintUserMessages: [CameraActor_BP_302] -1126.077148
+[2016.12.19-23.25.09:340][240]LogBlueprintUserMessages: [CameraActor_BP_302] -1107.995605
+[2016.12.19-23.25.09:356][241]LogBlueprintUserMessages: [CameraActor_BP_302] -1090.202148
+[2016.12.19-23.25.09:372][242]LogBlueprintUserMessages: [CameraActor_BP_302] -1072.692139
+[2016.12.19-23.25.09:388][243]LogBlueprintUserMessages: [CameraActor_BP_302] -1055.461182
+[2016.12.19-23.25.09:404][244]LogBlueprintUserMessages: [CameraActor_BP_302] -1038.505127
+[2016.12.19-23.25.09:420][245]LogBlueprintUserMessages: [CameraActor_BP_302] -1021.81958
+[2016.12.19-23.25.09:436][246]LogBlueprintUserMessages: [CameraActor_BP_302] -1005.400391
+[2016.12.19-23.25.09:452][247]LogBlueprintUserMessages: [CameraActor_BP_302] -989.243408
+[2016.12.19-23.25.09:469][248]LogBlueprintUserMessages: [CameraActor_BP_302] -973.344238
+[2016.12.19-23.25.09:485][249]LogBlueprintUserMessages: [CameraActor_BP_302] -957.699219
+[2016.12.19-23.25.09:501][250]LogBlueprintUserMessages: [CameraActor_BP_302] -942.304199
+[2016.12.19-23.25.09:517][251]LogBlueprintUserMessages: [CameraActor_BP_302] -927.155273
+[2016.12.19-23.25.09:533][252]LogBlueprintUserMessages: [CameraActor_BP_302] -912.248779
+[2016.12.19-23.25.09:549][253]LogBlueprintUserMessages: [CameraActor_BP_302] -897.580322
+[2016.12.19-23.25.09:566][254]LogBlueprintUserMessages: [CameraActor_BP_302] -883.146729
+[2016.12.19-23.25.09:582][255]LogBlueprintUserMessages: [CameraActor_BP_302] -868.944336
+[2016.12.19-23.25.09:598][256]LogBlueprintUserMessages: [CameraActor_BP_302] -854.968994
+[2016.12.19-23.25.09:614][257]LogBlueprintUserMessages: [CameraActor_BP_302] -841.217285
+[2016.12.19-23.25.09:630][258]LogBlueprintUserMessages: [CameraActor_BP_302] -827.686523
+[2016.12.19-23.25.09:646][259]LogBlueprintUserMessages: [CameraActor_BP_302] -814.37207
+[2016.12.19-23.25.09:662][260]LogBlueprintUserMessages: [CameraActor_BP_302] -801.270996
+[2016.12.19-23.25.09:678][261]LogBlueprintUserMessages: [CameraActor_BP_302] -788.379639
+[2016.12.19-23.25.09:695][262]LogBlueprintUserMessages: [CameraActor_BP_302] -775.695068
+[2016.12.19-23.25.09:711][263]LogBlueprintUserMessages: [CameraActor_BP_302] -763.214111
+[2016.12.19-23.25.09:727][264]LogBlueprintUserMessages: [CameraActor_BP_302] -750.932861
+[2016.12.19-23.25.09:743][265]LogBlueprintUserMessages: [CameraActor_BP_302] -738.848633
+[2016.12.19-23.25.09:759][266]LogBlueprintUserMessages: [CameraActor_BP_302] -726.958252
+[2016.12.19-23.25.09:775][267]LogBlueprintUserMessages: [CameraActor_BP_302] -715.258789
+[2016.12.19-23.25.09:791][268]LogBlueprintUserMessages: [CameraActor_BP_302] -703.746826
+[2016.12.19-23.25.09:807][269]LogBlueprintUserMessages: [CameraActor_BP_302] -692.419678
+[2016.12.19-23.25.09:823][270]LogBlueprintUserMessages: [CameraActor_BP_302] -681.274414
+[2016.12.19-23.25.09:839][271]LogBlueprintUserMessages: [CameraActor_BP_302] -670.307617
+[2016.12.19-23.25.09:856][272]LogBlueprintUserMessages: [CameraActor_BP_302] -659.517334
+[2016.12.19-23.25.09:872][273]LogBlueprintUserMessages: [CameraActor_BP_302] -648.899902
+[2016.12.19-23.25.09:888][274]LogBlueprintUserMessages: [CameraActor_BP_302] -638.452881
+[2016.12.19-23.25.09:904][275]LogBlueprintUserMessages: [CameraActor_BP_302] -628.174072
+[2016.12.19-23.25.09:920][276]LogBlueprintUserMessages: [CameraActor_BP_302] -618.060303
+[2016.12.19-23.25.09:936][277]LogBlueprintUserMessages: [CameraActor_BP_302] -608.108887
+[2016.12.19-23.25.09:953][278]LogBlueprintUserMessages: [CameraActor_BP_302] -598.317383
+[2016.12.19-23.25.09:969][279]LogBlueprintUserMessages: [CameraActor_BP_302] -588.683105
+[2016.12.19-23.25.09:985][280]LogBlueprintUserMessages: [CameraActor_BP_302] -579.203613
+[2016.12.19-23.25.10:001][281]LogBlueprintUserMessages: [CameraActor_BP_302] -569.876465
+[2016.12.19-23.25.10:017][282]LogBlueprintUserMessages: [CameraActor_BP_302] -560.698975
+[2016.12.19-23.25.10:033][283]LogBlueprintUserMessages: [CameraActor_BP_302] -551.669434
+[2016.12.19-23.25.10:049][284]LogBlueprintUserMessages: [CameraActor_BP_302] -542.784912
+[2016.12.19-23.25.10:066][285]LogBlueprintUserMessages: [CameraActor_BP_302] -534.042969
+[2016.12.19-23.25.10:082][286]LogBlueprintUserMessages: [CameraActor_BP_302] -525.441895
+[2016.12.19-23.25.10:098][287]LogBlueprintUserMessages: [CameraActor_BP_302] -516.979004
+[2016.12.19-23.25.10:114][288]LogBlueprintUserMessages: [CameraActor_BP_302] -508.651855
+[2016.12.19-23.25.10:130][289]LogBlueprintUserMessages: [CameraActor_BP_302] -500.45874
+[2016.12.19-23.25.10:146][290]LogBlueprintUserMessages: [CameraActor_BP_302] -492.397217
+[2016.12.19-23.25.10:162][291]LogBlueprintUserMessages: [CameraActor_BP_302] -484.465576
+[2016.12.19-23.25.10:178][292]LogBlueprintUserMessages: [CameraActor_BP_302] -476.661621
+[2016.12.19-23.25.10:194][293]LogBlueprintUserMessages: [CameraActor_BP_302] -468.983154
+[2016.12.19-23.25.10:210][294]LogBlueprintUserMessages: [CameraActor_BP_302] -461.427734
+[2016.12.19-23.25.10:227][295]LogBlueprintUserMessages: [CameraActor_BP_302] -453.994385
+[2016.12.19-23.25.10:243][296]LogBlueprintUserMessages: [CameraActor_BP_302] -446.68042
+[2016.12.19-23.25.10:259][297]LogBlueprintUserMessages: [CameraActor_BP_302] -439.483887
+[2016.12.19-23.25.10:275][298]LogBlueprintUserMessages: [CameraActor_BP_302] -432.40332
+[2016.12.19-23.25.10:291][299]LogBlueprintUserMessages: [CameraActor_BP_302] -425.436523
+[2016.12.19-23.25.10:307][300]LogBlueprintUserMessages: [CameraActor_BP_302] -418.582031
+[2016.12.19-23.25.10:324][301]LogBlueprintUserMessages: [CameraActor_BP_302] -411.837646
+[2016.12.19-23.25.10:340][302]LogBlueprintUserMessages: [CameraActor_BP_302] -405.201904
+[2016.12.19-23.25.10:356][303]LogBlueprintUserMessages: [CameraActor_BP_302] -398.672852
+[2016.12.19-23.25.10:372][304]LogBlueprintUserMessages: [CameraActor_BP_302] -392.249023
+[2016.12.19-23.25.10:388][305]LogBlueprintUserMessages: [CameraActor_BP_302] -385.928467
+[2016.12.19-23.25.10:404][306]LogBlueprintUserMessages: [CameraActor_BP_302] -379.709473
+[2016.12.19-23.25.10:420][307]LogBlueprintUserMessages: [CameraActor_BP_302] -373.590576
+[2016.12.19-23.25.10:437][308]LogBlueprintUserMessages: [CameraActor_BP_302] -367.570313
+[2016.12.19-23.25.10:453][309]LogBlueprintUserMessages: [CameraActor_BP_302] -361.646973
+[2016.12.19-23.25.10:469][310]LogBlueprintUserMessages: [CameraActor_BP_302] -355.818848
+[2016.12.19-23.25.10:485][311]LogBlueprintUserMessages: [CameraActor_BP_302] -350.084961
+[2016.12.19-23.25.10:501][312]LogBlueprintUserMessages: [CameraActor_BP_302] -344.443115
+[2016.12.19-23.25.10:517][313]LogBlueprintUserMessages: [CameraActor_BP_302] -338.892334
+[2016.12.19-23.25.10:533][314]LogBlueprintUserMessages: [CameraActor_BP_302] -333.431152
+[2016.12.19-23.25.17:324][735]LogBlueprintUserMessages: [CameraActor_BP_302] -2996.194092
+[2016.12.19-23.25.17:340][736]LogBlueprintUserMessages: [CameraActor_BP_302] -2955.092041
+[2016.12.19-23.25.17:356][737]LogBlueprintUserMessages: [CameraActor_BP_302] -2913.694824
+[2016.12.19-23.25.17:372][738]LogBlueprintUserMessages: [CameraActor_BP_302] -2872.166016
+[2016.12.19-23.25.17:388][739]LogBlueprintUserMessages: [CameraActor_BP_302] -2830.63623
+[2016.12.19-23.25.17:404][740]LogBlueprintUserMessages: [CameraActor_BP_302] -2789.209229
+[2016.12.19-23.25.17:420][741]LogBlueprintUserMessages: [CameraActor_BP_302] -2747.968506
+[2016.12.19-23.25.17:437][742]LogBlueprintUserMessages: [CameraActor_BP_302] -2706.980713
+[2016.12.19-23.25.17:453][743]LogBlueprintUserMessages: [CameraActor_BP_302] -2666.299316
+[2016.12.19-23.25.17:469][744]LogBlueprintUserMessages: [CameraActor_BP_302] -2625.967529
+[2016.12.19-23.25.17:485][745]LogBlueprintUserMessages: [CameraActor_BP_302] -2586.019775
+[2016.12.19-23.25.17:501][746]LogBlueprintUserMessages: [CameraActor_BP_302] -2546.483398
+[2016.12.19-23.25.17:517][747]LogBlueprintUserMessages: [CameraActor_BP_302] -2507.380859
+[2016.12.19-23.25.17:533][748]LogBlueprintUserMessages: [CameraActor_BP_302] -2468.729248
+[2016.12.19-23.25.17:549][749]LogBlueprintUserMessages: [CameraActor_BP_302] -2430.542236
+[2016.12.19-23.25.17:565][750]LogBlueprintUserMessages: [CameraActor_BP_302] -2392.830078
+[2016.12.19-23.25.17:582][751]LogBlueprintUserMessages: [CameraActor_BP_302] -2355.600586
+[2016.12.19-23.25.17:598][752]LogBlueprintUserMessages: [CameraActor_BP_302] -2318.859131
+[2016.12.19-23.25.17:614][753]LogBlueprintUserMessages: [CameraActor_BP_302] -2282.610107
+[2016.12.19-23.25.17:630][754]LogBlueprintUserMessages: [CameraActor_BP_302] -2246.855225
+[2016.12.19-23.25.17:646][755]LogBlueprintUserMessages: [CameraActor_BP_302] -2211.595459
+[2016.12.19-23.25.17:662][756]LogBlueprintUserMessages: [CameraActor_BP_302] -2176.830811
+[2016.12.19-23.25.17:678][757]LogBlueprintUserMessages: [CameraActor_BP_302] -2142.560059
+[2016.12.19-23.25.17:694][758]LogBlueprintUserMessages: [CameraActor_BP_302] -2108.781738
+[2016.12.19-23.25.17:711][759]LogBlueprintUserMessages: [CameraActor_BP_302] -2075.493164
+[2016.12.19-23.25.17:727][760]LogBlueprintUserMessages: [CameraActor_BP_302] -2042.690918
+[2016.12.19-23.25.17:743][761]LogBlueprintUserMessages: [CameraActor_BP_302] -2010.37207
+[2016.12.19-23.25.17:759][762]LogBlueprintUserMessages: [CameraActor_BP_302] -1978.532227
+[2016.12.19-23.25.17:775][763]LogBlueprintUserMessages: [CameraActor_BP_302] -1947.167358
+[2016.12.19-23.25.17:792][764]LogBlueprintUserMessages: [CameraActor_BP_302] -1916.272949
+[2016.12.19-23.25.17:808][765]LogBlueprintUserMessages: [CameraActor_BP_302] -1885.844116
+[2016.12.19-23.25.17:824][766]LogBlueprintUserMessages: [CameraActor_BP_302] -1855.875977
+[2016.12.19-23.25.17:840][767]LogBlueprintUserMessages: [CameraActor_BP_302] -1826.363525
+[2016.12.19-23.25.17:856][768]LogBlueprintUserMessages: [CameraActor_BP_302] -1797.301392
+[2016.12.19-23.25.17:872][769]LogBlueprintUserMessages: [CameraActor_BP_302] -1768.684326
+[2016.12.19-23.25.17:888][770]LogBlueprintUserMessages: [CameraActor_BP_302] -1740.506836
+[2016.12.19-23.25.17:904][771]LogBlueprintUserMessages: [CameraActor_BP_302] -1712.763428
+[2016.12.19-23.25.17:920][772]LogBlueprintUserMessages: [CameraActor_BP_302] -1685.448242
+[2016.12.19-23.25.17:936][773]LogBlueprintUserMessages: [CameraActor_BP_302] -1658.556152
+[2016.12.19-23.25.17:953][774]LogBlueprintUserMessages: [CameraActor_BP_302] -1632.081055
+[2016.12.19-23.25.17:969][775]LogBlueprintUserMessages: [CameraActor_BP_302] -1606.017822
+[2016.12.19-23.25.17:985][776]LogBlueprintUserMessages: [CameraActor_BP_302] -1580.360596
+[2016.12.19-23.25.18:001][777]LogBlueprintUserMessages: [CameraActor_BP_302] -1555.103516
+[2016.12.19-23.25.18:017][778]LogBlueprintUserMessages: [CameraActor_BP_302] -1530.241699
+[2016.12.19-23.25.18:033][779]LogBlueprintUserMessages: [CameraActor_BP_302] -1505.768799
+[2016.12.19-23.25.18:049][780]LogBlueprintUserMessages: [CameraActor_BP_302] -1481.679932
+[2016.12.19-23.25.18:065][781]LogBlueprintUserMessages: [CameraActor_BP_302] -1457.969482
+[2016.12.19-23.25.18:082][782]LogBlueprintUserMessages: [CameraActor_BP_302] -1434.631348
+[2016.12.19-23.25.18:098][783]LogBlueprintUserMessages: [CameraActor_BP_302] -1411.660645
+[2016.12.19-23.25.18:114][784]LogBlueprintUserMessages: [CameraActor_BP_302] -1389.052002
+[2016.12.19-23.25.18:130][785]LogBlueprintUserMessages: [CameraActor_BP_302] -1366.800049
+[2016.12.19-23.25.18:146][786]LogBlueprintUserMessages: [CameraActor_BP_302] -1344.899414
+[2016.12.19-23.25.18:162][787]LogBlueprintUserMessages: [CameraActor_BP_302] -1323.344727
+[2016.12.19-23.25.18:179][788]LogBlueprintUserMessages: [CameraActor_BP_302] -1302.131104
+[2016.12.19-23.25.18:195][789]LogBlueprintUserMessages: [CameraActor_BP_302] -1281.253418
+[2016.12.19-23.25.18:211][790]LogBlueprintUserMessages: [CameraActor_BP_302] -1260.706543
+[2016.12.19-23.25.18:227][791]LogBlueprintUserMessages: [CameraActor_BP_302] -1240.484863
+[2016.12.19-23.25.18:243][792]LogBlueprintUserMessages: [CameraActor_BP_302] -1220.584473
+[2016.12.19-23.25.18:259][793]LogBlueprintUserMessages: [CameraActor_BP_302] -1201.0
+[2016.12.19-23.25.18:275][794]LogBlueprintUserMessages: [CameraActor_BP_302] -1181.726563
+[2016.12.19-23.25.18:291][795]LogBlueprintUserMessages: [CameraActor_BP_302] -1162.759521
+[2016.12.19-23.25.18:307][796]LogBlueprintUserMessages: [CameraActor_BP_302] -1144.094238
+[2016.12.19-23.25.18:324][797]LogBlueprintUserMessages: [CameraActor_BP_302] -1125.726074
+[2016.12.19-23.25.18:340][798]LogBlueprintUserMessages: [CameraActor_BP_302] -1107.650146
+[2016.12.19-23.25.18:356][799]LogBlueprintUserMessages: [CameraActor_BP_302] -1089.862061
+[2016.12.19-23.25.18:372][800]LogBlueprintUserMessages: [CameraActor_BP_302] -1072.357422
+[2016.12.19-23.25.18:388][801]LogBlueprintUserMessages: [CameraActor_BP_302] -1055.13208
+[2016.12.19-23.25.18:404][802]LogBlueprintUserMessages: [CameraActor_BP_302] -1038.181152
+[2016.12.19-23.25.18:420][803]LogBlueprintUserMessages: [CameraActor_BP_302] -1021.500977
+[2016.12.19-23.25.18:437][804]LogBlueprintUserMessages: [CameraActor_BP_302] -1005.08667
+[2016.12.19-23.25.18:453][805]LogBlueprintUserMessages: [CameraActor_BP_302] -988.93457
+[2016.12.19-23.25.18:469][806]LogBlueprintUserMessages: [CameraActor_BP_302] -973.040527
+[2016.12.19-23.25.18:485][807]LogBlueprintUserMessages: [CameraActor_BP_302] -957.400391
+[2016.12.19-23.25.18:501][808]LogBlueprintUserMessages: [CameraActor_BP_302] -942.01001
+[2016.12.19-23.25.18:517][809]LogBlueprintUserMessages: [CameraActor_BP_302] -926.865723
+[2016.12.19-23.25.18:533][810]LogBlueprintUserMessages: [CameraActor_BP_302] -911.963867
+[2016.12.19-23.25.18:550][811]LogBlueprintUserMessages: [CameraActor_BP_302] -897.300293
+[2016.12.19-23.25.18:566][812]LogBlueprintUserMessages: [CameraActor_BP_302] -882.871338
+[2016.12.19-23.25.18:582][813]LogBlueprintUserMessages: [CameraActor_BP_302] -868.673096
+[2016.12.19-23.25.18:598][814]LogBlueprintUserMessages: [CameraActor_BP_302] -854.702393
+[2016.12.19-23.25.18:614][815]LogBlueprintUserMessages: [CameraActor_BP_302] -840.955078
+[2016.12.19-23.25.18:630][816]LogBlueprintUserMessages: [CameraActor_BP_302] -827.427979
+[2016.12.19-23.25.18:646][817]LogBlueprintUserMessages: [CameraActor_BP_302] -814.11792
+[2016.12.19-23.25.18:662][818]LogBlueprintUserMessages: [CameraActor_BP_302] -801.020996
+[2016.12.19-23.25.18:678][819]LogBlueprintUserMessages: [CameraActor_BP_302] -788.133789
+[2016.12.19-23.25.18:694][820]LogBlueprintUserMessages: [CameraActor_BP_302] -775.453369
+[2016.12.19-23.25.18:711][821]LogBlueprintUserMessages: [CameraActor_BP_302] -762.97583
+[2016.12.19-23.25.18:727][822]LogBlueprintUserMessages: [CameraActor_BP_302] -750.69873
+[2016.12.19-23.25.20:082][906]LogBlueprintUserMessages: [CameraActor_BP_302] -2214.053711
+[2016.12.19-23.25.20:098][907]LogBlueprintUserMessages: [CameraActor_BP_302] -2179.254639
+[2016.12.19-23.25.20:114][908]LogBlueprintUserMessages: [CameraActor_BP_302] -2144.949219
+[2016.12.19-23.25.20:130][909]LogBlueprintUserMessages: [CameraActor_BP_302] -2111.136475
+[2016.12.19-23.25.20:146][910]LogBlueprintUserMessages: [CameraActor_BP_302] -2077.813477
+[2016.12.19-23.25.20:162][911]LogBlueprintUserMessages: [CameraActor_BP_302] -2044.977173
+[2016.12.19-23.25.20:178][912]LogBlueprintUserMessages: [CameraActor_BP_302] -2012.62439
+[2016.12.19-23.25.20:194][913]LogBlueprintUserMessages: [CameraActor_BP_302] -1980.751099
+[2016.12.19-23.25.20:211][914]LogBlueprintUserMessages: [CameraActor_BP_302] -1949.353271
+[2016.12.19-23.25.20:227][915]LogBlueprintUserMessages: [CameraActor_BP_302] -1918.425903
+[2016.12.19-23.25.20:243][916]LogBlueprintUserMessages: [CameraActor_BP_302] -1887.964722
+[2016.12.19-23.25.20:259][917]LogBlueprintUserMessages: [CameraActor_BP_302] -1857.964478
+[2016.12.19-23.25.20:275][918]LogBlueprintUserMessages: [CameraActor_BP_302] -1828.42041
+[2016.12.19-23.25.20:291][919]LogBlueprintUserMessages: [CameraActor_BP_302] -1799.326904
+[2016.12.19-23.25.20:307][920]LogBlueprintUserMessages: [CameraActor_BP_302] -1770.678467
+[2016.12.19-23.25.20:324][921]LogBlueprintUserMessages: [CameraActor_BP_302] -1742.470093
+[2016.12.19-23.25.20:340][922]LogBlueprintUserMessages: [CameraActor_BP_302] -1714.696045
+[2016.12.19-23.25.20:356][923]LogBlueprintUserMessages: [CameraActor_BP_302] -1687.351074
+[2016.12.19-23.25.20:372][924]LogBlueprintUserMessages: [CameraActor_BP_302] -1660.429199
+[2016.12.19-23.25.20:388][925]LogBlueprintUserMessages: [CameraActor_BP_302] -1633.925049
+[2016.12.19-23.25.20:404][926]LogBlueprintUserMessages: [CameraActor_BP_302] -1607.833008
+[2016.12.19-23.25.20:421][927]LogBlueprintUserMessages: [CameraActor_BP_302] -1582.147461
+[2016.12.19-23.25.20:437][928]LogBlueprintUserMessages: [CameraActor_BP_302] -1556.863037
+[2016.12.19-23.25.20:453][929]LogBlueprintUserMessages: [CameraActor_BP_302] -1531.973633
+[2016.12.19-23.25.20:469][930]LogBlueprintUserMessages: [CameraActor_BP_302] -1507.473877
+[2016.12.19-23.25.20:485][931]LogBlueprintUserMessages: [CameraActor_BP_302] -1483.35791
+[2016.12.19-23.25.20:501][932]LogBlueprintUserMessages: [CameraActor_BP_302] -1459.62085
+[2016.12.19-23.25.20:517][933]LogBlueprintUserMessages: [CameraActor_BP_302] -1436.256836
+[2016.12.19-23.25.20:533][934]LogBlueprintUserMessages: [CameraActor_BP_302] -1413.260498
+[2016.12.19-23.25.20:549][935]LogBlueprintUserMessages: [CameraActor_BP_302] -1390.626221
+[2016.12.19-23.25.20:565][936]LogBlueprintUserMessages: [CameraActor_BP_302] -1368.349365
+[2016.12.19-23.25.20:582][937]LogBlueprintUserMessages: [CameraActor_BP_302] -1346.424316
+[2016.12.19-23.25.20:598][938]LogBlueprintUserMessages: [CameraActor_BP_302] -1324.845459
+[2016.12.19-23.25.20:614][939]LogBlueprintUserMessages: [CameraActor_BP_302] -1303.60791
+[2016.12.19-23.25.20:630][940]LogBlueprintUserMessages: [CameraActor_BP_302] -1282.706543
+[2016.12.19-23.25.20:646][941]LogBlueprintUserMessages: [CameraActor_BP_302] -1262.136719
+[2016.12.19-23.25.20:662][942]LogBlueprintUserMessages: [CameraActor_BP_302] -1241.892822
+[2016.12.19-23.25.20:678][943]LogBlueprintUserMessages: [CameraActor_BP_302] -1221.969971
+[2016.12.19-23.25.20:695][944]LogBlueprintUserMessages: [CameraActor_BP_302] -1202.363525
+[2016.12.19-23.25.20:711][945]LogBlueprintUserMessages: [CameraActor_BP_302] -1183.068115
+[2016.12.19-23.25.20:727][946]LogBlueprintUserMessages: [CameraActor_BP_302] -1164.079834
+[2016.12.19-23.25.20:743][947]LogBlueprintUserMessages: [CameraActor_BP_302] -1145.393311
+[2016.12.19-23.25.20:759][948]LogBlueprintUserMessages: [CameraActor_BP_302] -1127.004395
+[2016.12.19-23.25.20:775][949]LogBlueprintUserMessages: [CameraActor_BP_302] -1108.907715
+[2016.12.19-23.25.20:792][950]LogBlueprintUserMessages: [CameraActor_BP_302] -1091.099609
+[2016.12.19-23.25.20:808][951]LogBlueprintUserMessages: [CameraActor_BP_302] -1073.575195
+[2016.12.19-23.25.20:824][952]LogBlueprintUserMessages: [CameraActor_BP_302] -1056.330078
+[2016.12.19-23.25.20:840][953]LogBlueprintUserMessages: [CameraActor_BP_302] -1039.360107
+[2016.12.19-23.25.20:856][954]LogBlueprintUserMessages: [CameraActor_BP_302] -1022.660889
+[2016.12.19-23.25.20:872][955]LogBlueprintUserMessages: [CameraActor_BP_302] -1006.228271
+[2016.12.19-23.25.20:888][956]LogBlueprintUserMessages: [CameraActor_BP_302] -990.057861
+[2016.12.19-23.25.20:904][957]LogBlueprintUserMessages: [CameraActor_BP_302] -974.145752
+[2016.12.19-23.25.20:920][958]LogBlueprintUserMessages: [CameraActor_BP_302] -958.488037
+[2016.12.19-23.25.20:936][959]LogBlueprintUserMessages: [CameraActor_BP_302] -943.080566
+[2016.12.19-23.25.20:952][960]LogBlueprintUserMessages: [CameraActor_BP_302] -927.919434
+[2016.12.19-23.25.20:969][961]LogBlueprintUserMessages: [CameraActor_BP_302] -913.000488
+[2016.12.19-23.25.20:985][962]LogBlueprintUserMessages: [CameraActor_BP_302] -898.320068
+[2016.12.19-23.25.21:001][963]LogBlueprintUserMessages: [CameraActor_BP_302] -883.874512
+[2016.12.19-23.25.21:017][964]LogBlueprintUserMessages: [CameraActor_BP_302] -869.660645
+[2016.12.19-23.25.21:033][965]LogBlueprintUserMessages: [CameraActor_BP_302] -855.674072
+[2016.12.19-23.25.21:049][966]LogBlueprintUserMessages: [CameraActor_BP_302] -841.911133
+[2016.12.19-23.25.21:065][967]LogBlueprintUserMessages: [CameraActor_BP_302] -828.369141
+[2016.12.19-23.25.21:082][968]LogBlueprintUserMessages: [CameraActor_BP_302] -815.043701
+[2016.12.19-23.25.21:098][969]LogBlueprintUserMessages: [CameraActor_BP_302] -801.931885
+[2016.12.19-23.25.21:114][970]LogBlueprintUserMessages: [CameraActor_BP_302] -789.030273
+[2016.12.19-23.25.21:130][971]LogBlueprintUserMessages: [CameraActor_BP_302] -776.335205
+[2016.12.19-23.25.21:146][972]LogBlueprintUserMessages: [CameraActor_BP_302] -763.84375
+[2016.12.19-23.25.21:163][973]LogBlueprintUserMessages: [CameraActor_BP_302] -751.552734
+[2016.12.19-23.25.21:179][974]LogBlueprintUserMessages: [CameraActor_BP_302] -739.45874
+[2016.12.19-23.25.21:195][975]LogBlueprintUserMessages: [CameraActor_BP_302] -727.558594
+[2016.12.19-23.25.21:211][976]LogBlueprintUserMessages: [CameraActor_BP_302] -715.849365
+[2016.12.19-23.25.21:227][977]LogBlueprintUserMessages: [CameraActor_BP_302] -704.328125
+[2016.12.19-23.25.21:243][978]LogBlueprintUserMessages: [CameraActor_BP_302] -692.991699
+[2016.12.19-23.25.21:259][979]LogBlueprintUserMessages: [CameraActor_BP_302] -681.837158
+[2016.12.19-23.25.21:275][980]LogBlueprintUserMessages: [CameraActor_BP_302] -670.861816
+[2016.12.19-23.25.21:291][981]LogBlueprintUserMessages: [CameraActor_BP_302] -660.062744
+[2016.12.19-23.25.21:307][982]LogBlueprintUserMessages: [CameraActor_BP_302] -649.436523
+[2016.12.19-23.25.21:323][983]LogBlueprintUserMessages: [CameraActor_BP_302] -638.981201
+[2016.12.19-23.25.21:340][984]LogBlueprintUserMessages: [CameraActor_BP_302] -628.693848
+[2016.12.19-23.25.21:356][985]LogBlueprintUserMessages: [CameraActor_BP_302] -618.571533
+[2016.12.19-23.25.21:372][986]LogBlueprintUserMessages: [CameraActor_BP_302] -608.611816
+[2016.12.19-23.25.21:388][987]LogBlueprintUserMessages: [CameraActor_BP_302] -598.812012
+[2016.12.19-23.25.21:404][988]LogBlueprintUserMessages: [CameraActor_BP_302] -589.169922
+[2016.12.19-23.25.21:420][989]LogBlueprintUserMessages: [CameraActor_BP_302] -579.682617
+[2016.12.19-23.25.21:436][990]LogBlueprintUserMessages: [CameraActor_BP_302] -570.347412
+[2016.12.19-23.25.21:453][991]LogBlueprintUserMessages: [CameraActor_BP_302] -561.162842
+[2016.12.19-23.25.21:469][992]LogBlueprintUserMessages: [CameraActor_BP_302] -552.125732
+[2016.12.19-23.25.21:485][993]LogBlueprintUserMessages: [CameraActor_BP_302] -543.233643
+[2016.12.19-23.25.21:501][994]LogBlueprintUserMessages: [CameraActor_BP_302] -534.484863
+[2016.12.19-23.25.21:517][995]LogBlueprintUserMessages: [CameraActor_BP_302] -525.876465
+[2016.12.19-23.25.21:533][996]LogBlueprintUserMessages: [CameraActor_BP_302] -517.406494
+[2016.12.19-23.25.21:550][997]LogBlueprintUserMessages: [CameraActor_BP_302] -509.072754
+[2016.12.19-23.25.21:566][998]LogBlueprintUserMessages: [CameraActor_BP_302] -500.872803
+[2016.12.19-23.25.21:582][999]LogBlueprintUserMessages: [CameraActor_BP_302] -492.804688
+[2016.12.19-23.25.36:405][918]LogBlueprintUserMessages: [CameraActor_BP_302] -2683.958496
+[2016.12.19-23.25.36:421][919]LogBlueprintUserMessages: [CameraActor_BP_302] -2645.156982
+[2016.12.19-23.25.36:437][920]LogBlueprintUserMessages: [CameraActor_BP_302] -2606.494629
+[2016.12.19-23.25.36:453][921]LogBlueprintUserMessages: [CameraActor_BP_302] -2568.035645
+[2016.12.19-23.25.36:469][922]LogBlueprintUserMessages: [CameraActor_BP_302] -2529.832764
+[2016.12.19-23.25.36:485][923]LogBlueprintUserMessages: [CameraActor_BP_302] -2491.928467
+[2016.12.19-23.25.36:501][924]LogBlueprintUserMessages: [CameraActor_BP_302] -2454.357422
+[2016.12.19-23.25.36:517][925]LogBlueprintUserMessages: [CameraActor_BP_302] -2417.148438
+[2016.12.19-23.25.36:534][926]LogBlueprintUserMessages: [CameraActor_BP_302] -2380.324219
+[2016.12.19-23.25.36:550][927]LogBlueprintUserMessages: [CameraActor_BP_302] -2343.902832
+[2016.12.19-23.25.36:566][928]LogBlueprintUserMessages: [CameraActor_BP_302] -2307.899902
+[2016.12.19-23.25.36:582][929]LogBlueprintUserMessages: [CameraActor_BP_302] -2272.326172
+[2016.12.19-23.25.36:598][930]LogBlueprintUserMessages: [CameraActor_BP_302] -2237.191162
+[2016.12.19-23.25.36:614][931]LogBlueprintUserMessages: [CameraActor_BP_302] -2202.501465
+[2016.12.19-23.25.36:631][932]LogBlueprintUserMessages: [CameraActor_BP_302] -2168.262207
+[2016.12.19-23.25.36:647][933]LogBlueprintUserMessages: [CameraActor_BP_302] -2134.477051
+[2016.12.19-23.25.36:663][934]LogBlueprintUserMessages: [CameraActor_BP_302] -2101.147949
+[2016.12.19-23.25.36:679][935]LogBlueprintUserMessages: [CameraActor_BP_302] -2068.275391
+[2016.12.19-23.25.36:695][936]LogBlueprintUserMessages: [CameraActor_BP_302] -2035.859985
+[2016.12.19-23.25.36:711][937]LogBlueprintUserMessages: [CameraActor_BP_302] -2003.900757
+[2016.12.19-23.25.36:727][938]LogBlueprintUserMessages: [CameraActor_BP_302] -1972.395996
+[2016.12.19-23.25.36:744][939]LogBlueprintUserMessages: [CameraActor_BP_302] -1941.343872
+[2016.12.19-23.25.36:760][940]LogBlueprintUserMessages: [CameraActor_BP_302] -1910.741577
+[2016.12.19-23.25.36:776][941]LogBlueprintUserMessages: [CameraActor_BP_302] -1880.586426
+[2016.12.19-23.25.36:792][942]LogBlueprintUserMessages: [CameraActor_BP_302] -1850.87439
+[2016.12.19-23.25.36:808][943]LogBlueprintUserMessages: [CameraActor_BP_302] -1821.602173
+[2016.12.19-23.25.36:824][944]LogBlueprintUserMessages: [CameraActor_BP_302] -1792.765747
+[2016.12.19-23.25.36:840][945]LogBlueprintUserMessages: [CameraActor_BP_302] -1764.360596
+[2016.12.19-23.25.36:856][946]LogBlueprintUserMessages: [CameraActor_BP_302] -1736.382568
+[2016.12.19-23.25.36:872][947]LogBlueprintUserMessages: [CameraActor_BP_302] -1708.826904
+[2016.12.19-23.25.36:888][948]LogBlueprintUserMessages: [CameraActor_BP_302] -1681.689209
+[2016.12.19-23.25.36:905][949]LogBlueprintUserMessages: [CameraActor_BP_302] -1654.964111
+[2016.12.19-23.25.36:921][950]LogBlueprintUserMessages: [CameraActor_BP_302] -1628.647217
+[2016.12.19-23.25.36:937][951]LogBlueprintUserMessages: [CameraActor_BP_302] -1602.733398
+[2016.12.19-23.25.36:953][952]LogBlueprintUserMessages: [CameraActor_BP_302] -1577.217285
+[2016.12.19-23.25.36:969][953]LogBlueprintUserMessages: [CameraActor_BP_302] -1552.094482
+[2016.12.19-23.25.36:986][954]LogBlueprintUserMessages: [CameraActor_BP_302] -1527.359131
+[2016.12.19-23.25.37:002][955]LogBlueprintUserMessages: [CameraActor_BP_302] -1503.006592
+[2016.12.19-23.25.37:018][956]LogBlueprintUserMessages: [CameraActor_BP_302] -1479.031738
+[2016.12.19-23.25.37:034][957]LogBlueprintUserMessages: [CameraActor_BP_302] -1455.429443
+[2016.12.19-23.25.37:050][958]LogBlueprintUserMessages: [CameraActor_BP_302] -1432.194092
+[2016.12.19-23.26.00:325][401]LogBlueprintUserMessages: [Expedition_12] EXPEDITION BEGINS!
+[2016.12.19-23.26.00:325][401]LogBlueprintUserMessages: [Expedition_12] villagers alive =  6
 fear = 50
 food = 200
-water = 99
+water = 100
 wood = 20
 torches = 100
-Heavy Clothes = 7
-Weapons = 7
+Heavy Clothes = 6
+Weapons = 6
 villagers death = 0
 Days left5
-[2016.12.19-06.47.07:838][482]LogBlueprintUserMessages: [Expedition_12] villagers alive =  6
-fear = 57
-food = 221
-water = 92
-wood = 18
-torches = 93
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 1
-Days left4
-[2016.12.19-06.47.28:918][789]LogBlueprintUserMessages: [Expedition_12] villagers alive =  5
-fear = 65
-food = 228
-water = 86
-wood = 16
-torches = 87
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 2
-Days left3
-[2016.12.19-06.47.29:854][847]LogBlueprintUserMessages: [Expedition_12] villagers alive =  3
-fear = 91
-food = 258
-water = 81
-wood = 14
-torches = 82
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 4
-Days left2
-[2016.12.19-06.47.30:531][889]LogBlueprintUserMessages: [Expedition_12] villagers alive =  1
-fear = 100
-food = 252
-water = 78
-wood = 12
-torches = 79
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 6
-Days left1
-[2016.12.19-06.47.31:273][935]LogBlueprintUserMessages: [Expedition_12] villagers alive =  -1
-fear = 100
-food = 250
-water = 77
-wood = 12
-torches = 78
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 8
-Days left0
-[2016.12.19-06.47.43:790][711]LogBlueprintUserMessages: [Expedition_12] EXPEDITION BEGINS!
-[2016.12.19-06.47.43:790][711]LogBlueprintUserMessages: [Expedition_12] villagers alive =  7
-fear = 50
-food = 250
-water = 77
-wood = 12
-torches = 78
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 8
-Days left3
-[2016.12.19-06.47.44:790][773]LogBlueprintUserMessages: [Expedition_12] villagers alive =  7
-fear = 46
-food = 276
-water = 70
-wood = 10
-torches = 71
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 8
-Days left2
-[2016.12.19-06.47.45:500][817]LogBlueprintUserMessages: [Expedition_12] villagers alive =  6
-fear = 52
-food = 302
-water = 63
-wood = 8
-torches = 64
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 9
-Days left1
-[2016.12.19-06.47.46:161][858]LogBlueprintUserMessages: [Expedition_12] villagers alive =  5
-fear = 68
-food = 330
-water = 57
-wood = 8
-torches = 58
-Heavy Clothes = 7
-Weapons = 7
-villagers death = 10
-Days left0
-[2016.12.19-06.57.53:487][505]LogEngine: All Windows Closed
-[2016.12.19-06.57.53:487][505]LogWindows: FPlatformMisc::RequestExit(0)
-[2016.12.19-06.57.53:493][506]LogMoviePlayer: Shutting down movie player
-[2016.12.19-06.57.53:802][506]LogExit: Preparing to exit.
-[2016.12.19-06.57.54:766][506]LogExit: Game engine shut down
-[2016.12.19-06.57.54:846][506]LogObj: Freed 0b from 0 cluster array pools.
-[2016.12.19-06.57.54:846][506]LogExit: Object subsystem successfully closed.
-[2016.12.19-06.57.54:857][506]LogD3D11RHI: Shutdown
-[2016.12.19-06.57.54:857][506]LogD3D11RHI: CleanupD3DDevice
-[2016.12.19-06.57.54:902][506]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (120)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module SequenceRecorder (119)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AutomationController (118)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AutomationWorker (117)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (113)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (112)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module Media (111)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (110)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module CharacterAI (109)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module SessionServices (108)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (107)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module Niagara (106)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module PortalServices (104)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module PortalRpc (103)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module MessagingRpc (102)
-[2016.12.19-06.57.54:922][506]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module SteamVR (97)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module OculusLibrary (95)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module OculusInput (94)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module CableComponent (92)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (91)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module HTML5Networking (89)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (85)
-[2016.12.19-06.57.55:172][506]LogModuleManager: Shutting down and abandoning module UObjectPlugin (84)
-[2016.12.19-06.57.55:173][506]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (83)
-[2016.12.19-06.57.55:173][506]LogModuleManager: Shutting down and abandoning module SourceControl (82)
-[2016.12.19-06.57.55:173][506]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (81)
-[2016.12.19-06.57.55:173][506]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2016.12.19-06.57.55:273][506]LogModuleManager: Shutting down and abandoning module TcpMessaging (79)
-[2016.12.19-06.57.55:618][506]LogModuleManager: Shutting down and abandoning module SubstanceCore (78)
-[2016.12.19-06.57.55:618][506]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
-[2016.12.19-06.57.55:618][506]LogModuleManager: Shutting down and abandoning module Paper2D (76)
-[2016.12.19-06.57.55:618][506]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
-[2016.12.19-06.57.55:618][506]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module VREditor (70)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module Sequencer (64)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module MessageLog (62)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module AssetTools (61)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module UMG (59)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module Slate (57)
-[2016.12.19-06.57.55:619][506]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module Messaging (55)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module Networking (50)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module Core (49)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
-[2016.12.19-06.57.55:620][506]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
-[2016.12.19-06.57.55:690][506]LogDerivedDataCache: Shutdown
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module InputCore (24)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module Settings (23)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module OculusRift (22)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module GearVR (21)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
-[2016.12.19-06.57.55:690][506]LogOnline:Display: Unloading online subsystem: NULL
-[2016.12.19-06.57.55:690][506]LogModuleManager: Shutting down and abandoning module HTTP (16)
-[2016.12.19-06.57.55:698][506]LogModuleManager: Shutting down and abandoning module XMPP (15)
-[2016.12.19-06.57.55:698][506]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.12.19-06.57.55:699][506]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.12.19-06.57.55:700][506]LogExit: Exiting.
-[2016.12.19-06.57.55:701][506]Log file closed, 12/19/16 17:57:55
+[2016.12.19-23.27.33:337][156]LogBlueprintUserMessages: [CameraActor_BP_302] -2839.967285
+[2016.12.19-23.27.33:353][157]LogBlueprintUserMessages: [CameraActor_BP_302] -2801.615234
+[2016.12.19-23.27.33:369][158]LogBlueprintUserMessages: [CameraActor_BP_302] -2762.954102
+[2016.12.19-23.27.33:385][159]LogBlueprintUserMessages: [CameraActor_BP_302] -2724.132324
+[2016.12.19-23.27.33:401][160]LogBlueprintUserMessages: [CameraActor_BP_302] -2685.27002
+[2016.12.19-23.27.33:417][161]LogBlueprintUserMessages: [CameraActor_BP_302] -2646.465088
+[2016.12.19-23.27.33:434][162]LogBlueprintUserMessages: [CameraActor_BP_302] -2607.796875
+[2016.12.19-23.27.33:450][163]LogBlueprintUserMessages: [CameraActor_BP_302] -2569.330322
+[2016.12.19-23.27.33:466][164]LogBlueprintUserMessages: [CameraActor_BP_302] -2531.11792
+[2016.12.19-23.27.33:482][165]LogBlueprintUserMessages: [CameraActor_BP_302] -2493.202881
+[2016.12.19-23.27.33:498][166]LogBlueprintUserMessages: [CameraActor_BP_302] -2455.615234
+[2016.12.19-23.27.33:514][167]LogBlueprintUserMessages: [CameraActor_BP_302] -2418.393799
+[2016.12.19-23.27.33:530][168]LogBlueprintUserMessages: [CameraActor_BP_302] -2381.556152
+[2016.12.19-23.27.33:547][169]LogBlueprintUserMessages: [CameraActor_BP_302] -2345.121094
+[2016.12.19-23.27.33:563][170]LogBlueprintUserMessages: [CameraActor_BP_302] -2309.103516
+[2016.12.19-23.27.33:579][171]LogBlueprintUserMessages: [CameraActor_BP_302] -2273.515381
+[2016.12.19-23.27.33:595][172]LogBlueprintUserMessages: [CameraActor_BP_302] -2238.365479
+[2016.12.19-23.27.33:611][173]LogBlueprintUserMessages: [CameraActor_BP_302] -2203.660645
+[2016.12.19-23.27.33:627][174]LogBlueprintUserMessages: [CameraActor_BP_302] -2169.406494
+[2016.12.19-23.27.33:644][175]LogBlueprintUserMessages: [CameraActor_BP_302] -2135.605957
+[2016.12.19-23.27.33:660][176]LogBlueprintUserMessages: [CameraActor_BP_302] -2102.26123
+[2016.12.19-23.27.33:676][177]LogBlueprintUserMessages: [CameraActor_BP_302] -2069.373535
+[2016.12.19-23.27.33:692][178]LogBlueprintUserMessages: [CameraActor_BP_302] -2036.942749
+[2016.12.19-23.27.33:708][179]LogBlueprintUserMessages: [CameraActor_BP_302] -2004.96814
+[2016.12.19-23.27.33:724][180]LogBlueprintUserMessages: [CameraActor_BP_302] -1973.448242
+[2016.12.19-23.27.33:740][181]LogBlueprintUserMessages: [CameraActor_BP_302] -1942.381104
+[2016.12.19-23.27.33:756][182]LogBlueprintUserMessages: [CameraActor_BP_302] -1911.763916
+[2016.12.19-23.27.33:772][183]LogBlueprintUserMessages: [CameraActor_BP_302] -1881.593506
+[2016.12.19-23.27.33:788][184]LogBlueprintUserMessages: [CameraActor_BP_302] -1851.853027
+[2016.12.19-23.27.33:805][185]LogBlueprintUserMessages: [CameraActor_BP_302] -1822.566162
+[2016.12.19-23.27.33:821][186]LogBlueprintUserMessages: [CameraActor_BP_302] -1793.71521
+[2016.12.19-23.27.33:837][187]LogBlueprintUserMessages: [CameraActor_BP_302] -1765.295898
+[2016.12.19-23.27.33:853][188]LogBlueprintUserMessages: [CameraActor_BP_302] -1737.303711
+[2016.12.19-23.27.33:869][189]LogBlueprintUserMessages: [CameraActor_BP_302] -1709.734253
+[2016.12.19-23.27.33:885][190]LogBlueprintUserMessages: [CameraActor_BP_302] -1682.582642
+[2016.12.19-23.27.33:901][191]LogBlueprintUserMessages: [CameraActor_BP_302] -1655.843994
+[2016.12.19-23.27.33:917][192]LogBlueprintUserMessages: [CameraActor_BP_302] -1629.51355
+[2016.12.19-23.27.33:934][193]LogBlueprintUserMessages: [CameraActor_BP_302] -1603.586304
+[2016.12.19-23.27.33:950][194]LogBlueprintUserMessages: [CameraActor_BP_302] -1578.057373
+[2016.12.19-23.27.33:966][195]LogBlueprintUserMessages: [CameraActor_BP_302] -1552.921143
+[2016.12.19-23.27.33:982][196]LogBlueprintUserMessages: [CameraActor_BP_302] -1528.17334
+[2016.12.19-23.27.33:998][197]LogBlueprintUserMessages: [CameraActor_BP_302] -1503.80835
+[2016.12.19-23.27.34:015][198]LogBlueprintUserMessages: [CameraActor_BP_302] -1479.820801
+[2016.12.19-23.27.34:031][199]LogBlueprintUserMessages: [CameraActor_BP_302] -1456.206299
+[2016.12.19-23.27.34:047][200]LogBlueprintUserMessages: [CameraActor_BP_302] -1432.959229
+[2016.12.19-23.27.34:063][201]LogBlueprintUserMessages: [CameraActor_BP_302] -1410.074463
+[2016.12.19-23.27.34:079][202]LogBlueprintUserMessages: [CameraActor_BP_302] -1387.546875
+[2016.12.19-23.27.34:095][203]LogBlueprintUserMessages: [CameraActor_BP_302] -1365.37207
+[2016.12.19-23.27.36:563][356]LogBlueprintUserMessages: [CameraActor_BP_302] -2960.099854
+[2016.12.19-23.27.36:579][357]LogBlueprintUserMessages: [CameraActor_BP_302] -2924.26416
+[2016.12.19-23.27.36:595][358]LogBlueprintUserMessages: [CameraActor_BP_302] -2887.348389
+[2016.12.19-23.27.36:611][359]LogBlueprintUserMessages: [CameraActor_BP_302] -2849.647949
+[2016.12.19-23.27.36:627][360]LogBlueprintUserMessages: [CameraActor_BP_302] -2811.402344
+[2016.12.19-23.27.36:644][361]LogBlueprintUserMessages: [CameraActor_BP_302] -2772.804443
+[2016.12.19-23.27.36:660][362]LogBlueprintUserMessages: [CameraActor_BP_302] -2734.010986
+[2016.12.19-23.27.36:676][363]LogBlueprintUserMessages: [CameraActor_BP_302] -2695.148926
+[2016.12.19-23.27.36:692][364]LogBlueprintUserMessages: [CameraActor_BP_302] -2656.321289
+[2016.12.19-23.27.36:708][365]LogBlueprintUserMessages: [CameraActor_BP_302] -2617.611816
+[2016.12.19-23.27.36:724][366]LogBlueprintUserMessages: [CameraActor_BP_302] -2579.088379
+[2016.12.19-23.27.36:740][367]LogBlueprintUserMessages: [CameraActor_BP_302] -2540.806641
+[2016.12.19-23.27.36:756][368]LogBlueprintUserMessages: [CameraActor_BP_302] -2502.8125
+[2016.12.19-23.27.36:772][369]LogBlueprintUserMessages: [CameraActor_BP_302] -2465.142578
+[2016.12.19-23.27.36:788][370]LogBlueprintUserMessages: [CameraActor_BP_302] -2427.82666
+[2016.12.19-23.27.36:805][371]LogBlueprintUserMessages: [CameraActor_BP_302] -2390.889648
+[2016.12.19-23.27.36:821][372]LogBlueprintUserMessages: [CameraActor_BP_302] -2354.350586
+[2016.12.19-23.27.36:837][373]LogBlueprintUserMessages: [CameraActor_BP_302] -2318.225586
+[2016.12.19-23.27.36:853][374]LogBlueprintUserMessages: [CameraActor_BP_302] -2282.527344
+[2016.12.19-23.27.36:869][375]LogBlueprintUserMessages: [CameraActor_BP_302] -2247.265137
+[2016.12.19-23.27.36:885][376]LogBlueprintUserMessages: [CameraActor_BP_302] -2212.446777
+[2016.12.19-23.27.36:901][377]LogBlueprintUserMessages: [CameraActor_BP_302] -2178.077148
+[2016.12.19-23.27.36:918][378]LogBlueprintUserMessages: [CameraActor_BP_302] -2144.161133
+[2016.12.19-23.27.36:934][379]LogBlueprintUserMessages: [CameraActor_BP_302] -2110.700195
+[2016.12.19-23.27.36:950][380]LogBlueprintUserMessages: [CameraActor_BP_302] -2077.696289
+[2016.12.19-23.27.36:966][381]LogBlueprintUserMessages: [CameraActor_BP_302] -2045.149292
+[2016.12.19-23.27.36:982][382]LogBlueprintUserMessages: [CameraActor_BP_302] -2013.05896
+[2016.12.19-23.27.36:998][383]LogBlueprintUserMessages: [CameraActor_BP_302] -1981.423462
+[2016.12.19-23.27.37:015][384]LogBlueprintUserMessages: [CameraActor_BP_302] -1950.241333
+[2016.12.19-23.27.37:031][385]LogBlueprintUserMessages: [CameraActor_BP_302] -1919.509888
+[2016.12.19-23.27.37:047][386]LogBlueprintUserMessages: [CameraActor_BP_302] -1889.226318
+[2016.12.19-23.27.37:063][387]LogBlueprintUserMessages: [CameraActor_BP_302] -1859.386963
+[2016.12.19-23.27.37:079][388]LogBlueprintUserMessages: [CameraActor_BP_302] -1829.988403
+[2016.12.19-23.27.37:095][389]LogBlueprintUserMessages: [CameraActor_BP_302] -1801.026978
+[2016.12.19-23.27.37:111][390]LogBlueprintUserMessages: [CameraActor_BP_302] -1772.498047
+[2016.12.19-23.27.37:127][391]LogBlueprintUserMessages: [CameraActor_BP_302] -1744.397339
+[2016.12.19-23.27.37:143][392]LogBlueprintUserMessages: [CameraActor_BP_302] -1716.720703
+[2016.12.19-23.27.37:159][393]LogBlueprintUserMessages: [CameraActor_BP_302] -1689.463013
+[2016.12.19-23.27.37:175][394]LogBlueprintUserMessages: [CameraActor_BP_302] -1662.619629
+[2016.12.19-23.27.37:192][395]LogBlueprintUserMessages: [CameraActor_BP_302] -1636.185547
+[2016.12.19-23.27.41:757][678]LogBlueprintUserMessages: [CameraActor_BP_302] -2870.99585
+[2016.12.19-23.27.41:773][679]LogBlueprintUserMessages: [CameraActor_BP_302] -2841.772217
+[2016.12.19-23.27.41:789][680]LogBlueprintUserMessages: [CameraActor_BP_302] -2810.497559
+[2016.12.19-23.27.41:805][681]LogBlueprintUserMessages: [CameraActor_BP_302] -2777.629639
+[2016.12.19-23.27.49:252][132]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.19-23.27.49:254][132]LogEngine: All Windows Closed
+[2016.12.19-23.27.49:254][132]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.12.19-23.27.49:266][133]LogMoviePlayer: Shutting down movie player
+[2016.12.19-23.27.49:903][133]LogExit: Preparing to exit.
+[2016.12.19-23.27.50:881][133]LogExit: Game engine shut down
+[2016.12.19-23.27.50:968][133]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.19-23.27.50:968][133]LogExit: Object subsystem successfully closed.
+[2016.12.19-23.27.50:986][133]LogD3D11RHI: Shutdown
+[2016.12.19-23.27.50:986][133]LogD3D11RHI: CleanupD3DDevice
+[2016.12.19-23.27.51:039][133]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (120)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module SequenceRecorder (119)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AutomationController (118)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AutomationWorker (117)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AITestSuite (115)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (113)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (112)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module Media (111)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (110)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module CharacterAI (109)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module SessionServices (108)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (107)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module Niagara (106)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module PortalServices (104)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module PortalRpc (103)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module MessagingRpc (102)
+[2016.12.19-23.27.51:042][133]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module OculusLibrary (95)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module OculusInput (94)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (91)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module HTML5Networking (89)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (85)
+[2016.12.19-23.27.51:084][133]LogModuleManager: Shutting down and abandoning module UObjectPlugin (84)
+[2016.12.19-23.27.51:085][133]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (83)
+[2016.12.19-23.27.51:085][133]LogModuleManager: Shutting down and abandoning module SourceControl (82)
+[2016.12.19-23.27.51:085][133]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (81)
+[2016.12.19-23.27.51:085][133]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.12.19-23.27.51:185][133]LogModuleManager: Shutting down and abandoning module TcpMessaging (79)
+[2016.12.19-23.27.51:716][133]LogModuleManager: Shutting down and abandoning module SubstanceCore (78)
+[2016.12.19-23.27.51:716][133]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2016.12.19-23.27.51:716][133]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2016.12.19-23.27.51:716][133]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2016.12.19-23.27.51:716][133]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module MediaAssets (73)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (72)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (71)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module VREditor (70)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (69)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module PropertyEditor (68)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (67)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module FunctionalTesting (66)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (65)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module Sequencer (64)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (63)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module MessageLog (62)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module AssetTools (61)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module UMGEditor (60)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module UMG (59)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module SlateReflector (58)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module Slate (57)
+[2016.12.19-23.27.51:719][133]LogModuleManager: Shutting down and abandoning module EditorStyle (56)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (54)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (53)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module XAudio2 (52)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module Networking (50)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module Core (49)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module KismetCompiler (48)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module PhysXFormats (47)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module MeshUtilities (46)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module AssetRegistry (45)
+[2016.12.19-23.27.51:720][133]LogModuleManager: Shutting down and abandoning module DerivedDataCache (44)
+[2016.12.19-23.27.51:818][133]LogDerivedDataCache: Shutdown
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (43)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (36)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module ImageWrapper (35)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (34)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (33)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (32)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (31)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (30)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (29)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (26)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.19-23.27.51:818][133]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.19-23.27.51:818][133]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.19-23.27.51:838][133]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.19-23.27.51:839][133]LogExit: Exiting.
+[2016.12.19-23.27.51:840][133]Log file closed, 12/20/16 10:27:51
