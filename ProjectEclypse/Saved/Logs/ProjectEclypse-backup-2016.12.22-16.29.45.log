@@ -1,0 +1,1038 @@
+﻿Log file open, 12/22/16 07:44:16
+LogInit:Display: Running engine for game: ProjectEclypse
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1592818019) SRandInit(1592818019).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.061564
+LogPluginManager: Loaded Plugin Paper2D, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.2(build = 321138) feature version = 0. Client runs version (prod = 1).1.10.2(build = 321138) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 65.3mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.21-20.44.17:035][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.21-20.44.17:035][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.21-20.44.17:056][  0]LogInit: Computer: DESKTOP-M92PTO3
+[2016.12.21-20.44.17:056][  0]LogInit: User: StefanoAdmin
+[2016.12.21-20.44.17:056][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.21-20.44.17:056][  0]LogInit: High frequency timer resolution =3.328120 MHz
+[2016.12.21-20.44.17:057][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.12.21-20.44.17:057][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.21-20.44.17:057][  0]LogMemory: Process Physical Memory: 266.46 MB used, 266.46 MB peak
+[2016.12.21-20.44.17:057][  0]LogMemory: Process Virtual Memory: 267.35 MB used, 267.35 MB peak
+[2016.12.21-20.44.17:057][  0]LogMemory: Physical Memory: 6909.30 MB used, 16313.61 MB total
+[2016.12.21-20.44.17:057][  0]LogMemory: Virtual Memory: 672.30 MB used, 134217728.00 MB total
+[2016.12.21-20.44.17:277][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.12.21-20.44.17:726][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.21-20.44.18:158][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.12.21-20.44.18:158][  0]LogD3D11RHI:       4060/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.21-20.44.18:159][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.21-20.44.18:159][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.21-20.44.18:159][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.21-20.44.18:163][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.21-20.44.18:163][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.21-20.44.18:163][  0]LogWindows: EnumDisplayDevices:
+[2016.12.21-20.44.18:163][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.12.21-20.44.18:164][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.21-20.44.18:164][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.21-20.44.18:164][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.12.21-20.44.18:164][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.21-20.44.18:164][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.12.21-20.44.18:164][  0]LogD3D11RHI:   Driver Version: 376.09 (internal:21.21.13.7609, unified:376.09)
+[2016.12.21-20.44.18:164][  0]LogD3D11RHI:      Driver Date: 11-24-2016
+[2016.12.21-20.44.18:164][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.21-20.44.18:578][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.21-20.44.18:614][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.21-20.44.18:615][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Intermediate/Shaders/WorkingDirectory/236/).
+[2016.12.21-20.44.18:615][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/64914340419000E22A01DC9EFAADEE03/'.
+[2016.12.21-20.44.18:615][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.21-20.44.19:363][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.21-20.44.19:368][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.21-20.44.19:374][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.21-20.44.19:380][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.21-20.44.19:385][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.21-20.44.19:390][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.21-20.44.19:395][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.21-20.44.19:399][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.21-20.44.19:404][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.21-20.44.19:409][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.21-20.44.19:414][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.21-20.44.19:423][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.21-20.44.19:423][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.21-20.44.19:424][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.21-20.44.19:440][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.21-20.44.19:445][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.21-20.44.19:450][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.21-20.44.19:455][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.21-20.44.19:459][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.21-20.44.19:464][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.21-20.44.19:464][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.21-20.44.19:501][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.21-20.44.19:547][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.21-20.44.19:561][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.21-20.44.19:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.21-20.44.19:711][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.21-20.44.19:712][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.21-20.44.19:776][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.21-20.44.19:776][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.21-20.44.19:776][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.21-20.44.19:843][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.21-20.44.20:066][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projecteclypse, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2418632494
+[2016.12.21-20.44.20:097][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2016.12.21-20.44.20:246][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.148684 seconds
+[2016.12.21-20.44.20:250][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.21-20.44.20:250][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.12.21-20.44.20:250][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.21-20.44.20:252][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.21-20.44.20:376][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.21-20.44.20:376][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.21-20.44.20:846][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.12.21-20.44.20:851][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.21-20.44.20:866][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.21-20.44.21:068][  0]SourceControl: Info Source control is disabled
+[2016.12.21-20.44.21:094][  0]SourceControl: Info Source control is disabled
+[2016.12.21-20.44.21:098][  0]SourceControl: Info Source control is disabled
+[2016.12.21-20.44.21:102][  0]SourceControl: Info Source control is disabled
+[2016.12.21-20.44.21:329][  0]LogEngine: Initializing Engine...
+[2016.12.21-20.44.21:330][  0]LogHMD: Oculus plugin initialized. Version: 4.13.1-3142249+++UE4+Release-4.13, LibOVR: 1.10.2, SDK: 1.6.0, built Sep 28 2016, 02:14:12
+[2016.12.21-20.44.21:425][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.44.21:425][  0]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.44.21:430][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.21-20.44.21:442][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.44.21:473][  0]LogInit: FAudioDevice initialized.
+[2016.12.21-20.44.21:497][  0]LogDerivedDataCache: Saved boot cache 0.02s 62MB C:/Users/Admin/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.21-20.44.21:504][  0]LogInit: Texture streaming: Enabled
+[2016.12.21-20.44.21:518][  0]LogInit: Transaction tracking system initialized
+[2016.12.21-20.44.21:529][  0]BlueprintLog: New page: Editor Load
+[2016.12.21-20.44.21:562][  0]LocalizationService: Info Localization service is disabled
+[2016.12.21-20.44.21:605][  0]LogConsoleResponse:Display: 
+[2016.12.21-20.44.21:830][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.21-20.44.21:830][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.21-20.44.21:902][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/' took 0.15s
+[2016.12.21-20.44.21:902][  0]SourceControl: Info Source control is disabled
+[2016.12.21-20.44.21:903][  0]Cmd: MAP LOAD FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.21-20.44.22:027][  0]LightingResults: New page: Lighting Build
+[2016.12.21-20.44.22:028][  0]MapCheck: New page: Map Check
+[2016.12.21-20.44.22:028][  0]LightingResults: New page: Lighting Build
+[2016.12.21-20.44.34:243][  0]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.44.34:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.21-20.44.34:481][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.21-20.44.34:531][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.797ms to complete.
+[2016.12.21-20.44.34:531][  0]LogFileHelpers: Loading map 'EclypseVillage' took 12.629
+[2016.12.21-20.44.35:055][  0]LogCollectionManager: Loaded 0 collections in 0.000650 seconds
+[2016.12.21-20.44.35:163][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/Collections/' took 0.01s
+[2016.12.21-20.44.35:163][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Developers/StefanoAdmin/Collections/' took 0.01s
+[2016.12.21-20.44.35:163][  0]LogFileCache: Scanning file cache for directory 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Collections/' took 0.01s
+[2016.12.21-20.44.35:163][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.12.21-20.44.35:174][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2156 classes and 421 folders.
+[2016.12.21-20.44.35:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.21-20.44.35:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.008 s
+[2016.12.21-20.44.35:267][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.12.21-20.44.35:285][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.21-20.44.36:388][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.12.21-20.44.36:439][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.21-20.44.37:156][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.21-20.44.37:427][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.21-20.44.37:477][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.12.21-20.44.37:477][  0]LogLoad: (Engine Initialization) Total time: 21.82 seconds
+[2016.12.21-20.44.37:477][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.05 seconds
+[2016.12.21-20.44.37:477][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.21-20.44.37:477][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.21-20.44.37:486][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.21-20.44.37:486][  0]LogOcInput: OculusInput pre-init called
+[2016.12.21-20.44.37:497][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2016.12.21-20.44.37:609][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.21-20.44.37:940][  0]LogRenderer: Reallocating scene render targets to support 1124x620 (Frame:2).
+[2016.12.21-20.44.38:296][  1]LogAssetRegistry: Asset discovery search completed in 18.2200 seconds
+[2016.12.21-20.44.38:296][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.12.21-20.44.38:296][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.12.21-20.45.45:634][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof_Turn_90_14)
+[2016.12.21-20.47.06:715][479]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2016.12.21-20.48.56:730][478]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.48.57:017][478]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.48.57:372][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.48.57:708][491]LogSavePackage: Save=117.64ms
+[2016.12.21-20.48.57:708][491]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget8A8818824173F88D80A9EABF16BA9632.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.48.57:712][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.48.58:348][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.48.58:378][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.48.58:465][515]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.48.58:465][515]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.48.58:465][515]LogHMD: New ovr session is created
+[2016.12.21-20.48.58:466][515]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.48.58:547][515]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:48:58 pm)
+[2016.12.21-20.48.58:547][515]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.48.58:573][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025378s)
+[2016.12.21-20.48.58:573][515]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.48.58:573][515]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2016.12.21-20.48.58:574][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.026245s)
+[2016.12.21-20.48.58:631][515]OCULUS: Error: Prediction interval too high: 35993.835763 s, clamping at 0.100000 s
+[2016.12.21-20.48.58:631][515]OCULUS: Error: Prediction interval too high: 34702.660737 s, clamping at 0.100000 s
+[2016.12.21-20.48.58:631][515]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.48.58:662][515]LogInit: FAudioDevice initialized.
+[2016.12.21-20.48.58:733][515]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.48.58:761][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.48.58
+[2016.12.21-20.48.58:812][515]LogWorld: Bringing up level for play took: 0.057653
+[2016.12.21-20.48.58:879][515]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.12.21-20.48.58:879][515]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.48.58:880][515]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.48.58:880][515]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.48.58:929][515]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.48.58:932][515]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.821
+[2016.12.21-20.48.58:932][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.48.59:020][515]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:352).
+[2016.12.21-20.49.09:214][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.49.09:235][876]LogHMD: Destroying ovr session
+[2016.12.21-20.49.09:288][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.49.41:495][ 42]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.49.41:609][ 42]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.49.42:314][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.49.42:314][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.49.42:314][ 72]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.49.42:314][ 72]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.49.42:314][ 72]LogHMD: New ovr session is created
+[2016.12.21-20.49.42:321][ 72]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.49.42:322][ 72]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:49:42 pm)
+[2016.12.21-20.49.42:322][ 72]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.49.42:353][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031147s)
+[2016.12.21-20.49.42:353][ 72]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.49.42:353][ 72]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.12.21-20.49.42:353][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.031886s)
+[2016.12.21-20.49.42:375][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.49.42:404][ 72]LogInit: FAudioDevice initialized.
+[2016.12.21-20.49.42:437][ 72]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.49.42:454][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.49.42
+[2016.12.21-20.49.42:455][ 72]LogWorld: Bringing up level for play took: 0.017377
+[2016.12.21-20.49.42:455][ 72]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.49.42:455][ 72]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.49.42:455][ 72]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.49.42:462][ 72]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.49.42:463][ 72]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.353
+[2016.12.21-20.49.42:464][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.49.49:197][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.49.49:197][310]LogHMD: Destroying ovr session
+[2016.12.21-20.49.49:238][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.50.06:016][758]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.50.06:131][758]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.50.06:733][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.50.06:799][782]LogSavePackage: Save=47.20ms
+[2016.12.21-20.50.06:799][782]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetB24BA134461994F519729B9EAD08DF1B.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.50.06:801][782]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.50.09:608][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.50.09:608][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.50.09:608][920]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.50.09:608][920]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.50.09:608][920]LogHMD: New ovr session is created
+[2016.12.21-20.50.09:615][920]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.50.09:615][920]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:50:09 pm)
+[2016.12.21-20.50.09:615][920]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.50.09:641][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026188s)
+[2016.12.21-20.50.09:642][920]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.50.09:642][920]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.12.21-20.50.09:642][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.027072s)
+[2016.12.21-20.50.09:663][920]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.50.09:691][920]LogInit: FAudioDevice initialized.
+[2016.12.21-20.50.09:726][920]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.50.09:743][920]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.50.09
+[2016.12.21-20.50.09:744][920]LogWorld: Bringing up level for play took: 0.016798
+[2016.12.21-20.50.09:744][920]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.50.09:744][920]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.50.09:744][920]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.50.09:751][920]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.50.09:752][920]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage -0.358
+[2016.12.21-20.50.09:752][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.50.15:558][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.50.15:558][126]LogHMD: Destroying ovr session
+[2016.12.21-20.50.15:603][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.50.26:937][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.50.26:986][198]LogSavePackage: Save=47.67ms
+[2016.12.21-20.50.26:986][198]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget6CBCDADA42678FF3877AA28FEBC3D6BD.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.50.26:988][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.50.46:122][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.50.46:172][758]LogSavePackage: Save=47.30ms
+[2016.12.21-20.50.46:172][758]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget797A63B94C9E1DB73DDC368E442C7670.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.50.46:173][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.51.25:891][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.51.25:891][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.51.25:891][336]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.51.25:891][336]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.51.25:891][336]LogHMD: New ovr session is created
+[2016.12.21-20.51.25:896][336]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.51.25:897][336]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:51:25 pm)
+[2016.12.21-20.51.25:897][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.51.25:922][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025680s)
+[2016.12.21-20.51.25:923][336]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.51.25:923][336]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2016.12.21-20.51.25:923][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.026515s)
+[2016.12.21-20.51.25:944][336]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.51.25:973][336]LogInit: FAudioDevice initialized.
+[2016.12.21-20.51.26:007][336]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.51.26:024][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.51.26
+[2016.12.21-20.51.26:025][336]LogWorld: Bringing up level for play took: 0.016862
+[2016.12.21-20.51.26:025][336]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.51.26:025][336]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.51.26:025][336]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.51.26:032][336]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.51.26:033][336]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage -0.077
+[2016.12.21-20.51.26:033][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.51.39:342][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.51.39:342][813]LogHMD: Destroying ovr session
+[2016.12.21-20.51.39:385][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.33:110][413]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.52.33:226][413]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.52.33:658][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.52.33:710][430]LogSavePackage: Save=50.42ms
+[2016.12.21-20.52.33:710][430]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget4B6C428B4FA2026DDCCEE7A91B63C33E.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.52.33:712][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.52.34:241][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.34:241][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.52.34:242][451]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.52.34:242][451]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.52.34:242][451]LogHMD: New ovr session is created
+[2016.12.21-20.52.34:248][451]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.52.34:248][451]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:52:34 pm)
+[2016.12.21-20.52.34:248][451]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.52.34:282][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033273s)
+[2016.12.21-20.52.34:282][451]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.52.34:283][451]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.12.21-20.52.34:283][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.034173s)
+[2016.12.21-20.52.34:303][451]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.52.34:332][451]LogInit: FAudioDevice initialized.
+[2016.12.21-20.52.34:367][451]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.52.34:384][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.52.34
+[2016.12.21-20.52.34:385][451]LogWorld: Bringing up level for play took: 0.017426
+[2016.12.21-20.52.34:386][451]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.52.34:386][451]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.52.34:386][451]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.52.34:392][451]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.52.34:394][451]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.284
+[2016.12.21-20.52.34:394][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.51:182][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.51:182][ 54]LogHMD: Destroying ovr session
+[2016.12.21-20.52.51:227][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.58:761][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.52.58:811][643]LogSavePackage: Save=47.59ms
+[2016.12.21-20.52.58:811][643]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget61DAD56E44E2B67206DC0588B4CD36F9.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.52.58:813][643]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.52.59:422][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.52.59:422][675]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.12.21-20.52.59:422][675]LogPlayLevel: [PlayLevel] Compiling TavernWidget before play...
+[2016.12.21-20.52.59:536][675]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2016.12.21-20.52.59:536][675]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.52.59:536][675]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.52.59:536][675]LogHMD: New ovr session is created
+[2016.12.21-20.52.59:536][675]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.52.59:536][675]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:52:59 pm)
+[2016.12.21-20.52.59:536][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.52.59:562][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025210s)
+[2016.12.21-20.52.59:562][675]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.52.59:562][675]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2016.12.21-20.52.59:562][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.025986s)
+[2016.12.21-20.52.59:584][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.52.59:615][675]LogInit: FAudioDevice initialized.
+[2016.12.21-20.52.59:651][675]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.52.59:668][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.52.59
+[2016.12.21-20.52.59:669][675]LogWorld: Bringing up level for play took: 0.016883
+[2016.12.21-20.52.59:669][675]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.52.59:669][675]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.52.59:669][675]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.52.59:675][675]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.52.59:678][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage -0.433
+[2016.12.21-20.52.59:678][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.53.13:905][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.53.13:905][185]LogHMD: Destroying ovr session
+[2016.12.21-20.53.13:946][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.54.06:569][685]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.54.06:682][685]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.54.07:079][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.07:138][700]LogSavePackage: Save=52.73ms
+[2016.12.21-20.54.07:138][700]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget8EE1D2B94926E1F2C7DD70B481FA777A.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.07:140][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.54.13:634][242]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.54.13:750][242]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.54.14:077][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.14:128][254]LogSavePackage: Save=48.86ms
+[2016.12.21-20.54.14:128][254]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget8D1A047E40C9251305B464808261D515.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.14:129][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.54.14:671][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.54.14:671][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-20.54.14:672][277]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-20.54.14:672][277]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-20.54.14:672][277]LogHMD: New ovr session is created
+[2016.12.21-20.54.14:677][277]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-20.54.14:678][277]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 5:54:14 pm)
+[2016.12.21-20.54.14:678][277]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-20.54.14:703][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025442s)
+[2016.12.21-20.54.14:703][277]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-20.54.14:704][277]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2016.12.21-20.54.14:704][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.026199s)
+[2016.12.21-20.54.14:725][277]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-20.54.14:754][277]LogInit: FAudioDevice initialized.
+[2016.12.21-20.54.14:785][277]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-20.54.14:803][277]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-07.54.14
+[2016.12.21-20.54.14:803][277]LogWorld: Bringing up level for play took: 0.016981
+[2016.12.21-20.54.14:804][277]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.54.14:804][277]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-20.54.14:804][277]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.54.14:810][277]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-20.54.14:812][277]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.701
+[2016.12.21-20.54.14:812][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.54.25:181][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.54.25:181][647]LogHMD: Destroying ovr session
+[2016.12.21-20.54.25:222][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-20.54.27:191][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.27:242][797]LogSavePackage: Save=48.42ms
+[2016.12.21-20.54.27:242][797]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget164FED0B4A4C4B1CEFCF43BB39A414D5.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.27:243][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.54.41:460][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.41:510][267]LogSavePackage: Save=48.24ms
+[2016.12.21-20.54.41:510][267]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget75AD70844DE8E36A8B464DBBAC2309B2.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.41:511][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.54.51:189][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.51:238][ 47]LogSavePackage: Save=47.14ms
+[2016.12.21-20.54.51:238][ 47]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget182033DA44913BE16A743A9C33C02CEE.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.51:240][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-20.54.52:009][106]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-20.54.52:124][106]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-20.54.52:553][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-20.54.52:603][124]LogSavePackage: Save=47.45ms
+[2016.12.21-20.54.52:603][124]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget6C8241EB47B5B2F857F15882A2B10932.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-20.54.52:603][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.01.04:503][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.01.04:558][207]LogSavePackage: Save=49.48ms
+[2016.12.21-21.01.04:558][207]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget00DC6F194D01F1AF34A374B4BCF5E80B.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.01.04:559][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.01.46:284][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.01.46:335][429]LogSavePackage: Save=48.67ms
+[2016.12.21-21.01.46:335][429]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget015890304CE6D767B6E800A896826DDC.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.01.46:337][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.01.48:552][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.01.48:601][556]LogSavePackage: Save=47.45ms
+[2016.12.21-21.01.48:601][556]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget1EB518344EF121F65FF750847105CF5A.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.01.48:602][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.01.52:190][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof_Turn_90_16)
+[2016.12.21-21.01.53:415][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof_Turn_90_15)
+[2016.12.21-21.01.54:466][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Roof_Turn_90_13)
+[2016.12.21-21.01.57:010][365]LogSavePackage: Save=791.07ms
+[2016.12.21-21.01.57:010][365]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/EclypseVillage9D611632478D3D47F2F132A18389F5AF.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap'
+[2016.12.21-21.01.57:012][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Maps/EclypseVillage.umap
+[2016.12.21-21.02.32:118][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.02.32:118][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-21.02.32:119][407]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-21.02.32:119][407]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-21.02.32:119][407]LogHMD: New ovr session is created
+[2016.12.21-21.02.32:119][407]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-21.02.32:119][407]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 6:02:32 pm)
+[2016.12.21-21.02.32:119][407]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-21.02.32:147][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027445s)
+[2016.12.21-21.02.32:147][407]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-21.02.32:148][407]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2016.12.21-21.02.32:148][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.028425s)
+[2016.12.21-21.02.32:168][407]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-21.02.32:200][407]LogInit: FAudioDevice initialized.
+[2016.12.21-21.02.32:258][407]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-21.02.32:274][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-08.02.32
+[2016.12.21-21.02.32:275][407]LogWorld: Bringing up level for play took: 0.016635
+[2016.12.21-21.02.32:276][407]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.02.32:276][407]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.02.32:276][407]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.02.32:282][407]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.02.32:283][407]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.172
+[2016.12.21-21.02.32:283][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.02.49:817][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.02.49:840][355]LogHMD: Destroying ovr session
+[2016.12.21-21.02.49:915][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.04.27:261][718]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.04.27:294][718]LogBlueprint:Error: [Compiler TavernWidget] Error Could not find a pin for the parameter Valid Recipe of Check for Water+Flour on  K2Node_CallFunction_1528
+[2016.12.21-21.04.27:701][718]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.04.27:701][718]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.04.27:701][718]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.04.27:701][718]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter Valid Recipe of Check for Water+Flour on  K2Node_CallFunction_1528
+[2016.12.21-21.04.27:701][718]LogBlueprint:Warning: [Compiler TavernWidget] Warning [1212.05] Compile of TavernWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 439 ms] (/Game/BP/Widgets/TavernWidget.TavernWidget)
+[2016.12.21-21.04.28:223][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.04.28:271][738]LogSavePackage: Save=45.58ms
+[2016.12.21-21.04.28:271][738]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget8C70D8DB4CA242F457671BAE4B84B4F2.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.04.28:272][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.04.48:668][613]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.04.48:701][613]LogBlueprint:Error: [Compiler TavernWidget] Error Could not find a pin for the parameter Valid Recipe of Check for Water+Flour on  K2Node_CallFunction_1528
+[2016.12.21-21.04.48:844][613]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.04.48:844][613]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.04.48:844][613]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.04.48:844][613]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter Valid Recipe of Check for Water+Flour on  K2Node_CallFunction_1528
+[2016.12.21-21.04.48:844][613]LogBlueprint:Warning: [Compiler TavernWidget] Warning [1233.19] Compile of TavernWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 176 ms] (/Game/BP/Widgets/TavernWidget.TavernWidget)
+[2016.12.21-21.05.32:095][499]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.05.32:129][499]LogBlueprint:Error: [Compiler TavernWidget] Error Could not find a pin for the parameter Is Valid Recipe of Check for Beans+Water on  K2Node_CallFunction_920
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.05.32:321][499]BlueprintEditorCompileResults:Error: Error Could not find a pin for the parameter Is Valid Recipe of Check for Beans+Water on  K2Node_CallFunction_920
+[2016.12.21-21.05.32:321][499]LogBlueprint:Warning: [Compiler TavernWidget] Warning [1276.67] Compile of TavernWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 226 ms] (/Game/BP/Widgets/TavernWidget.TavernWidget)
+[2016.12.21-21.05.32:756][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.05.32:804][516]LogSavePackage: Save=45.96ms
+[2016.12.21-21.05.32:804][516]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget2634B7684D3AD08CA8A3C4BBEB3E3F46.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.05.32:806][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.06.56:961][804]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.06.57:076][804]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.06.57:076][804]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.06.57:076][804]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.06.57:076][804]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.06.57:076][804]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.06.57:509][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.06.57:565][823]LogSavePackage: Save=49.32ms
+[2016.12.21-21.06.57:565][823]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetA0F1ECF8420D72E7FA0A518C369A1423.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.06.57:567][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.07.24:913][ 65]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.07.25:029][ 65]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.07.25:029][ 65]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.07.25:029][ 65]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.07.25:029][ 65]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.07.25:029][ 65]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.07.25:446][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.07.25:495][ 82]LogSavePackage: Save=47.91ms
+[2016.12.21-21.07.25:496][ 82]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetFF1C83D14B2C6FEF2283FEA38719323C.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.07.25:497][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.07.50:160][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.07.50:209][847]LogSavePackage: Save=47.86ms
+[2016.12.21-21.07.50:209][847]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget35ED53D04CE52FDCFFC4268DBAA9C503.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.07.50:210][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.07.59:874][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.07.59:923][414]LogSavePackage: Save=47.52ms
+[2016.12.21-21.07.59:923][414]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetD2FB911D46D061ECFA85FBBC88B61935.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.07.59:924][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.21.15:680][602]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.21.15:800][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.15:800][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.15:800][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.21.15:800][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.15:800][602]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.21.16:279][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.21.16:334][626]LogSavePackage: Save=49.37ms
+[2016.12.21-21.21.16:334][626]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetFEBA0F0A4C4B0464504139AEA065A885.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.21.16:336][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.21.28:328][558]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.21.28:444][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.28:444][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.28:444][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.21.28:444][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.21.28:444][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.21.28:928][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.21.28:979][577]LogSavePackage: Save=48.44ms
+[2016.12.21-21.21.28:979][577]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetEBFAFE394DD6F0A268AAB9B41DBDB051.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.21.28:980][577]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.21.30:365][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.21.30:365][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-21.21.30:367][682]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-21.21.30:367][682]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-21.21.30:367][682]LogHMD: New ovr session is created
+[2016.12.21-21.21.30:371][682]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-21.21.30:371][682]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 6:21:30 pm)
+[2016.12.21-21.21.30:371][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-21.21.30:397][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025674s)
+[2016.12.21-21.21.30:398][682]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-21.21.30:398][682]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2016.12.21-21.21.30:398][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.026559s)
+[2016.12.21-21.21.30:419][682]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-21.21.30:448][682]LogInit: FAudioDevice initialized.
+[2016.12.21-21.21.30:483][682]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-21.21.30:501][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-08.21.30
+[2016.12.21-21.21.30:502][682]LogWorld: Bringing up level for play took: 0.017479
+[2016.12.21-21.21.30:502][682]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.21.30:502][682]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.21.30:502][682]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.21.30:509][682]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.21.30:511][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.401
+[2016.12.21-21.21.30:511][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.21.50:485][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.21.50:485][377]LogHMD: Destroying ovr session
+[2016.12.21-21.21.50:530][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.22.28:768][883]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.22.28:888][883]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.22.28:888][883]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.22.28:888][883]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.22.28:888][883]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  then
+[2016.12.21-21.22.29:225][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.22.29:276][895]LogSavePackage: Save=48.53ms
+[2016.12.21-21.22.29:276][895]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetF97ACFA747B8882459B1F2A76C5DE370.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.22.29:278][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.23.01:733][562]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.23.01:850][562]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.23.01:850][562]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.23.01:850][562]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.23.02:329][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.23.02:379][583]LogSavePackage: Save=48.71ms
+[2016.12.21-21.23.02:379][583]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetCF76B3394C2C8AA9E5A7F8A2EE8DA9D6.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.23.02:381][583]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.23.07:688][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.23.07:739][100]LogSavePackage: Save=48.71ms
+[2016.12.21-21.23.07:739][100]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetFB4B4AA34B1C09AB2D571ABDDC98C363.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.23.07:741][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.23.10:981][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.23.10:981][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-21.23.10:983][437]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-21.23.10:983][437]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-21.23.10:983][437]LogHMD: New ovr session is created
+[2016.12.21-21.23.10:987][437]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-21.23.10:987][437]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 6:23:10 pm)
+[2016.12.21-21.23.10:987][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-21.23.11:012][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025596s)
+[2016.12.21-21.23.11:013][437]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-21.23.11:013][437]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2016.12.21-21.23.11:013][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.026424s)
+[2016.12.21-21.23.11:034][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-21.23.11:063][437]LogInit: FAudioDevice initialized.
+[2016.12.21-21.23.11:096][437]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-21.23.11:115][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-08.23.11
+[2016.12.21-21.23.11:116][437]LogWorld: Bringing up level for play took: 0.019078
+[2016.12.21-21.23.11:117][437]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.23.11:117][437]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.23.11:117][437]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.23.11:123][437]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.23.11:125][437]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 1.014
+[2016.12.21-21.23.11:125][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.23.21:674][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.23.21:674][815]LogHMD: Destroying ovr session
+[2016.12.21-21.23.21:719][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.24.16:582][650]BlueprintLog: New page: Compile TavernWidget
+[2016.12.21-21.24.16:698][650]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.24.16:698][650]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.24.16:698][650]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  else
+[2016.12.21-21.24.17:133][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.24.17:185][667]LogSavePackage: Save=50.00ms
+[2016.12.21-21.24.17:185][667]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetC852C49C4CE4D421EC797C9BB6F19265.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.24.17:187][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.24.18:854][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.24.18:854][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.21-21.24.18:855][738]OCULUS: Debug: [HMDState] Using default profile default
+[2016.12.21-21.24.18:855][738]OCULUS: Info: IAD changed to 65.3mm
+[2016.12.21-21.24.18:855][738]LogHMD: New ovr session is created
+[2016.12.21-21.24.18:862][738]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.12.21-21.24.18:862][738]PIE: New page: PIE session: EclypseVillage (22 Dec 2016 6:24:18 pm)
+[2016.12.21-21.24.18:862][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_EclypseVillage
+[2016.12.21-21.24.18:892][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029956s)
+[2016.12.21-21.24.18:893][738]LogAIModule: Creating AISystem for world EclypseVillage
+[2016.12.21-21.24.18:893][738]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2016.12.21-21.24.18:893][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/EclypseVillage.EclypseVillage to /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage (0.030717s)
+[2016.12.21-21.24.18:914][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.12.21-21.24.18:943][738]LogInit: FAudioDevice initialized.
+[2016.12.21-21.24.18:973][738]LogWorld: Game class is 'GameManager_C'
+[2016.12.21-21.24.18:990][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_EclypseVillage.EclypseVillage up for play (max tick rate 0) at 2016.12.22-08.24.18
+[2016.12.21-21.24.18:991][738]LogWorld: Bringing up level for play took: 0.017154
+[2016.12.21-21.24.18:992][738]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.24.18:992][738]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.21-21.24.18:992][738]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.24.18:998][738]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.21-21.24.19:000][738]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_EclypseVillage 0.889
+[2016.12.21-21.24.19:000][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.24.30:498][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.24.30:499][153]LogHMD: Destroying ovr session
+[2016.12.21-21.24.30:539][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage' with GeneratedClass '/Game/Maps/EclypseVillage.EclypseVillage_C' with ClassGeneratedBy '/Game/Maps/EclypseVillage.EclypseVillage:PersistentLevel.EclypseVillage'
+[2016.12.21-21.24.32:142][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.24.32:195][273]LogSavePackage: Save=50.73ms
+[2016.12.21-21.24.32:195][273]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget86C1DF9947F562D1417540969765036B.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.24.32:196][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.24.37:795][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.24.37:847][763]LogSavePackage: Save=50.41ms
+[2016.12.21-21.24.37:847][763]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidgetF836124E476DBCA4F8D6378B9E506237.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.24.37:849][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.36.14:957][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Widgets/TavernWidget" FILE="../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset" SILENT=true
+[2016.12.21-21.36.15:220][786]LogSavePackage: Save=257.35ms
+[2016.12.21-21.36.15:220][786]LogSavePackage: Moving '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/TavernWidget11A2B7E24EE8F94E41DDF9B14AE44F53.tmp' to '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset'
+[2016.12.21-21.36.15:221][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/BP/Widgets/TavernWidget.uasset
+[2016.12.21-21.37.29:451][621]Cmd: QUIT_EDITOR
+[2016.12.21-21.37.29:901][621]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.21-21.37.29:921][621]LogExit: Preparing to exit.
+[2016.12.21-21.37.30:501][621]LogDirectoryWatcher: A directory notification for 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/' was aborted.
+[2016.12.21-21.37.30:543][621]LogExit: Editor shut down
+[2016.12.21-21.37.30:543][621]LogExit: Transaction tracking system shut down
+[2016.12.21-21.37.30:666][621]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.21-21.37.30:666][621]LogExit: Object subsystem successfully closed.
+[2016.12.21-21.37.30:686][621]LogD3D11RHI: Shutdown
+[2016.12.21-21.37.30:686][621]LogD3D11RHI: CleanupD3DDevice
+[2016.12.21-21.37.30:769][621]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (240)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module SequencerWidgets (239)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module BlueprintGraph (238)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (237)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (236)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (235)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.12.21-21.37.30:775][621]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.12.21-21.37.30:775][621]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.12.21-21.37.30:776][621]LogDirectoryWatcher: A directory notification for 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Collections/' was aborted.
+[2016.12.21-21.37.30:776][621]LogDirectoryWatcher: A directory notification for 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/Developers/StefanoAdmin/Collections/' was aborted.
+[2016.12.21-21.37.30:776][621]LogDirectoryWatcher: A directory notification for 'D:/Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Saved/Collections/' was aborted.
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.12.21-21.37.30:776][621]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.12.21-21.37.30:777][621]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.12.21-21.37.31:101][621]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.12.21-21.37.31:153][621]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.12.21-21.37.31:159][621]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.12.21-21.37.31:161][621]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.12.21-21.37.31:161][621]LogModuleManager: Shutting down and abandoning module SubstanceEditor (139)
+[2016.12.21-21.37.31:161][621]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.12.21-21.37.31:161][621]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.12.21-21.37.31:162][621]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.12.21-21.37.31:163][621]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.12.21-21.37.31:163][621]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.12.21-21.37.31:163][621]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.12.21-21.37.31:264][621]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.12.21-21.37.31:369][621]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.12.21-21.37.31:369][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.21-21.37.31:369][621]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.21-21.37.31:369][621]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.21-21.37.31:370][621]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.21-21.37.31:371][621]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.21-21.37.31:371][621]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.21-21.37.31:371][621]LogDirectoryWatcher: A directory notification for '../../../../../../Admin/Documents/GitHub Repositories/EclypseUE4/ProjectEclypse/Content/' was aborted.
+[2016.12.21-21.37.31:372][621]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.21-21.37.31:372][621]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.21-21.37.31:580][621]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.21-21.37.31:580][621]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.21-21.37.31:580][621]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.21-21.37.31:580][621]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.21-21.37.31:618][621]LogDerivedDataCache: Shutdown
+[2016.12.21-21.37.31:618][621]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.21-21.37.31:618][621]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.21-21.37.31:618][621]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.21-21.37.31:618][621]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.21-21.37.31:619][621]LogHMD: Oculus shutdown.
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.21-21.37.31:619][621]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.21-21.37.31:619][621]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.21-21.37.31:619][621]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.21-21.37.31:619][621]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B49B8C892-4110-5ABA-4816-E5B3EC3A4817%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=7be9bcc841aef0cc7d8bf18c2213b0ba%7C54a8b21b775447c98759891ef23b3c0e%7C44f0c9ea-1eaa-4502-b083-e847946dc175&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.21-21.37.31:640][621]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.21-21.37.31:640][621]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.21-21.37.31:640][621]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.21-21.37.31:640][621]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.21-21.37.31:640][621]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.21-21.37.31:642][621]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.21-21.37.31:643][621]LogExit: Exiting.
+[2016.12.21-21.37.31:644][621]Log file closed, 12/22/16 08:37:31
